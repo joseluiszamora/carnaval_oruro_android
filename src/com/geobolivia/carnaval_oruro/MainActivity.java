@@ -38,9 +38,6 @@ public class MainActivity extends Activity {
         // start point Oruro
         GeoPoint startPoint = new GeoPoint(-17.961292 , -67.106058);
         
-        // start point La Paz
-        //GeoPoint startPoint = new GeoPoint(-16.488880, -68.143616);
-        
         IMapController mapController = map.getController();
         mapController.setZoom(15);
         mapController.setCenter(startPoint);
@@ -56,18 +53,6 @@ public class MainActivity extends Activity {
         waypoints.add(new GeoPoint(-17.968015, -67.118502));
         waypoints.add(new GeoPoint(-17.967632, -67.119584));
                 
-        // Finish Points La Paz
-     // waypoints.add(new GeoPoint(-16.489893, -68.142333));
-     // waypoints.add(new GeoPoint(-16.491701, -68.138359));
-     // waypoints.add(new GeoPoint(-16.493390, -68.137127));
-     // waypoints.add(new GeoPoint(-16.496091, -68.136774));
-     // waypoints.add(new GeoPoint(-16.497683, -68.136095));
-     // waypoints.add(new GeoPoint(-16.498189, -68.135542));
-     // waypoints.add(new GeoPoint(-16.498985, -68.134033));
-     // waypoints.add(new GeoPoint(-16.500673, -68.130537));
-     // waypoints.add(new GeoPoint(-16.500691, -68.126953));
-     // waypoints.add(new GeoPoint(-16.499606, -68.124513));
-        
         Road road = roadManager.getRoad(waypoints);
         Log.d("CordovaLog", ">>**>>>>>> " + road.mNodes.size());
         PathOverlay roadOverlay = RoadManager.buildRoadOverlay(road, map.getContext());
