@@ -67,11 +67,11 @@ public class MainActivity extends Activity {
         ArrayList<GeoPoint> waypoints = new ArrayList<GeoPoint>();
         waypoints.add(startPoint);
         // Finish Points Oruro
-        //waypoints.add(new GeoPoint(-17.971635, -67.108864));
-        //waypoints.add(new GeoPoint(-17.970154, -67.114486));
-        //waypoints.add(new GeoPoint(-17.969127, -67.117911));
-        //waypoints.add(new GeoPoint(-17.968290, -67.117622));
-        //waypoints.add(new GeoPoint(-17.968015, -67.118502));
+        waypoints.add(new GeoPoint(-17.971635, -67.108864));
+        waypoints.add(new GeoPoint(-17.970154, -67.114486));
+        waypoints.add(new GeoPoint(-17.969127, -67.117911));
+        waypoints.add(new GeoPoint(-17.968290, -67.117622));
+        waypoints.add(new GeoPoint(-17.968015, -67.118502));
         waypoints.add(new GeoPoint(-17.967632, -67.119584));
                 
         Road road = roadManager.getRoad(waypoints);
@@ -99,11 +99,11 @@ public class MainActivity extends Activity {
    
 		//10. Loading KML content
         
-		String url = "http://mapsengine.google.com/map/kml?mid=z6IJfj90QEd4.kcfEKhi8r5LQ";
+		//String url = "http://mapsengine.google.com/map/kml?mid=z6IJfj90QEd4.kcfEKhi8r5LQ";
 		KmlDocument kmlDocument = new KmlDocument();
-		boolean ok = kmlDocument.parseUrl(url);
-		//File file = kmlDocument.getDefaultPathForAndroid("my_routes.kml");
-		//boolean ok = kmlDocument.parseFile(file);
+		//boolean ok = kmlDocument.parseUrl(url);
+		File file = kmlDocument.getDefaultPathForAndroid("vturismo-pasarela.kml");
+		boolean ok = kmlDocument.parseFile(file);
 		Drawable defaultMarker = getResources().getDrawable(R.drawable.marker_kml_point);
 		if (ok){
 			FolderOverlay kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(this, map, defaultMarker, kmlDocument, false);
@@ -117,7 +117,6 @@ public class MainActivity extends Activity {
 						kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2));
 			}
 		}
-		
 		
 		
 		//11. Grab overlays in KML structure, save KML document locally
@@ -160,52 +159,4 @@ public class MainActivity extends Activity {
 		}	
 	}
 	
-	
-	void setViewOn(BoundingBoxE6 bb){
-		if (bb != null){
-			map.zoomToBoundingBox(bb);
-		}
-	}
-	
-	void getKml(String uri, boolean onCreate){
-		Log.d("CordovaLog", " 7777777777777777777777");
-		//TODO: use an Async task
-		KmlDocument mKmlDocument = new KmlDocument();
-		boolean ok;
-		if (uri.startsWith("file:/")){
-			uri = uri.substring("file:/".length());
-			File file = new File(uri);
-			ok = mKmlDocument.parseFile(file);
-		} else  {
-			ok = mKmlDocument.parseUrl(uri);
-		}
-		
-		if (!ok){
-			Toast.makeText(this, "Sorry, unable to read "+uri, Toast.LENGTH_SHORT).show();
-		}
-		updateUIWithKml();
-		if (mKmlDocument.kmlRoot != null && mKmlDocument.kmlRoot.mBB != null){
-				if (!onCreate)
-					setViewOn(mKmlDocument.kmlRoot.mBB); 
-				else  //KO in onCreate - Workaround:
-					map.getController().setCenter(new GeoPoint(
-							mKmlDocument.kmlRoot.mBB.getLatSouthE6()+mKmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
-							mKmlDocument.kmlRoot.mBB.getLonWestE6()+mKmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2));
-		}
-	}
-	
-	void updateUIWithKml(){
-		Log.d("CordovaLog", " UPDATEEEEEEEEEEEEEEEEEEEE");
-		if (kmlOverlay != null)
-			map.getOverlays().remove(kmlOverlay);
-		if (kmlDocument.kmlRoot != null){
-			Log.d("CordovaLog", "---- " + kmlDocument.kmlRoot);
-			Log.d("CordovaLog", " UPDATEEE 2222222");
-			Drawable defaultKmlMarker = getResources().getDrawable(R.drawable.marker_kml_point);
-			kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(this, map, defaultKmlMarker, kmlDocument, true);
-			Log.d("CordovaLog", "++++ " + kmlOverlay);
-			map.getOverlays().add(kmlOverlay);
-		}
-		map.invalidate();
-	}
 }
