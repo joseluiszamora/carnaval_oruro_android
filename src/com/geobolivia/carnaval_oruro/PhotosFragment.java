@@ -46,9 +46,9 @@ public class PhotosFragment extends Fragment {
         
         
         kmlDocument = new KmlDocument(); //made static to pass between activities
- /*               
-        // start point Oruro
-        GeoPoint startPoint = new GeoPoint(-17.961292 , -67.106058);
+                
+        // start point La Paz
+        GeoPoint startPoint = new GeoPoint(-16.488880, -68.143616);
         
         IMapController mapController = map.getController();
         mapController.setZoom(15);
@@ -57,13 +57,17 @@ public class PhotosFragment extends Fragment {
         RoadManager roadManager = new OSRMRoadManager();
         ArrayList<GeoPoint> waypoints = new ArrayList<GeoPoint>();
         waypoints.add(startPoint);
-        // Finish Points Oruro
-        waypoints.add(new GeoPoint(-17.971635, -67.108864));
-        waypoints.add(new GeoPoint(-17.970154, -67.114486));
-        waypoints.add(new GeoPoint(-17.969127, -67.117911));
-        waypoints.add(new GeoPoint(-17.968290, -67.117622));
-        waypoints.add(new GeoPoint(-17.968015, -67.118502));
-        waypoints.add(new GeoPoint(-17.967632, -67.119584));
+        // Finish Points La Paz
+        waypoints.add(new GeoPoint(-16.489893, -68.142333));
+        waypoints.add(new GeoPoint(-16.491701, -68.138359));
+        waypoints.add(new GeoPoint(-16.493390, -68.137127));
+        waypoints.add(new GeoPoint(-16.496091, -68.136774));
+        waypoints.add(new GeoPoint(-16.497683, -68.136095));
+        waypoints.add(new GeoPoint(-16.498189, -68.135542));
+        waypoints.add(new GeoPoint(-16.498985, -68.134033));
+        waypoints.add(new GeoPoint(-16.500673, -68.130537));
+        waypoints.add(new GeoPoint(-16.500691, -68.126953));
+        waypoints.add(new GeoPoint(-16.499606, -68.124513));
                 
         Road road = roadManager.getRoad(waypoints);
         Log.d("CordovaLog", ">>**>>>>>> " + road.mNodes.size());
@@ -77,7 +81,7 @@ public class PhotosFragment extends Fragment {
         final ArrayList<ExtendedOverlayItem> roadItems = new ArrayList<ExtendedOverlayItem>();
         
         ItemizedOverlayWithBubble<ExtendedOverlayItem> roadNodes = new ItemizedOverlayWithBubble<ExtendedOverlayItem>(getActivity(), roadItems, map);
-		Drawable marker = getResources().getDrawable(R.drawable.marker_poi_picasa_24);
+		Drawable marker = getResources().getDrawable(R.drawable.marker_poi);
 		
         for (GeoPoint geoPoint : waypoints) {
     		ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem("Punto de recorrido", "Sobre la Ruta", geoPoint, getActivity());
@@ -88,13 +92,11 @@ public class PhotosFragment extends Fragment {
         
         map.getOverlays().add(roadNodes);
         map.invalidate();
-*/
-        
+
         
         //. Loading KML content
-		//String url = "http://mapsengine.google.com/map/kml?mid=z6IJfj90QEd4.kcfEKhi8r5LQ";
 		//boolean ok = kmlDocument.parseUrl(url);
-		File file = kmlDocument.getDefaultPathForAndroid("corso_sc.kml");
+		File file = kmlDocument.getDefaultPathForAndroid("jiska_anata.kml");
 		boolean ok = kmlDocument.parseFile(file);
 		Drawable defaultMarker = getResources().getDrawable(R.drawable.marker_kml_point);
 		if (ok){
