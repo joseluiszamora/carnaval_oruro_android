@@ -27,7 +27,7 @@ import android.view.ViewGroup;
 
 public class OruroFragment  extends Fragment {
 	private MapView map;
-	protected FolderOverlay kmlOverlay; //root container of overlays from KML reading
+	protected FolderOverlay kmlOverlay;
 	public static KmlDocument kmlDocument;
 	
 	public OruroFragment(){}

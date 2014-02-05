@@ -2,8 +2,6 @@ package com.geobolivia.carnaval_oruro;
 
 import java.util.ArrayList;
 
-import org.osmdroid.views.MapView;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Fragment;

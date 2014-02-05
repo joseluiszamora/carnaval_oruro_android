@@ -28,7 +28,7 @@ public class SplashScreen extends Activity {
 			StartAnimations();
 			
 			// Splash screen timer
-		    int SPLASH_TIME_OUT = 2000;
+		    int SPLASH_TIME_OUT = 5000;
 		    
 	        new Handler().postDelayed(new Runnable() {
 	            @Override
@@ -50,7 +50,7 @@ public class SplashScreen extends Activity {
 	 
 	        anim = AnimationUtils.loadAnimation(this, R.anim.translate);
 	        anim.reset();
-	        ImageView iv = (ImageView) findViewById(R.id.logo);
+	        ImageView iv = (ImageView) findViewById(R.id.imageView1);
 	        iv.clearAnimation();
 	        iv.startAnimation(anim);
 	    }
