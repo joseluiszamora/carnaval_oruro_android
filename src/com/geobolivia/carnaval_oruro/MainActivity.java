@@ -100,6 +100,7 @@ public class MainActivity extends Activity {
 		actionBar = getActionBar();
 		actionBar.setDisplayHomeAsUpEnabled(true);
 		actionBar.setHomeButtonEnabled(true);
+		actionBar.setNavigationMode(0);
 
 		
 		/*

@@ -17,55 +17,100 @@ import org.osmdroid.views.MapView;
 import org.osmdroid.views.overlay.OverlayItem;
 import org.osmdroid.views.overlay.PathOverlay;
 
+import android.app.ActionBar;
 import android.app.Fragment;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class LaPazFragment extends Fragment {
+import com.geobolivia.slider_menu.adapter.TitleNavigationAdapter;
+import com.geobolivia.slider_menu.model.SpinnerNavItem;
+
+public class LaPazFragment extends Fragment implements ActionBar.OnNavigationListener {
+	// MAPS
 	private MapView map;
-	protected FolderOverlay kmlOverlay; //root container of overlays from KML reading
+	protected FolderOverlay kmlOverlay;
 	public static KmlDocument kmlDocument;
+	
 	public LaPazFragment(){}
 
-  public View onCreateView(LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState) {
- 
+  public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_lapaz, container, false);
-
-        map = (MapView) rootView.findViewById(R.id.openmapview);
+		map = (MapView) rootView.findViewById(R.id.openmapview);
         map.setTileSource(TileSourceFactory.MAPNIK);
         map.setClickable(true);
         map.setBuiltInZoomControls(true);
         map.setMultiTouchControls(true);
         map.setUseDataConnection(true);
+
+        kmlDocument = new KmlDocument(); 
         
         
-        kmlDocument = new KmlDocument();
-        String kmlFile = "lp_jiska_anata.kml";
+        // ADD ROUTE AND START, FINISH POINTS
+        addRoute();
+        			
+		// ADD ACTION BAR
+        addActionBar();
         
-        // References Points
-        GeoPoint startPoint = new GeoPoint(-16.488880, -68.143616);
-        GeoPoint finishPoint = new GeoPoint(-16.499606, -68.124513);
-        
-        IMapController mapController = map.getController();
-        mapController.setZoom(15);
-        mapController.setCenter(startPoint);
-        
-        ArrayList<GeoPoint> waypoints = new ArrayList<GeoPoint>();
-        
-        waypoints.add(startPoint);
-        waypoints.add(finishPoint);
-        
-        
-        // ADD CUSTOMIZE POINTS AND BUBBLES
-        final ArrayList<ExtendedOverlayItem> roadItems = new ArrayList<ExtendedOverlayItem>();
-        ItemizedOverlayWithBubble<ExtendedOverlayItem> roadNodes = new ItemizedOverlayWithBubble<ExtendedOverlayItem>(getActivity(), roadItems, map);
-        
-        Drawable marker;
+        return rootView;
+    }
+  
+	
+	private void addActionBar(){
+		// action bar
+		ActionBar actionBar;
+		// Title navigation Spinner data
+		ArrayList<SpinnerNavItem> navSpinner;
+		// Navigation adapter
+		TitleNavigationAdapter adapter2;
+		// enabling action bar app icon and behaving it as toggle button
+		actionBar = getActivity().getActionBar();
+		actionBar.removeAllTabs();
+		
+		// Hide the action bar title
+		actionBar.setDisplayShowTitleEnabled(true);
+		
+	
+		
+		// Enabling Spinner dropdown navigation
+		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+		
+		// Spinner title navigation data
+		navSpinner = new ArrayList<SpinnerNavItem>();
+		navSpinner.add(new SpinnerNavItem("Todos", R.drawable.ic_pages));
+		// title drop down adapter
+		adapter2 = new TitleNavigationAdapter(this.getActivity(), navSpinner);
+		
+		// assigning the spinner navigation
+		actionBar.setListNavigationCallbacks(adapter2, this);
+		
+		// Changing the action bar icon
+		// actionBar.setIcon(R.drawable.ico_actionbar);
+	}
+	
+	public void addRoute(){
+	    String kmlFile = "lp_jiska_anata.kml";
+	    
+	    // References Points
+	    GeoPoint startPoint = new GeoPoint(-16.488880, -68.143616);
+	    GeoPoint finishPoint = new GeoPoint(-16.499606, -68.124513);
+	    
+	    IMapController mapController = map.getController();
+	    mapController.setZoom(15);
+	    mapController.setCenter(startPoint);
+	    
+	    ArrayList<GeoPoint> waypoints = new ArrayList<GeoPoint>();
+	    waypoints.add(startPoint);
+	    waypoints.add(finishPoint);
+	    
+	    
+	    // ADD CUSTOMIZE POINTS AND BUBBLES
+	    final ArrayList<ExtendedOverlayItem> roadItems = new ArrayList<ExtendedOverlayItem>();
+	    ItemizedOverlayWithBubble<ExtendedOverlayItem> roadNodes = new ItemizedOverlayWithBubble<ExtendedOverlayItem>(getActivity(), roadItems, map);
+	    
+	    Drawable marker;
 		String title = "";
 		String desc = "";
 		
@@ -80,21 +125,24 @@ public class LaPazFragment extends Fragment {
 				marker = getResources().getDrawable(R.drawable.flagblue);
 			}
 			ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
-            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
-            nodeMarker.setMarker(marker);
-            roadNodes.addItem(nodeMarker);
+	        nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
+	        nodeMarker.setMarker(marker);
+	        roadNodes.addItem(nodeMarker);
 		}
-        
-        map.getOverlays().add(roadNodes);
-        map.invalidate();
-        
-        
-        //. Loading KML content
+	    
+	    map.getOverlays().add(roadNodes);
+	    
+		map.invalidate();
+	}
+	
+	
+	public void addkmlfile(String kmlFile, int icon){
+		// Add KML with POI on the Map
 		File file = kmlDocument.getDefaultPathForAndroid(kmlFile);
 		boolean ok = kmlDocument.parseFile(file);
-		Drawable defaultMarker = getResources().getDrawable(R.drawable.marker_kml_point);
+		Drawable defaultMarker = getResources().getDrawable(icon);
 		if (ok){
-			FolderOverlay kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), map, defaultMarker, kmlDocument, false);
+			kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), map, defaultMarker, kmlDocument, false);
 			map.getOverlays().add(kmlOverlay);
 			map.invalidate();
 			if (kmlDocument.kmlRoot.mBB != null){
@@ -104,7 +152,29 @@ public class LaPazFragment extends Fragment {
 				);
 			}
 		}
-               
-        return rootView;
-    }
+	}
+	
+	public void removeAllKml(){
+		map.getOverlays().remove(kmlOverlay);
+		map.invalidate();
+	}
+	
+	@Override
+	public boolean onNavigationItemSelected(int itemPosition, long itemId) {	
+		String kmlFile = "lp_jiska_anata.kml";
+		removeAllKml();
+		
+		switch (itemPosition) {
+		case 0:
+			addkmlfile(kmlFile, R.drawable.marker_poi_wikipedia_32);
+			break;
+		case 1:
+			addkmlfile(kmlFile, R.drawable.marker_kml_point);
+			break;
+		default:
+			break;
+		}
+		
+		return false;
+	}
 }

@@ -1,5 +1,7 @@
 package com.geobolivia.carnaval_oruro;
 
+import java.util.Random;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.PixelFormat;
@@ -24,6 +26,31 @@ public class SplashScreen extends Activity {
 			
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.activity_splash);
+			
+			// SET RANDOM BACKGROUND
+			LinearLayout back =(LinearLayout) findViewById(R.id.lin_lay);
+			
+			Random r = new Random();
+			int rand = r.nextInt(5-0) + 0;
+			
+			switch (rand) {
+			case 1:
+				back.setBackgroundResource(R.drawable.c6);
+				break;
+			case 2:
+				back.setBackgroundResource(R.drawable.c2);
+				break;
+			case 3:
+				back.setBackgroundResource(R.drawable.c3);
+				break;
+			case 4:
+				back.setBackgroundResource(R.drawable.c4);
+				break;
+			default:
+				break;
+			}
+			
+			
 			
 			StartAnimations();
 			
