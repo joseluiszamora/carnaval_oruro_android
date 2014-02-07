@@ -45,7 +45,7 @@ public class LaPazFragment extends Fragment {
         
         
         kmlDocument = new KmlDocument();
-        String kmlFile = "jiska_anata.kml";
+        String kmlFile = "lp_jiska_anata.kml";
         
         // References Points
         GeoPoint startPoint = new GeoPoint(-16.488880, -68.143616);

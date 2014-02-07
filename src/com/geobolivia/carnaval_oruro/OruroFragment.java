@@ -17,6 +17,7 @@ import org.osmdroid.views.MapView;
 import org.osmdroid.views.overlay.OverlayItem;
 import org.osmdroid.views.overlay.PathOverlay;
 
+import android.app.ActionBar;
 import android.app.Fragment;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -25,15 +26,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class OruroFragment  extends Fragment {
+import com.geobolivia.slider_menu.adapter.TitleNavigationAdapter;
+import com.geobolivia.slider_menu.model.SpinnerNavItem;
+
+public class OruroFragment extends Fragment implements ActionBar.OnNavigationListener{
 	private MapView map;
 	protected FolderOverlay kmlOverlay;
 	public static KmlDocument kmlDocument;
 	
+	// action bar
+	ActionBar actionBar;
+	// Title navigation Spinner data
+	private ArrayList<SpinnerNavItem> navSpinner;
+	// Navigation adapter
+	private TitleNavigationAdapter adapter2;
+	
 	public OruroFragment(){}
 	
 	 public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-			
 		 	View rootView = inflater.inflate(R.layout.fragment_oruro, container, false);
 			map = (MapView) rootView.findViewById(R.id.openmapview);
 	        map.setTileSource(TileSourceFactory.MAPNIK);
@@ -43,7 +53,7 @@ public class OruroFragment  extends Fragment {
 	        map.setUseDataConnection(true);
 
 	        kmlDocument = new KmlDocument(); 
-	        String kmlFile = "vturismo-pasarela.kml";
+	        String kmlFile = "or_pasarela.kml";
 	        
 	        // relative Points
 	        GeoPoint startPoint = new GeoPoint(-17.961292 , -67.106058);
@@ -119,6 +129,77 @@ public class OruroFragment  extends Fragment {
 				}
 			}
 	        
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			// enabling action bar app icon and behaving it as toggle button
+			 
+			actionBar = getActivity().getActionBar();
+			actionBar.removeAllTabs();
+			// Hide the action bar title
+			actionBar.setDisplayShowTitleEnabled(false);
+			
+		
+			
+			// Enabling Spinner dropdown navigation
+			actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+			
+			// Spinner title navigation data
+			navSpinner = new ArrayList<SpinnerNavItem>();
+			navSpinner.add(new SpinnerNavItem("Todos", R.drawable.ic_pages));
+			navSpinner.add(new SpinnerNavItem("Comida", R.drawable.ic_home));
+			navSpinner.add(new SpinnerNavItem("Entretenimiento", R.drawable.ic_menu_poi));
+			navSpinner.add(new SpinnerNavItem("Servicios Higienicos", R.drawable.ic_photos));
+
+			// title drop down adapter
+			adapter2 = new TitleNavigationAdapter(this.getActivity(), navSpinner);
+			
+			// assigning the spinner navigation
+			actionBar.setListNavigationCallbacks(adapter2, this);
+			
+			
+
+			// Changing the action bar icon
+			// actionBar.setIcon(R.drawable.ico_actionbar);
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 	        return rootView;
 	    }
+	 
+	public void removeAllKml(){
+		map.getOverlays().remove(kmlOverlay);
+		map.invalidate();
 	}
+	@Override
+	public boolean onNavigationItemSelected(int itemPosition, long itemId) {
+		// TODO Auto-generated method stub
+		Log.d("CordovaLog", "***** 7070707070707 *****" + itemPosition + " ----- " + itemId);
+		removeAllKml();
+		return false;
+	}	
+}

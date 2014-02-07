@@ -38,7 +38,7 @@ public class CochabambaFragment extends Fragment {
 	        map.setUseDataConnection(true);
 	        
 	        kmlDocument = new KmlDocument();
-	        String kmlFile = "corso_de_corsos.kml";
+	        String kmlFile = "cbba_corso_de_corsos.kml";
 	        
 	        // References Points
 	        GeoPoint startPoint = new GeoPoint(-17.3896723364111, -66.14298435150044);

@@ -38,7 +38,7 @@ public class SantaCruzFragment extends Fragment {
         map.setUseDataConnection(true);
         
         kmlDocument = new KmlDocument();
-        String kmlFile = "corso_sc.kml";
+        String kmlFile = "sc_corso.kml";
         
         // References Points
         GeoPoint startPoint = new GeoPoint(-17.79368480211741, -63.16620676309212);

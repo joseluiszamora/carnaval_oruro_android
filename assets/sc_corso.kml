@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>corso_sc.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>corso_sc</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-63.16620676309212,-17.79368480211741,0 -63.16567264434776,-17.79141808532822,0 -63.16497755421068,-17.78949314887153,0 -63.16438268662993,-17.78732265144194,0 -63.16444818496489,-17.78554043116687,0 -63.1646622860131,-17.78067104920341,0 -63.16527131374249,-17.77732494297609,0 -63.16582635849876,-17.77432698976872,0 -63.16710671565504,-17.7723602691526,0 -63.16782463591235,-17.77154181260648,0 -63.16962509534335,-17.77078576174615,0 -63.17111259017825,-17.7702768201236,0 -63.17312405973467,-17.77023751346237,0 -63.17556766989485,-17.77020729334871,0 -63.17880514059816,-17.77032300971507,0 -63.18254311259972,-17.77038153618537,0 -63.18471932788446,-17.77080686915745,0 -63.18845045412476,-17.77188068110373,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

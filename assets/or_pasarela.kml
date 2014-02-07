@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd">
+   <Document xmlns:atom="http://purl.org/atom/ns#">
+      <name>vturismo:pasarela</name>
+      <LookAt>
+         <longitude>-67.11261975242837</longitude>
+         <latitude>-17.964762168344052</latitude>
+         <altitude>1846.9076796144923</altitude>
+         <range>1492.3982785212206</range>
+         <tilt>0.0</tilt>
+         <heading>0.0</heading>
+         <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="pasarela.1">
+         <name><![CDATA[pasarela]]></name>
+         <description><![CDATA[<h4>pasarela</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">id</span>:</strong> <span class="atr-value">1</span></li>
+  <li><strong><span class="atr-name">tipo</span>:</strong> <span class="atr-value">pasarela</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-67.10662441645604</longitude>
+            <latitude>-17.963610118420462</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <color>ff0000ff</color>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>ff000000</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-67.10662441645606,-17.963610118420448</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="pasarela.2">
+         <name><![CDATA[pasarela]]></name>
+         <description><![CDATA[<h4>pasarela</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">id</span>:</strong> <span class="atr-value">2</span></li>
+  <li><strong><span class="atr-name">tipo</span>:</strong> <span class="atr-value">pasarela</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-67.10744747820638</longitude>
+            <latitude>-17.9665625530876</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <color>ff0000ff</color>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>ff000000</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-67.10744747820637,-17.96656255308758</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="pasarela.3">
+         <name><![CDATA[pasarela]]></name>
+         <description><![CDATA[<h4>pasarela</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">id</span>:</strong> <span class="atr-value">3</span></li>
+  <li><strong><span class="atr-name">tipo</span>:</strong> <span class="atr-value">pasarela</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-67.10792183822272</longitude>
+            <latitude>-17.968298728981225</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <color>ff0000ff</color>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>ff000000</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-67.10792183822275,-17.968298728981203</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="pasarela.4">
+         <name><![CDATA[Partida]]></name>
+         <description><![CDATA[<h4>pasarela</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">id</span>:</strong> <span class="atr-value">4</span></li>
+  <li><strong><span class="atr-name">tipo</span>:</strong> <span class="atr-value">Partida</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-67.10810718418941</longitude>
+            <latitude>-17.96122542364057</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <color>ff00ffff</color>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>ff000000</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-67.10810718418942,-17.961225423640578</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="pasarela.5">
+         <name><![CDATA[Llegada]]></name>
+         <description><![CDATA[<h4>pasarela</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">id</span>:</strong> <span class="atr-value">5</span></li>
+  <li><strong><span class="atr-name">tipo</span>:</strong> <span class="atr-value">Llegada</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-67.1186153283881</longitude>
+            <latitude>-17.967546205174926</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <color>ff00ffff</color>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>ff000000</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-67.11861532838812,-17.967546205174923</coordinates>
+         </Point>
+      </Placemark>
+   </Document>
+</kml>
