@@ -39,13 +39,9 @@ public class MainActivity extends Activity {
 	private ArrayList<SpinnerNavItem> navSpinner;
 	// Navigation adapter
 	private TitleNavigationAdapter adapter2;
-	
-	
-	
 	private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
- 
     // nav drawer title
     private CharSequence mDrawerTitle;
     // used to store app title
@@ -136,9 +132,9 @@ public class MainActivity extends Activity {
 		
 		
 		mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
-				R.drawable.ic_drawer, //nav menu toggle icon
-				R.string.app_name, // nav drawer open - description for accessibility
-				R.string.app_name // nav drawer close - description for accessibility
+			R.drawable.ic_drawer, //nav menu toggle icon
+			R.string.app_name, // nav drawer open - description for accessibility
+			R.string.app_name // nav drawer close - description for accessibility
 		) {
 			public void onDrawerClosed(View view) {
 				actionBar.setTitle(mTitle);
@@ -160,23 +156,14 @@ public class MainActivity extends Activity {
 		}
 	}
 	
-	public OnNavigationListener clicked123(){
-		Integer bbb = this.getTaskId();
-		Log.d("CordovaLog", "CLICKKKKKKKKKK" + bbb);
-		return null;
-	}
-	
-	
 
 	/**
 	 * Slide menu item click listener
 	**/
 	
-	private class SlideMenuClickListener implements
-			ListView.OnItemClickListener {
+	private class SlideMenuClickListener implements ListView.OnItemClickListener {
 		@Override
-		public void onItemClick(AdapterView<?> parent, View view, int position,
-				long id) {
+		public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 			// display view for selected nav drawer item
 			displayView(position);
 		}
@@ -204,7 +191,6 @@ public class MainActivity extends Activity {
 		}	
 	}
 
-	
 	/* *
 	 * Called when invalidateOptionsMenu() is triggered
 	 */

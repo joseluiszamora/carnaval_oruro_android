@@ -91,8 +91,6 @@ public class LaPazFragment extends Fragment implements ActionBar.OnNavigationLis
 	}
 	
 	public void addRoute(){
-	    String kmlFile = "lp_jiska_anata.kml";
-	    
 	    // References Points
 	    GeoPoint startPoint = new GeoPoint(-16.488880, -68.143616);
 	    GeoPoint finishPoint = new GeoPoint(-16.499606, -68.124513);

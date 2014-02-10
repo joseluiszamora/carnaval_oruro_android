@@ -153,7 +153,6 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
         map.invalidate();
 	}
 	
-	
 	public void addkmlfile(String kmlFile, int icon){
 		// Add KML with POI on the Map
 		File file = kmlDocument.getDefaultPathForAndroid(kmlFile);
@@ -194,6 +193,6 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		}
 		
 		return false;
-	}	
+	}
 
 }
