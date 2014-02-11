@@ -30,15 +30,16 @@ import com.geobolivia.slider_menu.model.SpinnerNavItem;
 
 public class LaPazFragment extends Fragment implements ActionBar.OnNavigationListener {
 	// MAPS
-	private MapView map;
+	MapView map;
 	protected FolderOverlay kmlOverlay;
 	public static KmlDocument kmlDocument;
 	
 	public LaPazFragment(){}
 
-  public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_lapaz, container, false);
-		map = (MapView) rootView.findViewById(R.id.openmapview);
+        map = (MapView) getActivity().findViewById(R.id.openmapviewss);
+        map.setVisibility(View.VISIBLE);
         map.setTileSource(TileSourceFactory.MAPNIK);
         map.setClickable(true);
         map.setBuiltInZoomControls(true);
@@ -57,7 +58,6 @@ public class LaPazFragment extends Fragment implements ActionBar.OnNavigationLis
         return rootView;
     }
   
-	
 	private void addActionBar(){
 		// action bar
 		ActionBar actionBar;
@@ -71,15 +71,14 @@ public class LaPazFragment extends Fragment implements ActionBar.OnNavigationLis
 		
 		// Hide the action bar title
 		actionBar.setDisplayShowTitleEnabled(true);
-		
-	
-		
+
 		// Enabling Spinner dropdown navigation
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
 		
 		// Spinner title navigation data
 		navSpinner = new ArrayList<SpinnerNavItem>();
 		navSpinner.add(new SpinnerNavItem("Todos", R.drawable.ic_pages));
+		navSpinner.add(new SpinnerNavItem("Ninguno", R.drawable.ic_pages));
 		// title drop down adapter
 		adapter2 = new TitleNavigationAdapter(this.getActivity(), navSpinner);
 		
@@ -153,6 +152,7 @@ public class LaPazFragment extends Fragment implements ActionBar.OnNavigationLis
 	}
 	
 	public void removeAllKml(){
+		map.removeAllViews();
 		map.getOverlays().remove(kmlOverlay);
 		map.invalidate();
 	}
@@ -164,7 +164,7 @@ public class LaPazFragment extends Fragment implements ActionBar.OnNavigationLis
 		
 		switch (itemPosition) {
 		case 0:
-			addkmlfile(kmlFile, R.drawable.marker_poi_wikipedia_32);
+			addkmlfile(kmlFile, R.drawable.marker_kml_point);
 			break;
 		case 1:
 			addkmlfile(kmlFile, R.drawable.marker_kml_point);

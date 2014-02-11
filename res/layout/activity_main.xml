@@ -10,11 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
  	
- 	<!--  <org.osmdroid.views.MapView
-        android:id="@+id/openmapview"
+ 	<org.osmdroid.views.MapView
+        android:id="@+id/openmapviewss"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"/>
- 	-->
+ 	
     <!-- Listview to display slider menu -->
     <ListView
         android:id="@+id/list_slidermenu"

@@ -7,6 +7,11 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
 
+import org.osmdroid.api.IMapController;
+import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
+import org.osmdroid.util.GeoPoint;
+import org.osmdroid.views.MapView;
+
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.ActionBar.OnNavigationListener;
@@ -51,6 +56,7 @@ public class MainActivity extends Activity {
     private TypedArray navMenuIcons;
     private ArrayList<NavDrawerItem> navDrawerItems;
     private NavDrawerListAdapter adapter;
+    MapView map;
 	
 	@SuppressLint("NewApi")
 	@Override protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +64,24 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
+		
+		// MAP
+		map = (MapView) findViewById(R.id.openmapviewss);
+		map.setVisibility(View.INVISIBLE);
+		/*//map = (MapView) rootView.findViewById(R.id.openmapviewss);
+        map.setTileSource(TileSourceFactory.MAPNIK);
+        map.setClickable(true);
+        map.setBuiltInZoomControls(true);
+        map.setMultiTouchControls(true);
+        map.setUseDataConnection(true);
+        
+        GeoPoint startPoint = new GeoPoint(-16.488880, -68.143616);
+	    IMapController mapController = map.getController();
+	    mapController.setZoom(10);
+	    mapController.setCenter(startPoint);
+	    map.invalidate();*/
+	    
+	    
 		// copy KML files to sdcard
 		CopyAssets();
 
@@ -81,7 +105,7 @@ public class MainActivity extends Activity {
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[3], navMenuIcons.getResourceId(3, -1)));
 		// Cochabamba
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[4], navMenuIcons.getResourceId(4, -1)));
-		// What's hot, We  will add a counter here
+		// test map unique
 		//navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1), true, "50+"));
 		
 
@@ -207,7 +231,7 @@ public class MainActivity extends Activity {
 	 * Diplaying fragment view for selected nav drawer list item
 	 **/
 	
-	private void displayView(int position) {
+	public void displayView(int position) {
 		// update the main content by replacing fragments
 		Fragment fragment = null;
 		switch (position) {

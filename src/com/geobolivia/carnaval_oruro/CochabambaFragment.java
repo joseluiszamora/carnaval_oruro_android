@@ -38,24 +38,24 @@ public class CochabambaFragment extends Fragment implements ActionBar.OnNavigati
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_cochabamba, container, false);
 
-        map = (MapView) rootView.findViewById(R.id.openmapview);
+        map = (MapView) getActivity().findViewById(R.id.openmapviewss);
+        map.setVisibility(View.VISIBLE);
         map.setTileSource(TileSourceFactory.MAPNIK);
         map.setClickable(true);
         map.setBuiltInZoomControls(true);
         map.setMultiTouchControls(true);
         map.setUseDataConnection(true);
-        
-        
+
         kmlDocument = new KmlDocument(); 
         
         // ADD ROUTE AND START, FINISH POINTS
         addRoute();
+        			
 		// ADD ACTION BAR
         addActionBar();
         
         return rootView;
-    }
-	
+	}
 	
 	private void addActionBar(){
 		// action bar
@@ -79,6 +79,7 @@ public class CochabambaFragment extends Fragment implements ActionBar.OnNavigati
 		// Spinner title navigation data
 		navSpinner = new ArrayList<SpinnerNavItem>();
 		navSpinner.add(new SpinnerNavItem("Todos", R.drawable.ic_pages));
+		navSpinner.add(new SpinnerNavItem("Ninguno", R.drawable.ic_pages));
 		
 		// title drop down adapter
 		adapter2 = new TitleNavigationAdapter(this.getActivity(), navSpinner);

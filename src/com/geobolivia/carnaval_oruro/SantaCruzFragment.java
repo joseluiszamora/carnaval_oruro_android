@@ -13,6 +13,10 @@ import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapView;
 import org.osmdroid.views.overlay.OverlayItem;
 
+import com.geobolivia.slider_menu.adapter.TitleNavigationAdapter;
+import com.geobolivia.slider_menu.model.SpinnerNavItem;
+
+import android.app.ActionBar;
 import android.app.Fragment;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -20,7 +24,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class SantaCruzFragment extends Fragment {
+public class SantaCruzFragment extends Fragment implements ActionBar.OnNavigationListener {
 	private MapView map;
 	protected FolderOverlay kmlOverlay; //root container of overlays from KML reading
 	public static KmlDocument kmlDocument;
@@ -28,19 +32,56 @@ public class SantaCruzFragment extends Fragment {
 
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
  
-        View rootView = inflater.inflate(R.layout.fragment_santacruz, container, false);
-
-        map = (MapView) rootView.findViewById(R.id.openmapview);
+		View rootView = inflater.inflate(R.layout.fragment_santacruz, container, false);
+        map = (MapView) getActivity().findViewById(R.id.openmapviewss);
+        map.setVisibility(View.VISIBLE);
         map.setTileSource(TileSourceFactory.MAPNIK);
         map.setClickable(true);
         map.setBuiltInZoomControls(true);
         map.setMultiTouchControls(true);
         map.setUseDataConnection(true);
-        
         kmlDocument = new KmlDocument();
-        String kmlFile = "sc_corso.kml";
-        
-        // References Points
+        // ADD ROUTE AND START, FINISH POINTS
+        addRoute();
+		// ADD ACTION BAR
+        addActionBar();
+	    
+        return rootView;
+    }
+	
+	private void addActionBar(){
+		// action bar
+		ActionBar actionBar;
+		// Title navigation Spinner data
+		ArrayList<SpinnerNavItem> navSpinner;
+		// Navigation adapter
+		TitleNavigationAdapter adapter2;
+		// enabling action bar app icon and behaving it as toggle button
+		actionBar = getActivity().getActionBar();
+		actionBar.removeAllTabs();
+		
+		// Hide the action bar title
+		actionBar.setDisplayShowTitleEnabled(true);
+
+		// Enabling Spinner dropdown navigation
+		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+		
+		// Spinner title navigation data
+		navSpinner = new ArrayList<SpinnerNavItem>();
+		navSpinner.add(new SpinnerNavItem("Todos", R.drawable.ic_pages));
+		navSpinner.add(new SpinnerNavItem("Ninguno", R.drawable.ic_pages));
+		// title drop down adapter
+		adapter2 = new TitleNavigationAdapter(this.getActivity(), navSpinner);
+		
+		// assigning the spinner navigation
+		actionBar.setListNavigationCallbacks(adapter2, this);
+		
+		// Changing the action bar icon
+		// actionBar.setIcon(R.drawable.ico_actionbar);
+	}
+	
+	public void addRoute(){
+		// References Points
         GeoPoint startPoint = new GeoPoint(-17.79368480211741, -63.16620676309212);
         GeoPoint finishPoint = new GeoPoint(-17.77188068110373, -63.18845045412476);
         
@@ -48,15 +89,15 @@ public class SantaCruzFragment extends Fragment {
         mapController.setZoom(14);
         mapController.setCenter(startPoint);
         
-        ArrayList<GeoPoint> waypoints = new ArrayList<GeoPoint>();
-        waypoints.add(startPoint);
-        waypoints.add(finishPoint);
-        
-        // ADD CUSTOMIZE POINTS AND BUBBLES
-        final ArrayList<ExtendedOverlayItem> roadItems = new ArrayList<ExtendedOverlayItem>();
-        ItemizedOverlayWithBubble<ExtendedOverlayItem> roadNodes = new ItemizedOverlayWithBubble<ExtendedOverlayItem>(getActivity(), roadItems, map);
-        
-        Drawable marker;
+	    ArrayList<GeoPoint> waypoints = new ArrayList<GeoPoint>();
+	    waypoints.add(startPoint);
+	    waypoints.add(finishPoint);
+	    
+	    // ADD CUSTOMIZE POINTS AND BUBBLES
+	    final ArrayList<ExtendedOverlayItem> roadItems = new ArrayList<ExtendedOverlayItem>();
+	    ItemizedOverlayWithBubble<ExtendedOverlayItem> roadNodes = new ItemizedOverlayWithBubble<ExtendedOverlayItem>(getActivity(), roadItems, map);
+	    
+	    Drawable marker;
 		String title = "";
 		String desc = "";
 		
@@ -71,30 +112,55 @@ public class SantaCruzFragment extends Fragment {
 				marker = getResources().getDrawable(R.drawable.flagblue);
 			}
 			ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
-            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
-            nodeMarker.setMarker(marker);
-            roadNodes.addItem(nodeMarker);
+	        nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
+	        nodeMarker.setMarker(marker);
+	        roadNodes.addItem(nodeMarker);
 		}
-        
-        map.getOverlays().add(roadNodes);
-        map.invalidate();
-
-        //. Loading KML content
+	    map.getOverlays().add(roadNodes);
+		map.invalidate();
+	}
+	
+	
+	public void addkmlfile(String kmlFile, int icon){
+		// Add KML with POI on the Map
 		File file = kmlDocument.getDefaultPathForAndroid(kmlFile);
 		boolean ok = kmlDocument.parseFile(file);
-		Drawable defaultMarker = getResources().getDrawable(R.drawable.marker_kml_point);
+		Drawable defaultMarker = getResources().getDrawable(icon);
 		if (ok){
-			FolderOverlay kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), map, defaultMarker, kmlDocument, false);
+			kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), map, defaultMarker, kmlDocument, false);
 			map.getOverlays().add(kmlOverlay);
 			map.invalidate();
 			if (kmlDocument.kmlRoot.mBB != null){
-				//Workaround:
 				map.getController().setCenter(new GeoPoint(
 					kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
-					kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2));
+					kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
+				);
 			}
 		}
-
-        return rootView;
-    }
+	}
+	
+	public void removeAllKml(){
+		map.removeAllViews();
+		map.getOverlays().remove(kmlOverlay);
+		map.invalidate();
+	}
+	
+	@Override
+	public boolean onNavigationItemSelected(int itemPosition, long itemId) {	
+		String kmlFile = "sc_corso.kml";
+		removeAllKml();
+		
+		switch (itemPosition) {
+		case 0:
+			addkmlfile(kmlFile, R.drawable.marker_kml_point);
+			break;
+		case 1:
+			addkmlfile(kmlFile, R.drawable.marker_kml_point);
+			break;
+		default:
+			break;
+		}
+		
+		return false;
+	}
 }

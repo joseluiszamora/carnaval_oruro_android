@@ -19,7 +19,6 @@ import org.osmdroid.views.overlay.PathOverlay;
 
 import android.app.ActionBar;
 import android.app.Fragment;
-import android.app.ProgressDialog;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -39,23 +38,30 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 	 	View rootView = inflater.inflate(R.layout.fragment_oruro, container, false);
-		map = (MapView) rootView.findViewById(R.id.openmapview);
+        
+	 	map = (MapView) getActivity().findViewById(R.id.openmapviewss);
+	 	map.setVisibility(View.VISIBLE);
         map.setTileSource(TileSourceFactory.MAPNIK);
         map.setClickable(true);
         map.setBuiltInZoomControls(true);
         map.setMultiTouchControls(true);
         map.setUseDataConnection(true);
 
-        kmlDocument = new KmlDocument(); 
-        
-        
-        // ADD ROUTE AND START, FINISH POINTS
-        addRoute();
+        /*GeoPoint startPoint = new GeoPoint(-16.488880, -68.143616);
+ 	    IMapController mapController = map.getController();
+ 	    mapController.setZoom(10);
+ 	    mapController.setCenter(startPoint);*/
+ 	    map.invalidate();
+
+ 	   kmlDocument = new KmlDocument();
+ 	   
+       // ADD ROUTE AND START, FINISH POINTS
+       addRoute();
         			
-		// ADD ACTION BAR
-        addActionBar();
+       // ADD ACTION BAR
+       addActionBar();
         
-        return rootView;
+       return rootView;
     }
 	
 	private void addActionBar(){
@@ -71,9 +77,7 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		
 		// Hide the action bar title
 		actionBar.setDisplayShowTitleEnabled(true);
-		
-	
-		
+
 		// Enabling Spinner dropdown navigation
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
 		
@@ -88,8 +92,6 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		
 		// assigning the spinner navigation
 		actionBar.setListNavigationCallbacks(adapter2, this);
-		
-		
 
 		// Changing the action bar icon
 		// actionBar.setIcon(R.drawable.ico_actionbar);
@@ -172,6 +174,7 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	}
 	
 	public void removeAllKml(){
+		map.removeAllViews();
 		map.getOverlays().remove(kmlOverlay);
 		map.invalidate();
 	}
@@ -183,7 +186,7 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		
 		switch (itemPosition) {
 		case 0:
-			addkmlfile(kmlPasarela, R.drawable.marker_poi_wikipedia_32);
+			addkmlfile(kmlPasarela, R.drawable.marker_kml_point);
 			break;
 		case 1:
 			addkmlfile(kmlPasarela, R.drawable.marker_kml_point);

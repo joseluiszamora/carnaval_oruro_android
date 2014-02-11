@@ -2,6 +2,7 @@ package com.geobolivia.carnaval_oruro;
 
 import org.osmdroid.bonuspack.kml.KmlFeature;
 import android.content.Context;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -41,7 +42,7 @@ public class KmlListAdapter extends BaseAdapter {
             convertView = inflater.inflate(R.layout.kml_list_item, null);
         }
         TextView itemText = (TextView) convertView.findViewById(R.id.listItemTxt);
-        itemText.setText(item.mName);
+        itemText.setText((Html.fromHtml(item.mName)));
         
         //Handle checkbox:
         CheckBox checkBoxIsVisible = (CheckBox)convertView.findViewById(R.id.listItemCheckbox);

@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.MenuInflater;
@@ -42,10 +43,10 @@ public class KmlTreeActivity extends Activity {
 		kmlClipboard = MapActivity.mKmlClipboard;
 		
 		eHeader = (EditText)findViewById(R.id.name);
-		eHeader.setText(currentKmlFeature.mName);
+		eHeader.setText((Html.fromHtml(currentKmlFeature.mName)));
 		
 		eDescription = (EditText)findViewById(R.id.description);
-		eDescription.setText(currentKmlFeature.mDescription);
+		eDescription.setText((Html.fromHtml(currentKmlFeature.mDescription)));
 		
 		Style style = null;
 		if (currentKmlFeature.mStyle != null)

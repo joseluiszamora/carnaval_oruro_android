@@ -15,17 +15,17 @@
         <item >La Paz</item>
         <item >Santa Cruz</item>
         <item >Cochabamba</item>
-        <item >What\'s Hot</item>
+        <item >Test</item>
     </string-array>
      
     <!-- Nav Drawer List Item Icons -->
     <!-- Keep them in order as the titles are in -->
     <array name="nav_drawer_icons">
         <item>@drawable/ic_home</item>
-        <item>@drawable/ic_people</item>
-        <item>@drawable/ic_photos</item>
-        <item>@drawable/ic_communities</item>
-        <item>@drawable/ic_pages</item>
+        <item>@drawable/oricondef</item>
+        <item>@drawable/lpicondef</item>
+        <item>@drawable/scicondef</item>
+        <item>@drawable/cbbaicondef</item>
         <item>@drawable/ic_whats_hot</item>
     </array>
      
