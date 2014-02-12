@@ -3,6 +3,7 @@ package com.geobolivia.carnaval_oruro;
 import org.osmdroid.bonuspack.kml.KmlFeature;
 import android.content.Context;
 import android.text.Html;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -42,6 +43,11 @@ public class KmlListAdapter extends BaseAdapter {
             convertView = inflater.inflate(R.layout.kml_list_item, null);
         }
         TextView itemText = (TextView) convertView.findViewById(R.id.listItemTxt);
+        
+        Log.d("CordovaLog", "11>>> " + item.mName);
+        Log.d("CordovaLog", "22>>> " + item.mDescription);
+        Log.d("CordovaLog", "33>>> " + item.mId);
+        
         itemText.setText((Html.fromHtml(item.mName)));
         
         //Handle checkbox:

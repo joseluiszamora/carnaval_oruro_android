@@ -16,6 +16,14 @@
         android:layout_height="fill_parent"/>
  	
     <!-- Listview to display slider menu -->
+
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="14dp"
+	    android:layout_height="10dp"
+	    android:scaleType="fitEnd"
+	    android:src="@drawable/geox" />
+
     <ListView
         android:id="@+id/list_slidermenu"
         android:layout_width="240dp"

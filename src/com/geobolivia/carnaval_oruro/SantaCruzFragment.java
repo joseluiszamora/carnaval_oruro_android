@@ -105,16 +105,17 @@ public class SantaCruzFragment extends Fragment implements ActionBar.OnNavigatio
 			if (i == 0){
 				title = "Punto de Partida";
 				desc = "Dirección";
-				marker = getResources().getDrawable(R.drawable.flaggreen);
-			}else{
+				marker = getResources().getDrawable(R.drawable.start);
+				ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
+	            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
+	            nodeMarker.setMarker(marker);
+	            roadNodes.addItem(nodeMarker);
+			}/*else{
 				title = "Punto de Llegada";
 				desc = "Dirección";
 				marker = getResources().getDrawable(R.drawable.flagblue);
-			}
-			ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
-	        nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
-	        nodeMarker.setMarker(marker);
-	        roadNodes.addItem(nodeMarker);
+			}*/
+			
 		}
 	    map.getOverlays().add(roadNodes);
 		map.invalidate();

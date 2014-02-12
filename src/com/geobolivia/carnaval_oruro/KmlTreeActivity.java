@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.MenuInflater;
@@ -41,6 +42,10 @@ public class KmlTreeActivity extends Activity {
 		
 		currentKmlFeature = MapActivity.mKmlStack.peek();
 		kmlClipboard = MapActivity.mKmlClipboard;
+		
+		Log.d("CordovaLog", "44>>> " + currentKmlFeature.mName);
+		Log.d("CordovaLog", "55>>> " + currentKmlFeature.mDescription);
+		Log.d("CordovaLog", "66>>> " + currentKmlFeature.mId);
 		
 		eHeader = (EditText)findViewById(R.id.name);
 		eHeader.setText((Html.fromHtml(currentKmlFeature.mName)));

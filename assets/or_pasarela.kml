@@ -12,13 +12,9 @@
       </LookAt>
       <Placemark id="pasarela.1">
          <name><![CDATA[pasarela]]></name>
-         <description><![CDATA[<h4>pasarela</h4>
-
-<ul class="textattributes">
-  
-  <li><strong><span class="atr-name">id</span>:</strong> <span class="atr-value">1</span></li>
-  <li><strong><span class="atr-name">tipo</span>:</strong> <span class="atr-value">pasarela</span></li>
-</ul>
+         <description><![CDATA[ pasarela
+   id: 1
+   tipo: pasarela
 ]]></description>
          <LookAt>
             <longitude>-67.10662441645604</longitude>
@@ -47,13 +43,9 @@
       </Placemark>
       <Placemark id="pasarela.2">
          <name><![CDATA[pasarela]]></name>
-         <description><![CDATA[<h4>pasarela</h4>
-
-<ul class="textattributes">
-  
-  <li><strong><span class="atr-name">id</span>:</strong> <span class="atr-value">2</span></li>
-  <li><strong><span class="atr-name">tipo</span>:</strong> <span class="atr-value">pasarela</span></li>
-</ul>
+         <description><![CDATA[pasarela
+id: 2
+tipo: pasarela
 ]]></description>
          <LookAt>
             <longitude>-67.10744747820638</longitude>
@@ -82,13 +74,9 @@
       </Placemark>
       <Placemark id="pasarela.3">
          <name><![CDATA[pasarela]]></name>
-         <description><![CDATA[<h4>pasarela</h4>
-
-<ul class="textattributes">
-  
-  <li><strong><span class="atr-name">id</span>:</strong> <span class="atr-value">3</span></li>
-  <li><strong><span class="atr-name">tipo</span>:</strong> <span class="atr-value">pasarela</span></li>
-</ul>
+         <description><![CDATA[pasarela
+id: 3
+tipo: pasarela
 ]]></description>
          <LookAt>
             <longitude>-67.10792183822272</longitude>
@@ -117,13 +105,9 @@
       </Placemark>
       <Placemark id="pasarela.4">
          <name><![CDATA[Partida]]></name>
-         <description><![CDATA[<h4>pasarela</h4>
-
-<ul class="textattributes">
-  
-  <li><strong><span class="atr-name">id</span>:</strong> <span class="atr-value">4</span></li>
-  <li><strong><span class="atr-name">tipo</span>:</strong> <span class="atr-value">Partida</span></li>
-</ul>
+         <description><![CDATA[pasarela
+id: 4
+tipo: pasarela
 ]]></description>
          <LookAt>
             <longitude>-67.10810718418941</longitude>
@@ -152,13 +136,9 @@
       </Placemark>
       <Placemark id="pasarela.5">
          <name><![CDATA[Llegada]]></name>
-         <description><![CDATA[<h4>pasarela</h4>
-
-<ul class="textattributes">
-  
-  <li><strong><span class="atr-name">id</span>:</strong> <span class="atr-value">5</span></li>
-  <li><strong><span class="atr-name">tipo</span>:</strong> <span class="atr-value">Llegada</span></li>
-</ul>
+         <description><![CDATA[pasarela
+id: 5
+tipo: pasarela
 ]]></description>
          <LookAt>
             <longitude>-67.1186153283881</longitude>

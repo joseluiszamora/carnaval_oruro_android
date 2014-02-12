@@ -20,6 +20,7 @@ import org.osmdroid.views.overlay.PathOverlay;
 import com.geobolivia.slider_menu.adapter.TitleNavigationAdapter;
 import com.geobolivia.slider_menu.model.SpinnerNavItem;
 
+import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.graphics.drawable.Drawable;
@@ -57,6 +58,7 @@ public class CochabambaFragment extends Fragment implements ActionBar.OnNavigati
         return rootView;
 	}
 	
+	@SuppressLint("NewApi")
 	private void addActionBar(){
 		// action bar
 		ActionBar actionBar;
@@ -70,7 +72,6 @@ public class CochabambaFragment extends Fragment implements ActionBar.OnNavigati
 		
 		// Hide the action bar title
 		actionBar.setDisplayShowTitleEnabled(true);
-		
 	
 		
 		// Enabling Spinner dropdown navigation
@@ -88,7 +89,7 @@ public class CochabambaFragment extends Fragment implements ActionBar.OnNavigati
 		actionBar.setListNavigationCallbacks(adapter2, this);
 		
 		// Changing the action bar icon
-		// actionBar.setIcon(R.drawable.ico_actionbar);
+		actionBar.setIcon(R.drawable.geobolivia);
 	}
 	
 	public void addRoute(){
@@ -118,16 +119,17 @@ public class CochabambaFragment extends Fragment implements ActionBar.OnNavigati
 			if (i == 0){
 				title = "Punto de Partida";
 				desc = "Dirección";
-				marker = getResources().getDrawable(R.drawable.flaggreen);
-			}else{
+				marker = getResources().getDrawable(R.drawable.start);
+				ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
+	            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
+	            nodeMarker.setMarker(marker);
+	            roadNodes.addItem(nodeMarker);
+			}/*else{
 				title = "Punto de Llegada";
 				desc = "Dirección";
 				marker = getResources().getDrawable(R.drawable.flagblue);
-			}
-			ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
-            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
-            nodeMarker.setMarker(marker);
-            roadNodes.addItem(nodeMarker);
+			}*/
+			
 		}
         
         map.getOverlays().add(roadNodes);
