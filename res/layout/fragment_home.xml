@@ -1,23 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    
+ >
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:src="@drawable/mapbolivia" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
-    <ImageButton
-        android:id="@+id/imageButtonLp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignTop="@+id/imageView1"
-        android:layout_marginTop="86dp"
-        android:src="@drawable/lp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/bolivia" />
+
+            <ImageButton
+                android:id="@+id/imageButtonLP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="185dp"
+                android:background="@null"
+                android:src="@drawable/dotsky4" />
+
+            <ImageButton
+                android:id="@+id/imageButtonOR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageButtonLP"
+                android:layout_below="@+id/imageButtonLP"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="22dp"
+                android:background="@null"
+                android:src="@drawable/dotsky4" />
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

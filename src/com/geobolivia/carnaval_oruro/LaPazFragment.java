@@ -17,6 +17,7 @@ import org.osmdroid.views.MapView;
 import org.osmdroid.views.overlay.OverlayItem;
 import org.osmdroid.views.overlay.PathOverlay;
 
+import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.graphics.drawable.Drawable;
@@ -58,6 +59,7 @@ public class LaPazFragment extends Fragment implements ActionBar.OnNavigationLis
         return rootView;
     }
   
+	@SuppressLint("NewApi")
 	private void addActionBar(){
 		// action bar
 		ActionBar actionBar;
@@ -86,7 +88,7 @@ public class LaPazFragment extends Fragment implements ActionBar.OnNavigationLis
 		actionBar.setListNavigationCallbacks(adapter2, this);
 		
 		// Changing the action bar icon
-		// actionBar.setIcon(R.drawable.ico_actionbar);
+		actionBar.setIcon(R.drawable.lpicondef);
 	}
 	
 	public void addRoute(){
@@ -105,7 +107,8 @@ public class LaPazFragment extends Fragment implements ActionBar.OnNavigationLis
 	    
 	    // ADD CUSTOMIZE POINTS AND BUBBLES
 	    final ArrayList<ExtendedOverlayItem> roadItems = new ArrayList<ExtendedOverlayItem>();
-	    ItemizedOverlayWithBubble<ExtendedOverlayItem> roadNodes = new ItemizedOverlayWithBubble<ExtendedOverlayItem>(getActivity(), roadItems, map);
+	    ItemizedOverlayWithBubble<ExtendedOverlayItem> roadNodes = new 
+	    		ItemizedOverlayWithBubble<ExtendedOverlayItem>(getActivity(), roadItems, map);
 	    
 	    Drawable marker;
 		String title = "";
@@ -116,16 +119,15 @@ public class LaPazFragment extends Fragment implements ActionBar.OnNavigationLis
 				title = "Punto de Partida";
 				desc = "Dirección";
 				marker = getResources().getDrawable(R.drawable.start);
-				ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
-	            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
-	            nodeMarker.setMarker(marker);
-	            roadNodes.addItem(nodeMarker);
-			}/*else{
+			}else{
 				title = "Punto de Llegada";
 				desc = "Dirección";
-				marker = getResources().getDrawable(R.drawable.flagblue);
-			}*/
-			
+				marker = getResources().getDrawable(R.drawable.finish);
+			}
+			ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
+            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
+            nodeMarker.setMarker(marker);
+            roadNodes.addItem(nodeMarker);
 		}
 	    
 	    map.getOverlays().add(roadNodes);

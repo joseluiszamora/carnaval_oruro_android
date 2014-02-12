@@ -16,6 +16,7 @@ import org.osmdroid.views.overlay.OverlayItem;
 import com.geobolivia.slider_menu.adapter.TitleNavigationAdapter;
 import com.geobolivia.slider_menu.model.SpinnerNavItem;
 
+import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.graphics.drawable.Drawable;
@@ -49,6 +50,7 @@ public class SantaCruzFragment extends Fragment implements ActionBar.OnNavigatio
         return rootView;
     }
 	
+	@SuppressLint("NewApi")
 	private void addActionBar(){
 		// action bar
 		ActionBar actionBar;
@@ -72,12 +74,10 @@ public class SantaCruzFragment extends Fragment implements ActionBar.OnNavigatio
 		navSpinner.add(new SpinnerNavItem("Ninguno", R.drawable.ic_pages));
 		// title drop down adapter
 		adapter2 = new TitleNavigationAdapter(this.getActivity(), navSpinner);
-		
 		// assigning the spinner navigation
 		actionBar.setListNavigationCallbacks(adapter2, this);
-		
 		// Changing the action bar icon
-		// actionBar.setIcon(R.drawable.ico_actionbar);
+		actionBar.setIcon(R.drawable.scicondef);
 	}
 	
 	public void addRoute(){
@@ -96,7 +96,7 @@ public class SantaCruzFragment extends Fragment implements ActionBar.OnNavigatio
 	    // ADD CUSTOMIZE POINTS AND BUBBLES
 	    final ArrayList<ExtendedOverlayItem> roadItems = new ArrayList<ExtendedOverlayItem>();
 	    ItemizedOverlayWithBubble<ExtendedOverlayItem> roadNodes = new ItemizedOverlayWithBubble<ExtendedOverlayItem>(getActivity(), roadItems, map);
-	    
+
 	    Drawable marker;
 		String title = "";
 		String desc = "";
@@ -106,16 +106,15 @@ public class SantaCruzFragment extends Fragment implements ActionBar.OnNavigatio
 				title = "Punto de Partida";
 				desc = "Dirección";
 				marker = getResources().getDrawable(R.drawable.start);
-				ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
-	            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
-	            nodeMarker.setMarker(marker);
-	            roadNodes.addItem(nodeMarker);
-			}/*else{
+			}else{
 				title = "Punto de Llegada";
 				desc = "Dirección";
-				marker = getResources().getDrawable(R.drawable.flagblue);
-			}*/
-			
+				marker = getResources().getDrawable(R.drawable.finish);
+			}
+			ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
+            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
+            nodeMarker.setMarker(marker);
+            roadNodes.addItem(nodeMarker);
 		}
 	    map.getOverlays().add(roadNodes);
 		map.invalidate();
@@ -150,7 +149,6 @@ public class SantaCruzFragment extends Fragment implements ActionBar.OnNavigatio
 	public boolean onNavigationItemSelected(int itemPosition, long itemId) {	
 		String kmlFile = "sc_corso.kml";
 		removeAllKml();
-		
 		switch (itemPosition) {
 		case 0:
 			addkmlfile(kmlFile, R.drawable.marker_kml_point);
@@ -161,7 +159,6 @@ public class SantaCruzFragment extends Fragment implements ActionBar.OnNavigatio
 		default:
 			break;
 		}
-		
 		return false;
 	}
 }

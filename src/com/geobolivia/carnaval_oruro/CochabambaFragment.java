@@ -89,7 +89,7 @@ public class CochabambaFragment extends Fragment implements ActionBar.OnNavigati
 		actionBar.setListNavigationCallbacks(adapter2, this);
 		
 		// Changing the action bar icon
-		actionBar.setIcon(R.drawable.geobolivia);
+		actionBar.setIcon(R.drawable.cbbaicondef);
 	}
 	
 	public void addRoute(){
@@ -120,16 +120,15 @@ public class CochabambaFragment extends Fragment implements ActionBar.OnNavigati
 				title = "Punto de Partida";
 				desc = "Dirección";
 				marker = getResources().getDrawable(R.drawable.start);
-				ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
-	            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
-	            nodeMarker.setMarker(marker);
-	            roadNodes.addItem(nodeMarker);
-			}/*else{
+			}else{
 				title = "Punto de Llegada";
 				desc = "Dirección";
-				marker = getResources().getDrawable(R.drawable.flagblue);
-			}*/
-			
+				marker = getResources().getDrawable(R.drawable.finish);
+			}
+			ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
+            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
+            nodeMarker.setMarker(marker);
+            roadNodes.addItem(nodeMarker);
 		}
         
         map.getOverlays().add(roadNodes);

@@ -99,9 +99,8 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		
 		// assigning the spinner navigation
 		actionBar.setListNavigationCallbacks(adapter2, this);
-
 		// Changing the action bar icon
-		//actionBar.setIcon(R.drawable.geobolivia);
+		actionBar.setIcon(R.drawable.oricondef);
 	}
 	
 	public void addRoute(){
@@ -147,16 +146,15 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 				title = "Punto de Partida";
 				desc = "Dirección";
 				marker = getResources().getDrawable(R.drawable.start);
-				ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
-	            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
-	            nodeMarker.setMarker(marker);
-	            roadNodes.addItem(nodeMarker);
-			}/*else{
+			}else{
 				title = "Punto de Llegada";
 				desc = "Dirección";
-				marker = getResources().getDrawable(R.drawable.flagblue);
-			}*/
-			
+				marker = getResources().getDrawable(R.drawable.finish);
+			}
+			ExtendedOverlayItem nodeMarker = new ExtendedOverlayItem(title, desc, waypoints.get(i), getActivity());
+            nodeMarker.setMarkerHotspot(OverlayItem.HotspotPlace.CENTER);
+            nodeMarker.setMarker(marker);
+            roadNodes.addItem(nodeMarker);
 		}
         
         map.getOverlays().add(roadNodes);
@@ -216,11 +214,13 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		case 2:
 			addkmlfile(kmlRestaurant, R.drawable.restaurant);
 			break;
+		case 3:
+			Log.d("CordovaLog", "Nothing");
+			break;
 		default:
 			break;
 		}
 		
 		return false;
 	}
-
 }
