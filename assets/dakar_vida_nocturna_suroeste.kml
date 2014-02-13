@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd">
+   <Document xmlns:atom="http://purl.org/atom/ns#">
+      <name>dakar:vida_nocturna_suroeste</name>
+      <LookAt>
+         <longitude>-66.28676430425278</longitude>
+         <latitude>-20.021047086801318</latitude>
+         <altitude>184628.25002953812</altitude>
+         <range>149189.31008396792</range>
+         <tilt>0.0</tilt>
+         <heading>0.0</heading>
+         <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="vida_nocturna_suroeste.1">
+         <name><![CDATA[vida_nocturna_suroeste.1]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">5.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Taberna del Tio ANTON</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Simon Chacon Nº 17</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.578033</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.764699</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.76469902880478</longitude>
+            <latitude>-19.578033015131908</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7646990288048,-19.5780330151319</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.2">
+         <name><![CDATA[vida_nocturna_suroeste.2]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">3.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Discoteca Mandarinas</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Murillo</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">s/n</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.577238</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.763546</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.76354601420459</longitude>
+            <latitude>-19.577237991616116</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.76354601420459,-19.5772379916161</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.3">
+         <name><![CDATA[vida_nocturna_suroeste.3]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">7.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Extreme Funn Pub</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi Bolivar y Arce</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">s/n</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.463242</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.824474</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">s/c</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82447400875378</longitude>
+            <latitude>-20.463242037221704</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8244740087538,-20.4632420372217</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.4">
+         <name><![CDATA[vida_nocturna_suroeste.4]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">8.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Pub Wiphala</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. potosi Arce y Sucre</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">s/n</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.462524</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.823712</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">s/c</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82371200993651</longitude>
+            <latitude>-20.462523959577</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8237120099365,-20.462523959577</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.5">
+         <name><![CDATA[vida_nocturna_suroeste.5]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">10.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">NITRO</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi Camacho y Santa Cruz</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">s/n</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.46088</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.822394</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">s/c</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8223940394818</longitude>
+            <latitude>-20.460880016907993</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8223940394818,-20.460880016908</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.6">
+         <name><![CDATA[vida_nocturna_suroeste.6]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">11.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">La Costra Pub</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi Arce y Santa Cruz</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">s/n</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.460678</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.822177</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">s/cs</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82217703200868</longitude>
+            <latitude>-20.460678013041615</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8221770320087,-20.4606780130416</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.7">
+         <name><![CDATA[vida_nocturna_suroeste.7]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">12.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Peña Rest. El Refugio</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi Arce y Santa Cruz</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">s/n</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.460802</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.822121</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">s/cs</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8221210408955</longitude>
+            <latitude>-20.460801981389494</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8221210408955,-20.4608019813895</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.8">
+         <name><![CDATA[vida_nocturna_suroeste.8]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">9.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Restaurant Pub Loco</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi Sucre y Camacho</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">s/n</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.461331</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.822649</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">s/c</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82264901697627</longitude>
+            <latitude>-20.461330963298593</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8226490169763,-20.4613309632986</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.9">
+         <name><![CDATA[vida_nocturna_suroeste.9]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">1.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Pub Whiskeria Chivaz</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">c. Sucre ·87</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72422763</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.585571</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752076</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7520759664475</longitude>
+            <latitude>-19.585571028292122</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7520759664475,-19.5855710282921</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.10">
+         <name><![CDATA[vida_nocturna_suroeste.10]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">2.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">KALU Discoteca</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Quijarro Nº 44</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72435539</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587705</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.753856</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Carlos Alberto Flores Ricalde</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7538560312241</longitude>
+            <latitude>-19.587704977020593</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7538560312241,-19.5877049770206</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.11">
+         <name><![CDATA[vida_nocturna_suroeste.11]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">4.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">karaoke Pub Arco Iris</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Chuquisaca Nº 30 esq. Padilla</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6230242</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.590186</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752465</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Alejandro Campos Marin</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7524649705737</longitude>
+            <latitude>-19.590186020359297</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7524649705737,-19.5901860203593</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.12">
+         <name><![CDATA[vida_nocturna_suroeste.12]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">55.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">DISCOTECA BOCHORNO</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bolivar - Hotel Coloso Potosí</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587581</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.753206</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75320601463318</longitude>
+            <latitude>-19.587581336720504</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7532060146332,-19.5875813367205</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.13">
+         <name><![CDATA[vida_nocturna_suroeste.13]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">54.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">NIKO'S KARAOKE DISCOTECA</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bolívar Nº 789</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587561</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.75312</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75312018394473</longitude>
+            <latitude>-19.58756112079972</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7531201839447,-19.5875611207997</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.14">
+         <name><![CDATA[vida_nocturna_suroeste.14]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">53.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">SEBASTIAN'S WISKERÍA KARAOKE</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Junín Nº 12</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588592</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.753227</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7532274723053</longitude>
+            <latitude>-19.58859212952818</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7532274723053,-19.5885921295282</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="vida_nocturna_suroeste.15">
+         <name><![CDATA[vida_nocturna_suroeste.15]]></name>
+         <description><![CDATA[<h4>vida_nocturna_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">52.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">EL PARAISO KARAOKE DISCOTEKA</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Matos</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588289</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752949</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75294852256769</longitude>
+            <latitude>-19.588288892352182</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bar.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7529485225677,-19.5882888923522</coordinates>
+         </Point>
+      </Placemark>
+   </Document>
+</kml>

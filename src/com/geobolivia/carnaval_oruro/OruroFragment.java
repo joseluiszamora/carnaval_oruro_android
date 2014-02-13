@@ -106,7 +106,7 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	public void addRoute(){
 		// ADD ROUTE
         GeoPoint startPoint = new GeoPoint(-17.961292 , -67.106058);
-        GeoPoint finishPoint = new GeoPoint(-17.967632, -67.119584);
+        GeoPoint finishPoint = new GeoPoint(-17.968015, -67.118502);
         
         IMapController mapController = map.getController();
         mapController.setZoom(15);
@@ -141,7 +141,7 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		String title;
 		String desc;
 		
-		for (int i = 0; i < waypoints.size(); i++) {
+		for (int i = 0; i < waypointsSF.size(); i++) {
 			if (i == 0){
 				title = "Punto de Partida";
 				desc = "Dirección";

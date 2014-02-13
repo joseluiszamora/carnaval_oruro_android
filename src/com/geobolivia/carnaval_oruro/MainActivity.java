@@ -252,7 +252,7 @@ public class MainActivity extends Activity {
 			fragment = new CochabambaFragment();
 			break;
 		case 5:
-			fragment = new WhatsHotFragment();
+			fragment = new infoFragment();
 			break;
 
 		default:

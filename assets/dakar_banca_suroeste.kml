@@ -1,0 +1,3291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd">
+   <Document xmlns:atom="http://purl.org/atom/ns#">
+      <name>dakar:banca_suroeste</name>
+      <LookAt>
+         <longitude>-66.20452687624567</longitude>
+         <latitude>-20.8289104862355</latitude>
+         <altitude>383141.3330692962</altitude>
+         <range>309598.293522877</range>
+         <tilt>0.0</tilt>
+         <heading>0.0</heading>
+         <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="banca_suroeste.1">
+         <name><![CDATA[banca_suroeste.1]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">26.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Los Andes</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Junin Nº 4</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.573947</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.759769</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7597689609974</longitude>
+            <latitude>-19.573947004973803</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7597689609974,-19.5739470049738</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.2">
+         <name><![CDATA[banca_suroeste.2]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">20.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco FIE- Sucursal</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Panamericana y Ecuador</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.559597</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.761442</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7614419888705</longitude>
+            <latitude>-19.559597019106093</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7614419888705,-19.5595970191061</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.3">
+         <name><![CDATA[banca_suroeste.3]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">41.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Financiera "Crecer"</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Chorolque</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6943964</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.442249</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.720735</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Banco Crecer</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.72073502466077</longitude>
+            <latitude>-21.44224899820979</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7207350246608,-21.4422489982098</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.4">
+         <name><![CDATA[banca_suroeste.4]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">39.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Cooperativa de Ahorro "El Chorolque"</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Santa Cruz Nº 300</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6942769</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.442667</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.71969</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Directo en Cooperativa</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71968996897328</longitude>
+            <latitude>-21.4426670037209</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7196899689733,-21.4426670037209</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.5">
+         <name><![CDATA[banca_suroeste.5]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">25.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">FONDO FACIL</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Boliviar- Pasaje Boulevard</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588081</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752504</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente Comercial</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7525040302425</longitude>
+            <latitude>-19.588080989196797</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7525040302425,-19.5880809891968</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.6">
+         <name><![CDATA[banca_suroeste.6]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">37.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Cooperativa de Ahorro Catedral</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Bolivar esquina Simón Chacón</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587622</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752274</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Encargado</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7522740308195</longitude>
+            <latitude>-19.587621996179195</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7522740308195,-19.5876219961792</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.7">
+         <name><![CDATA[banca_suroeste.7]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">15.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Mercantil Santa Cruz</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Boulevard esquina Matos</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.58823</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752505</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75250503607089</longitude>
+            <latitude>-19.588230019435187</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7525050360709,-19.5882300194352</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.8">
+         <name><![CDATA[banca_suroeste.8]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">14.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco BISA</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Plaza Alonzo Ibañez</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.58929</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752501</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75250101275745</longitude>
+            <latitude>-19.589289994910317</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7525010127574,-19.5892899949103</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.9">
+         <name><![CDATA[banca_suroeste.9]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">13.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Mercantil  Santa Cruz</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Litoral esquina Chayanta</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.581044</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752669</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7526689860969</longitude>
+            <latitude>-19.581043962389202</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7526689860969,-19.5810439623892</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.10">
+         <name><![CDATA[banca_suroeste.10]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">24.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco de Crédito Popular.</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Murillo</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.570271</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.767246</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7672460377216</longitude>
+            <latitude>-19.57027103751888</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7672460377216,-19.5702710375189</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.11">
+         <name><![CDATA[banca_suroeste.11]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">23.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Unión</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Murillo Nº 205</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.570253</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.767205</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.76720496639598</longitude>
+            <latitude>-19.57025301642709</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.767204966396,-19.5702530164271</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.12">
+         <name><![CDATA[banca_suroeste.12]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">22.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Nacional de Bolivia</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Murillo  S/N</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.572277</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.766525</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.76652502641079</longitude>
+            <latitude>-19.57227699458589</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7665250264108,-19.5722769945859</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.13">
+         <name><![CDATA[banca_suroeste.13]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">17.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Fondo Financiero Privado PRODEM</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Murillo 173</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-622310</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.568432</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.767717</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.76771701686079</longitude>
+            <latitude>-19.56843196414411</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7677170168608,-19.5684319641441</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.14">
+         <name><![CDATA[banca_suroeste.14]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">27.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Los Andes</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Junin Nº 5</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6230650</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587622</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752274</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7522740308195</longitude>
+            <latitude>-19.587621996179195</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7522740308195,-19.5876219961792</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.15">
+         <name><![CDATA[banca_suroeste.15]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">28.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Nacional de Bolivia S.A.</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Junin  Nº 4</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6223501</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587751</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.753261</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75326099991793</longitude>
+            <latitude>-19.587750993669005</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7532609999179,-19.587750993669</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.16">
+         <name><![CDATA[banca_suroeste.16]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">29.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Nacional de Bolivia S.A.</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Junin  Nº 4</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6223501</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587751</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.753261</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75326099991793</longitude>
+            <latitude>-19.587750993669005</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7532609999179,-19.587750993669</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.17">
+         <name><![CDATA[banca_suroeste.17]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">30.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Nacional de Bolivia S.A.</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Junin  Nº 4</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6223501</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587751</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.753261</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75326099991793</longitude>
+            <latitude>-19.587750993669005</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7532609999179,-19.587750993669</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.18">
+         <name><![CDATA[banca_suroeste.18]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">31.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Nacional de Bolivia S.A.</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Junin  Nº 4</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6223501</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587751</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.753261</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75326099991793</longitude>
+            <latitude>-19.587750993669005</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7532609999179,-19.587750993669</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.19">
+         <name><![CDATA[banca_suroeste.19]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">32.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Fondo Financiero Privado fascil S.A.</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Pasaje Boulevard esquina Matos</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6120801</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588099</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752159</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.752159031108</longitude>
+            <latitude>-19.588099010288715</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.752159031108,-19.5880990102887</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.20">
+         <name><![CDATA[banca_suroeste.20]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">33.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Fondo Financiero Privado fascil S.A.</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Pasaje Boulevard esquina Matos</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6120801</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588099</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752159</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.752159031108</longitude>
+            <latitude>-19.588099010288715</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.752159031108,-19.5880990102887</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.21">
+         <name><![CDATA[banca_suroeste.21]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">34.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Fondo Financiero Privado fascil S.A.</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Pasaje Boulevard esquina Matos</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6120801</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588099</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752159</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.752159031108</longitude>
+            <latitude>-19.588099010288715</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.752159031108,-19.5880990102887</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.22">
+         <name><![CDATA[banca_suroeste.22]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">35.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Eco Futuro S.A.</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Pasaje Boulevard</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6231302</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588544</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752627</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.752626992762</longitude>
+            <latitude>-19.58854400552802</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.752626992762,-19.588544005528</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.23">
+         <name><![CDATA[banca_suroeste.23]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">36.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Unión S.A.</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Pasaje Boulevard</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6122743</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588037</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752425</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7524249888956</longitude>
+            <latitude>-19.58803698420523</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7524249888956,-19.5880369842052</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.24">
+         <name><![CDATA[banca_suroeste.24]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">12.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Bisa - Cajero Automático</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">calle Murillo</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.573025</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.766457</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.76645696535701</longitude>
+            <latitude>-19.573024995625005</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.766456965357,-19.573024995625</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.25">
+         <name><![CDATA[banca_suroeste.25]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">11.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Fondo Financiero Privado PRODEM</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Universitaria</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.577672</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.765767</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente Comercial</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7657669670879</longitude>
+            <latitude>-19.577672006562295</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7657669670879,-19.5776720065623</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.26">
+         <name><![CDATA[banca_suroeste.26]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">19.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">BANCO FIE - Sucursal</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Universitaria</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.577894</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.76569</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.76569002121681</longitude>
+            <latitude>-19.577893959358306</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7656900212168,-19.5778939593583</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.27">
+         <name><![CDATA[banca_suroeste.27]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">18.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Nacional de Bolivia</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Universitaria</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.578739</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.765087</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.76508702710268</longitude>
+            <latitude>-19.578739022836032</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7650870271027,-19.578739022836</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.28">
+         <name><![CDATA[banca_suroeste.28]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">21.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Mercantil  Santa Cruz</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Cívica</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.584965</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.756706</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75670596212137</longitude>
+            <latitude>-19.584965016692806</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7567059621214,-19.5849650166928</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.29">
+         <name><![CDATA[banca_suroeste.29]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">10.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco FIE - Sucursal</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Cívica</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.584406</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.756317</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gerente Comercial</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75631704181427</longitude>
+            <latitude>-19.584406027570296</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7563170418143,-19.5844060275703</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.30">
+         <name><![CDATA[banca_suroeste.30]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">55.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Bisa</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi / Arce y Bolivar</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.463264</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.824459</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Banco Bisa</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82445883750918</longitude>
+            <latitude>-20.463263915059215</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8244588375092,-20.4632639150592</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.31">
+         <name><![CDATA[banca_suroeste.31]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">56.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Prodem</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi / Arce</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.462962</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.824137</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Banco Prodem</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8241369724274</longitude>
+            <latitude>-20.462962360482422</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8241369724274,-20.4629623604824</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.32">
+         <name><![CDATA[banca_suroeste.32]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">57.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">ATM Prodem</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi / Arce y Sucre</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.46256</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.823879</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">ATM Prodem</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82387948036188</longitude>
+            <latitude>-20.462560286791998</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8238794803619,-20.462560286792</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.33">
+         <name><![CDATA[banca_suroeste.33]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">58.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Nacional de Bolivia</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi / Arce y Sucre</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.462219</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.82345</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Banco Nacional de Bolivia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82345032691961</longitude>
+            <latitude>-20.462218523327408</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8234503269196,-20.4622185233274</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.34">
+         <name><![CDATA[banca_suroeste.34]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">59.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Nacional de Bolivia</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi / Sucre y Arce</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.462038</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.823364</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Banco Nacional de Bolivia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82336449623108</longitude>
+            <latitude>-20.462037589420518</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8233644962311,-20.4620375894205</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.35">
+         <name><![CDATA[banca_suroeste.35]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">60.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Fie</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi / Arce y Ferroviaria</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.463807</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.822871</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Banco Fie</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82287096977228</longitude>
+            <latitude>-20.463806711804992</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8228709697723,-20.463806711805</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.36">
+         <name><![CDATA[banca_suroeste.36]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">81.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Punto Viva / Casa de cambios</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">calle 20 de mayo</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.089739</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596044</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59604398906231</longitude>
+            <latitude>-22.089739032089682</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5960439890623,-22.0897390320897</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.37">
+         <name><![CDATA[banca_suroeste.37]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">83.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Telecentro Giannella</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">calle 20 de mayo</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.090105</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596072</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5960719846189</longitude>
+            <latitude>-22.090104985982123</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5960719846189,-22.0901049859821</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.38">
+         <name><![CDATA[banca_suroeste.38]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">40.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Eco Futuro</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Chorolque</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6943536</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.443186</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.720581</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Eco Futuro</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7205809652805</longitude>
+            <latitude>-21.443186011165295</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7205809652805,-21.4431860111653</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.39">
+         <name><![CDATA[banca_suroeste.39]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">97.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Centro de Llamadas</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Argentina y Chorolque</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.093324</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596458</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5964579712599</longitude>
+            <latitude>-22.093323972076092</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5964579712599,-22.0933239720761</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.40">
+         <name><![CDATA[banca_suroeste.40]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">64.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Prodem</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Repùblica Argentina s/n</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">sin numero</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.091966</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596356</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59635596349827</longitude>
+            <latitude>-22.091966019943328</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5963559634983,-22.0919660199433</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.41">
+         <name><![CDATA[banca_suroeste.41]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">71.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Cambios Dinar de Oro</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">sin numero</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.092045</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596414</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59641396626833</longitude>
+            <latitude>-22.092044977471204</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5964139662683,-22.0920449774712</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.42">
+         <name><![CDATA[banca_suroeste.42]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">78.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Perico</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(591)79452258</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.093281</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596387</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59638697654</longitude>
+            <latitude>-22.093280972912908</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.59638697654,-22.0932809729129</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.43">
+         <name><![CDATA[banca_suroeste.43]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">87.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Indira</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5965699</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.092148</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596608</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59660800732672</longitude>
+            <latitude>-22.092147991061196</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5966080073267,-22.0921479910612</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.44">
+         <name><![CDATA[banca_suroeste.44]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">88.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Flor de Liz</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.092436</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596303</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59630298987031</longitude>
+            <latitude>-22.0924359932541</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5963029898703,-22.0924359932541</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.45">
+         <name><![CDATA[banca_suroeste.45]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">89.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Guadalupe</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av, República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)74018340</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.092401</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596353</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59635302983222</longitude>
+            <latitude>-22.092401040717903</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5963530298322,-22.0924010407179</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.46">
+         <name><![CDATA[banca_suroeste.46]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">90.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Alejandra</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5972980</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.092561</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596341</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59634095989162</longitude>
+            <latitude>-22.0925609674304</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5963409598916,-22.0925609674304</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.47">
+         <name><![CDATA[banca_suroeste.47]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">91.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambio Miguel</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.09267</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596311</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59631103649727</longitude>
+            <latitude>-22.092670015990706</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5963110364973,-22.0926700159907</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.48">
+         <name><![CDATA[banca_suroeste.48]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">94.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Lazaro</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)73330354</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.092813</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596305</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Peronal del contacto</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59630500152701</longitude>
+            <latitude>-22.092813011258798</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.596305001527,-22.0928130112588</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.49">
+         <name><![CDATA[banca_suroeste.49]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">95.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Punto Entel Villazon</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5978705</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.095825</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596261</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59626099653542</longitude>
+            <latitude>-22.0958249643445</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5962609965354,-22.0958249643445</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.50">
+         <name><![CDATA[banca_suroeste.50]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">96.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Mia</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5965148</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.093032</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596361</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5963609926402</longitude>
+            <latitude>-22.0930320303887</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5963609926402,-22.0930320303887</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.51">
+         <name><![CDATA[banca_suroeste.51]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">82.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Virgen de Agua Chica</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.094342</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596191</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59619100764388</longitude>
+            <latitude>-22.094342038035307</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5961910076439,-22.0943420380353</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.52">
+         <name><![CDATA[banca_suroeste.52]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">70.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Institución Financiera de Desarrollo "Crecer"</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Oruro y 20 de mayo</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">sin mumero</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.088558</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595935</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.595935024321</longitude>
+            <latitude>-22.088558021932812</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.595935024321,-22.0885580219328</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.53">
+         <name><![CDATA[banca_suroeste.53]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">65.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Mutual Potosí</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle La Paz s/n</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">sin numero</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.089514</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.5957</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59569999575609</longitude>
+            <latitude>-22.089513977989498</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5956999957561,-22.0895139779895</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.54">
+         <name><![CDATA[banca_suroeste.54]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">99.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de Cambios</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle La Paz</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">1</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.089421</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595991</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59599101543421</longitude>
+            <latitude>-22.089421022683297</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5959910154342,-22.0894210226833</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.55">
+         <name><![CDATA[banca_suroeste.55]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">62.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Mercantil Santa Cruz</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Independencia s/n</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5972242</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.08978</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595053</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59505299665025</longitude>
+            <latitude>-22.08978001959622</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5950529966503,-22.0897800195962</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.56">
+         <name><![CDATA[banca_suroeste.56]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">66.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Cajero Banco Union</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Indepencia</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.090293</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595066</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5950659886002</longitude>
+            <latitude>-22.090292992070303</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5950659886002,-22.0902929920703</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.57">
+         <name><![CDATA[banca_suroeste.57]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">67.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Cajero Mutual Potosí</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle La Paz</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.089493</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595761</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal  del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59576101601118</longitude>
+            <latitude>-22.089493023231597</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5957610160112,-22.0894930232316</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.58">
+         <name><![CDATA[banca_suroeste.58]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">68.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Cooperativa de Ahorro y Crédito Gainza</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Independencia esq. Plaza 6 de agosto</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5972045</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.090464</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595241</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59524100273845</longitude>
+            <latitude>-22.090463982895017</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5952410027384,-22.090463982895</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.59">
+         <name><![CDATA[banca_suroeste.59]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">73.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Cambios Oglobo</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5972903</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.09593</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596254</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5962540395557</longitude>
+            <latitude>-22.095929989591184</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5962540395557,-22.0959299895912</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.60">
+         <name><![CDATA[banca_suroeste.60]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">74.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Brissmel</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av.República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)70050021</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.09589</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596462</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59646199457342</longitude>
+            <latitude>-22.095890007913113</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5964619945734,-22.0958900079131</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.61">
+         <name><![CDATA[banca_suroeste.61]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">75.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambio Burgos</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5965254</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.095994</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596273</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59627298265687</longitude>
+            <latitude>-22.095994027331415</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5962729826569,-22.0959940273314</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.62">
+         <name><![CDATA[banca_suroeste.62]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">76.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Villazón La Frontera</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5965546</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.096032</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596414</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59641396626833</longitude>
+            <latitude>-22.09603199735281</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5964139662683,-22.0960319973528</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.63">
+         <name><![CDATA[banca_suroeste.63]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">77.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Mercy</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5975506</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.096006</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596248</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5962480045855</longitude>
+            <latitude>-22.096006013453007</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5962480045855,-22.096006013453</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.64">
+         <name><![CDATA[banca_suroeste.64]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">79.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Paty</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5965236</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.093507</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.59637</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5963699612766</longitude>
+            <latitude>-22.0935070328414</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5963699612766,-22.0935070328414</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.65">
+         <name><![CDATA[banca_suroeste.65]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">80.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambio Génesis</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5963845</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.093646</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596288</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5962879862636</longitude>
+            <latitude>-22.093646004796</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5962879862636,-22.093646004796</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.66">
+         <name><![CDATA[banca_suroeste.66]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">84.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambios Mario</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5972342</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.094303</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596199</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5961989704519</longitude>
+            <latitude>-22.0943029783666</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5961989704519,-22.0943029783666</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.67">
+         <name><![CDATA[banca_suroeste.67]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">86.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de cambio Bet</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5974590</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.094701</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596108</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59610802680248</longitude>
+            <latitude>-22.094701034948216</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5961080268025,-22.0947010349482</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.68">
+         <name><![CDATA[banca_suroeste.68]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">100.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Casa de Cambios Nadia</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle La Paz esq. 20 de mayo</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">sin numero</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.089639</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596032</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59603200294072</longitude>
+            <latitude>-22.089639035984817</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5960320029407,-22.0896390359848</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.69">
+         <name><![CDATA[banca_suroeste.69]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">16.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">PRENDA MAS</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Pasaje Boulevard</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6122787</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588586</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752512</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">GERENTE</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75251199305055</longitude>
+            <latitude>-19.588585998862925</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7525119930505,-19.5885859988629</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.70">
+         <name><![CDATA[banca_suroeste.70]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">54.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Eco Fururo</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi / Arce y Bolivar</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6932212</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.463184</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.824373</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Banco Eco Fururo</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82437300682068</longitude>
+            <latitude>-20.463183500563304</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8243730068207,-20.4631835005633</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.71">
+         <name><![CDATA[banca_suroeste.71]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">61.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Union</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Independencia # 102</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5972121</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.090447</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595083</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5950830038636</longitude>
+            <latitude>-22.09044696763152</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5950830038636,-22.0904469676315</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.72">
+         <name><![CDATA[banca_suroeste.72]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">63.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco FIE</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. República Argentina s/n</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5975303</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.092111</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596398</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Personal del lugar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59639804065222</longitude>
+            <latitude>-22.09211102686821</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5963980406522,-22.0921110268682</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.73">
+         <name><![CDATA[banca_suroeste.73]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">797.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Union</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Avenida Potosi N° 33 esquina Sucre</span></li>
+  
+  
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.461776</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.823225</span></li>
+  
+  
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82322499999995</longitude>
+            <latitude>-20.461776000000015</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.823225,-20.461776</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.74">
+         <name><![CDATA[banca_suroeste.74]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">793.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Mercantil</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">CALLE INDEPENDENCIA NRO 186 ENTRE LA PAZ Y TARIJA</span></li>
+  
+  
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.089769</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.59495</span></li>
+  
+  
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59494999999995</longitude>
+            <latitude>-22.089769000000018</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.59495,-22.089769</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.75">
+         <name><![CDATA[banca_suroeste.75]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">798.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Union</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Camacho entre Calle Oruro y Bolivar</span></li>
+  
+  
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587569</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.756178</span></li>
+  
+  
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.756178</longitude>
+            <latitude>-19.58756900000003</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.756178,-19.587569</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.76">
+         <name><![CDATA[banca_suroeste.76]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">799.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Union</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Plaza Central Independencia, esquina 7 de Noviembre</span></li>
+  
+  
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.444481</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.721234</span></li>
+  
+  
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.72123399999998</longitude>
+            <latitude>-21.444480999999996</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.721234,-21.444481</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.77">
+         <name><![CDATA[banca_suroeste.77]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">801.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Union</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Independencia N° 102, esq. Calle Tarija</span></li>
+  
+  
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.090332</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595245</span></li>
+  
+  
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.595245</longitude>
+            <latitude>-22.090332000000032</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.595245,-22.090332</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="banca_suroeste.78">
+         <name><![CDATA[banca_suroeste.78]]></name>
+         <description><![CDATA[<h4>banca_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">802.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Banco Union</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Pedro Domingo Murillo N° 205 entre calle Gareca y calle Manrique lado Tribunal Electoral</span></li>
+  
+  
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.570337</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.767255</span></li>
+  
+  
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.76725500000003</longitude>
+            <latitude>-19.570336999999995</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/bank.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.767255,-19.570337</coordinates>
+         </Point>
+      </Placemark>
+   </Document>
+</kml>

@@ -1,0 +1,3837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd">
+   <Document xmlns:atom="http://purl.org/atom/ns#">
+      <name>dakar:salud_suroeste</name>
+      <LookAt>
+         <longitude>-66.205894728088</longitude>
+         <latitude>-20.833801569884344</latitude>
+         <altitude>382236.5660882114</altitude>
+         <range>308867.19434562104</range>
+         <tilt>0.0</tilt>
+         <heading>0.0</heading>
+         <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="salud_suroeste.1">
+         <name><![CDATA[salud_suroeste.1]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">54.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia La Salud</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Santa Cruz</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6942674</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.443179</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.719669</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Jenny</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71966901421538</longitude>
+            <latitude>-21.443178970366716</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7196690142154,-21.4431789703667</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.2">
+         <name><![CDATA[salud_suroeste.2]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">53.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Farma Sol</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Santa Cruz esq. Avaroa</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6944660</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.443493</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.719615</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farma Sol</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71961503475896</longitude>
+            <latitude>-21.443493040278526</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.719615034759,-21.4434930402785</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.3">
+         <name><![CDATA[salud_suroeste.3]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">61.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Corazon de Jesus</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">av. Potosi entre Ayacucho y avaroa</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6933873</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.464974</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.826309</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82630897499621</longitude>
+            <latitude>-20.464973989874096</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8263089749962,-20.4649739898741</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.4">
+         <name><![CDATA[salud_suroeste.4]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">62.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">farmacia Los Andes</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">av. Potosi entre Ayacucho y avaroa</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6952343</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.464727</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.825975</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8259750399738</longitude>
+            <latitude>-20.464726975187602</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8259750399738,-20.4647269751876</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.5">
+         <name><![CDATA[salud_suroeste.5]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">96.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmaia Villazon</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5965829</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.095534</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596277</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59627700597039</longitude>
+            <latitude>-22.095534028485417</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5962770059704,-22.0955340284854</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.6">
+         <name><![CDATA[salud_suroeste.6]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">107.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Caja Nacional de Salud</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Suipacha</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.082841</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.593347</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5933470278978</longitude>
+            <latitude>-22.08284097723663</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5933470278978,-22.0828409772366</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.7">
+         <name><![CDATA[salud_suroeste.7]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">105.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Inti Raymi</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Argentina</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.093969</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.59631</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59631003066892</longitude>
+            <latitude>-22.0939689595252</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5963100306689,-22.0939689595252</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.8">
+         <name><![CDATA[salud_suroeste.8]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">50.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San Juan de Dios</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Frente al Hospital Egvia</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)704-79234</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.44797</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.716818</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Maria Quispe Trino</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71681799367067</longitude>
+            <latitude>-21.447969982400508</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7168179936707,-21.4479699824005</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.9">
+         <name><![CDATA[salud_suroeste.9]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">51.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">farmacia el Dobende</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Pedro  Araya S/N</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6945308</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.44715</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.716914</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farmacia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71691396646202</longitude>
+            <latitude>-21.447149980813222</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.716913966462,-21.4471499808132</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.10">
+         <name><![CDATA[salud_suroeste.10]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">52.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Jesus de Nazaret</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Pedro  Araya S/N</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6942428</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.445475</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.717095</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Dr. Ivan Zosa Gamt</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7170950155705</longitude>
+            <latitude>-21.445475025102397</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7170950155705,-21.4454750251024</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.11">
+         <name><![CDATA[salud_suroeste.11]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">56.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Virgen de Lourdes</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Chorolque</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6945339</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.44241</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.720721</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farmacia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.72072102688253</longitude>
+            <latitude>-21.442410014569703</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7207210268825,-21.4424100145697</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.12">
+         <name><![CDATA[salud_suroeste.12]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">57.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Santa Ana</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Chichas</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6944250</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.443768</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.718817</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farmacia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.718816993758</longitude>
+            <latitude>-21.443767966702495</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.718816993758,-21.4437679667025</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.13">
+         <name><![CDATA[salud_suroeste.13]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">58.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Santa Ines</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Florida Nº 101</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6942742</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.444489</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.718753</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Oliva Arequipa de Bailey</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7187530398368</longitude>
+            <latitude>-21.444488978013297</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7187530398368,-21.4444889780133</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.14">
+         <name><![CDATA[salud_suroeste.14]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">72.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Thunupa</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">calle Sucre y Colon</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6932988</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.460786</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.824493</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farmacia Thunupa</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82449303567398</longitude>
+            <latitude>-20.460785971954436</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.824493035674,-20.4607859719544</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.15">
+         <name><![CDATA[salud_suroeste.15]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">60.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Monica EyZ Aguirre</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Diego del almagro</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72886992</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.427802</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.718479</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Monica Aguirre</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7184790354222</longitude>
+            <latitude>-21.427802033722386</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7184790354222,-21.4278020337224</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.16">
+         <name><![CDATA[salud_suroeste.16]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">59.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia "San Antonio de Padua"</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Suipacha</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(591)2-6942902</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.44705</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.718448</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">En la Farmacia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71844802238041</longitude>
+            <latitude>-21.4470499847084</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7184480223804,-21.4470499847084</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.17">
+         <name><![CDATA[salud_suroeste.17]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">90.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Virgen de Guadalupe</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">C/ Suipacha Esq.. Junin</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)71170543</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.091353</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.59409</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5940899997949</longitude>
+            <latitude>-22.091352967545305</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5940899997949,-22.0913529675453</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.18">
+         <name><![CDATA[salud_suroeste.18]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">92.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Estrella de Eden</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Cale Tupiza</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5975886</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.092433</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595473</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59547301381818</longitude>
+            <latitude>-22.09243297576903</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5954730138182,-22.092432975769</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.19">
+         <name><![CDATA[salud_suroeste.19]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">93.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia El Milagro</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Tupiza</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5975928</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.092469</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595156</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59515601024032</longitude>
+            <latitude>-22.09246901795258</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5951560102403,-22.0924690179526</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.20">
+         <name><![CDATA[salud_suroeste.20]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">94.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia El Milagro</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Gilberto Cortez</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-597103</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.091723</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595233</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5952330399304</longitude>
+            <latitude>-22.0917230285704</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5952330399304,-22.0917230285704</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.21">
+         <name><![CDATA[salud_suroeste.21]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">95.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Señor de la Misericordia</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Tumusla</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5972497</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.083703</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.592177</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59217699803409</longitude>
+            <latitude>-22.08370297215872</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5921769980341,-22.0837029721587</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.22">
+         <name><![CDATA[salud_suroeste.22]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">97.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San Nicolas de Bari</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">German Bush esq. 7 de Noviembre</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5965772</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.085229</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.600081</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.60008096508679</longitude>
+            <latitude>-22.085228981450214</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.6000809650868,-22.0852289814502</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.23">
+         <name><![CDATA[salud_suroeste.23]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">99.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Virgen de Agua Chica</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Argentina</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5965842</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.093867</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596326</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.596326040104</longitude>
+            <latitude>-22.093867035582605</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.596326040104,-22.0938670355826</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.24">
+         <name><![CDATA[salud_suroeste.24]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">91.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Renacer</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">c/Junin esq. J. M. Acosta</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)79253963</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.091602</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.594379</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59437900781631</longitude>
+            <latitude>-22.091601993888602</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5943790078163,-22.0916019938886</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.25">
+         <name><![CDATA[salud_suroeste.25]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">88.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San Silvestre</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Plaza 6 de Agosto</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.091236</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595124</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5951239913702</longitude>
+            <latitude>-22.091236039996105</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5951239913702,-22.0912360399961</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.26">
+         <name><![CDATA[salud_suroeste.26]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">102.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Bolivia</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Argentina</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.092704</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596419</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59641899541018</longitude>
+            <latitude>-22.092703962698494</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5964189954102,-22.0927039626985</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.27">
+         <name><![CDATA[salud_suroeste.27]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">103.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San Antonio</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Topater</span></li>
+  
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.084504</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.602122</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.60212195850897</longitude>
+            <latitude>-22.08450403064481</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.602121958509,-22.0845040306448</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.28">
+         <name><![CDATA[salud_suroeste.28]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">10.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San Gerónimo</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Ingavi</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6225119</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.585846</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.754926</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Medico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75492598116392</longitude>
+            <latitude>-19.58584603853518</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7549259811639,-19.5858460385352</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.29">
+         <name><![CDATA[salud_suroeste.29]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">17.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San Bartolomé</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Universitaria</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6244400</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.579385</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.764095</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7640950288623</longitude>
+            <latitude>-19.579385016113505</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7640950288623,-19.5793850161135</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.30">
+         <name><![CDATA[salud_suroeste.30]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">64.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Hospital Jose Eduardo Perez</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Ferroviaria</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6932081</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.457979</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.817789</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">1º Nivel</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8177890218794</longitude>
+            <latitude>-20.457979040220323</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8177890218794,-20.4579790402203</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.31">
+         <name><![CDATA[salud_suroeste.31]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">66.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Clinica las Carmilitas</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Santa Cruz / Av. Potosi</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6933539</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.460388</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.821442</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">1º Nivel</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82144202291963</longitude>
+            <latitude>-20.46038799919181</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8214420229196,-20.4603879991918</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.32">
+         <name><![CDATA[salud_suroeste.32]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">68.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">CLINICA SP Sumaj Rijchary S.P.L.</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Peru / Josefina Mayorga</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6932645</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.464137</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.829996</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">CLINICA SP Sumaj Rijchary S.P.L.</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8299960065633</longitude>
+            <latitude>-20.4641369730234</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8299960065633,-20.4641369730234</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.33">
+         <name><![CDATA[salud_suroeste.33]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">65.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Caja Nacional de Salud</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Arce / Fernando alonso y Ravelo</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6932025</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.458103</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.829637</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">2º Nivel</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82963700965041</longitude>
+            <latitude>-20.458103008568187</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8296370096504,-20.4581030085682</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.34">
+         <name><![CDATA[salud_suroeste.34]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">70.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia  Los Angeles</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi  Nº 135 / Loa y Junin</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6932515</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.458532</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.820013</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farmacia  Los A ngeles</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82001299224788</longitude>
+            <latitude>-20.45853199437262</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8200129922479,-20.4585319943726</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.35">
+         <name><![CDATA[salud_suroeste.35]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">69.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia 29 de Enero</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Arce y Ferroviaria / Junin</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6933490</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.457728</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.817892</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farmacia 29 de Enero</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.81789203546941</longitude>
+            <latitude>-20.457728002220307</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8178920354694,-20.4577280022203</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.36">
+         <name><![CDATA[salud_suroeste.36]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">76.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Esmeralda</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Arce entre  Peru</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72893581</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.462002</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.826792</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farmacia Esmeralda</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8267920240759</longitude>
+            <latitude>-20.462002018466492</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8267920240759,-20.4620020184665</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.37">
+         <name><![CDATA[salud_suroeste.37]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">86.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacity</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">AV. Independencia y Oruro</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5965844</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.088604</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.594937</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59493699111039</longitude>
+            <latitude>-22.08860403858118</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5949369911104,-22.0886040385812</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.38">
+         <name><![CDATA[salud_suroeste.38]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">87.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Santa Maria</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Independencia # 119</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5972042</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.090307</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.595089</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59508903883392</longitude>
+            <latitude>-22.090306989848614</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5950890388339,-22.0903069898486</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.39">
+         <name><![CDATA[salud_suroeste.39]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">89.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San MIguel</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Junin # 360</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5965434</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.091681</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.593651</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59365103952581</longitude>
+            <latitude>-22.09168103523551</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5936510395258,-22.0916810352355</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.40">
+         <name><![CDATA[salud_suroeste.40]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">100.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia La Estrella</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">c/ Potosi</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5974629</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.086555</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596972</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5969720333814</longitude>
+            <latitude>-22.08655499853191</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5969720333814,-22.0865549985319</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.41">
+         <name><![CDATA[salud_suroeste.41]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">101.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia La Frontera</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">c/ Maria Luisa Cabrera</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5965797</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.093258</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.596756</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">no dan referencia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5967560317367</longitude>
+            <latitude>-22.09325800649819</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5967560317367,-22.0932580064982</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.42">
+         <name><![CDATA[salud_suroeste.42]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">71.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Concepcion</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">C/11  Colon entre Santa Cruz</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6932526</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.459367</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.822319</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farmacia Concepcion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82231902144838</longitude>
+            <latitude>-20.459366999566512</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8223190214484,-20.4593669995665</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.43">
+         <name><![CDATA[salud_suroeste.43]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">47.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San Juan de Dios</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bolivar esq. Fortunato Gumiel</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">s/n</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587755</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.757763</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75776300393039</longitude>
+            <latitude>-19.5877550169825</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7577630039304,-19.5877550169825</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.44">
+         <name><![CDATA[salud_suroeste.44]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">21.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Medicentro y Farmacia Sol</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bustillos Nº 862</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6275259</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.585325</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.75428</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75427998788649</longitude>
+            <latitude>-19.58532501943401</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7542799878865,-19.585325019434</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.45">
+         <name><![CDATA[salud_suroeste.45]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">28.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Red Cross</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Camacho esq. Oruro</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6225417</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587356</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.756494</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7564939837902</longitude>
+            <latitude>-19.587356038391505</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7564939837902,-19.5873560383915</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.46">
+         <name><![CDATA[salud_suroeste.46]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">31.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Cruz del Sur</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bustillos Nº 497</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6227622</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587536</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.754502</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7545020245015</longitude>
+            <latitude>-19.587535997852584</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7545020245015,-19.5875359978526</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.47">
+         <name><![CDATA[salud_suroeste.47]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">33.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Antonio</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bustillos Nº 1032</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6225656</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587934</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.754558</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75455801561469</longitude>
+            <latitude>-19.587933970615197</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7545580156147,-19.5879339706152</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.48">
+         <name><![CDATA[salud_suroeste.48]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">34.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San Martín</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Camacho Bolivar</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6225634</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587635</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.75639</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75638996437192</longitude>
+            <latitude>-19.587634988129096</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7563899643719,-19.5876349881291</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.49">
+         <name><![CDATA[salud_suroeste.49]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">35.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Corazon de Maria</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bolivar Nº 804</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6224998</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587521</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.753809</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75380900874725</longitude>
+            <latitude>-19.587520994246034</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7538090087473,-19.587520994246</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.50">
+         <name><![CDATA[salud_suroeste.50]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">36.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Eco Farma</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Camacho</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6226035</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.586543</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.756619</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75661904178548</longitude>
+            <latitude>-19.586542993783894</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7566190417855,-19.5865429937839</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.51">
+         <name><![CDATA[salud_suroeste.51]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">37.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San José</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Camacho</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6229368</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.586074</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.75676</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75676002539689</longitude>
+            <latitude>-19.586074026301503</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7567600253969,-19.5860740263015</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.52">
+         <name><![CDATA[salud_suroeste.52]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">42.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">farmacia Economica</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Quijarro esq. Matos</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6224050</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588096</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.75364</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75364002957943</longitude>
+            <latitude>-19.588095992803503</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7536400295794,-19.5880959928035</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.53">
+         <name><![CDATA[salud_suroeste.53]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">46.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Paris</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Fortunato Gumiel</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6231658</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587446</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.757689</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75768899172536</longitude>
+            <latitude>-19.587445976212578</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7576889917254,-19.5874459762126</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.54">
+         <name><![CDATA[salud_suroeste.54]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">48.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Centro</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bolivar Nº 413</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6224967</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587711</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.757031</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75703101232642</longitude>
+            <latitude>-19.587711011990905</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7570310123264,-19.5877110119909</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.55">
+         <name><![CDATA[salud_suroeste.55]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">74.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Urkupiña</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Colon / Alvarez y Colon</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6932579</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.463973</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.826617</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farmacia Urkupiña</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8266170099377</longitude>
+            <latitude>-20.46397302299728</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8266170099377,-20.4639730229973</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.56">
+         <name><![CDATA[salud_suroeste.56]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">75.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San Pablo</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Arce y Potosi</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6933911</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.462418</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.824513</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farmacia San Pablo</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82451298460359</longitude>
+            <latitude>-20.462418012320896</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8245129846036,-20.4624180123209</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.57">
+         <name><![CDATA[salud_suroeste.57]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">77.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Esmeralda II</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bolivar  Cabrera y Peru</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6933581</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.460989</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.826376</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">s/c</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8263760302215</longitude>
+            <latitude>-20.460988981649194</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8263760302215,-20.4609889816492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.58">
+         <name><![CDATA[salud_suroeste.58]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">78.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Santa Elena</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Avaroa Potosi y Colon</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)77117256</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.464084</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.825876</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">s/c</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82587596587831</longitude>
+            <latitude>-20.4640839993953</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8258759658783,-20.4640839993953</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.59">
+         <name><![CDATA[salud_suroeste.59]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">79.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Santa Cecilia</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Avaroa Potosi y Ferroviaria</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6932201</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.464869</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.824958</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">s/c</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82495797984302</longitude>
+            <latitude>-20.4648689646273</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.824957979843,-20.4648689646273</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.60">
+         <name><![CDATA[salud_suroeste.60]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">80.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Santa Maria</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Ferroviaria Bolivar y arce</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6933568</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.464868</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.824511</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">s/c</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8245109729468</longitude>
+            <latitude>-20.464867958799005</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8245109729468,-20.464867958799</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.61">
+         <name><![CDATA[salud_suroeste.61]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">81.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Farmalab</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Santa Cruz Potosi Ferroviaria</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6933539</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.460391</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.821494</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">s/c</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82149399071932</longitude>
+            <latitude>-20.460391016677008</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8214939907193,-20.460391016677</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.62">
+         <name><![CDATA[salud_suroeste.62]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">73.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Juliana</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">calle Sucre y Colon</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6933864</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.461377</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.823791</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farmacia Juliana</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82379096746439</longitude>
+            <latitude>-20.461376979947005</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8237909674644,-20.461376979947</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.63">
+         <name><![CDATA[salud_suroeste.63]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">6.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Clinica de Seguro Social Universitario</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Calama Nº 107</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6223227</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.581377</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.757065</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7570649590343</longitude>
+            <latitude>-19.581376975402208</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7570649590343,-19.5813769754022</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.64">
+         <name><![CDATA[salud_suroeste.64]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">9.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Ahorro</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Oruro Nº 119</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6228115</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.585312</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.756503</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Medico Farmaceutico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7565030362457</longitude>
+            <latitude>-19.585312027484093</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7565030362457,-19.5853120274841</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.65">
+         <name><![CDATA[salud_suroeste.65]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">8.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Servicio de Tomografia SERVITOM</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Calama</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)70462021</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.581075</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.757628</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75762797147027</longitude>
+            <latitude>-19.581074975430923</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7576279714703,-19.5810749754309</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.66">
+         <name><![CDATA[salud_suroeste.66]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">4.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">COSSMIL Potosi</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Final Calle Calama</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6226451</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.58062</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.758405</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7584049738943</longitude>
+            <latitude>-19.580620005726814</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7584049738943,-19.5806200057268</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.67">
+         <name><![CDATA[salud_suroeste.67]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">13.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Gran Poder</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Oruro Nº 516</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6231162</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587973</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.755439</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75543903745711</longitude>
+            <latitude>-19.587973030284004</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7554390374571,-19.587973030284</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.68">
+         <name><![CDATA[salud_suroeste.68]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">15.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San Francisco</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Boliviar Nº 702 esquina Oruro</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6222058</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.587595</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.755365</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7553650252521</longitude>
+            <latitude>-19.587595006450996</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7553650252521,-19.587595006451</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.69">
+         <name><![CDATA[salud_suroeste.69]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">18.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Maria Auxiliadora</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Cochabamba Nº 31</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(591)2-6625922</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588111</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.756338</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7563379965722</longitude>
+            <latitude>-19.588110996410194</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7563379965722,-19.5881109964102</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.70">
+         <name><![CDATA[salud_suroeste.70]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">20.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Galeno</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Linares esquina Padilla Boulevard</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6225809</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.589513</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.75251</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75250998139381</longitude>
+            <latitude>-19.589513037353697</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7525099813938,-19.5895130373537</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.71">
+         <name><![CDATA[salud_suroeste.71]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">22.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Boliviana</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Plaza Alonzo Ibañez</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6222748</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.589174</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752622</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7526219636201</longitude>
+            <latitude>-19.589173989370423</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7526219636201,-19.5891739893704</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.72">
+         <name><![CDATA[salud_suroeste.72]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">23.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Potosí</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Pasaje Boulevard</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6222454</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588418</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752502</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7525020185858</longitude>
+            <latitude>-19.58841802552341</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7525020185858,-19.5884180255234</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.73">
+         <name><![CDATA[salud_suroeste.73]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">24.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Potosí</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Pasaje Boulevard</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6222454</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588418</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.752502</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7525020185858</longitude>
+            <latitude>-19.58841802552341</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7525020185858,-19.5884180255234</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.74">
+         <name><![CDATA[salud_suroeste.74]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">25.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Sagrado Corazón</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Cochabamba</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6227982</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.588425</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.756262</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7562619727104</longitude>
+            <latitude>-19.588424982503</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7562619727104,-19.588424982503</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.75">
+         <name><![CDATA[salud_suroeste.75]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">26.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Mia</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Sevilla Nº 638</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6223361</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.580294</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.758794</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75879397802046</longitude>
+            <latitude>-19.580294033512402</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7587939780205,-19.5802940335124</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.76">
+         <name><![CDATA[salud_suroeste.76]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">27.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Vida Sana</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calama Nº 111</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6223924</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.581515</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.756925</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7569249812513</longitude>
+            <latitude>-19.581515025347386</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7569249812513,-19.5815150253474</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.77">
+         <name><![CDATA[salud_suroeste.77]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">29.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Jerusalem</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Italia</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6624571</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.581891</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.765771</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7657709904015</longitude>
+            <latitude>-19.581891037523704</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7657709904015,-19.5818910375237</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.78">
+         <name><![CDATA[salud_suroeste.78]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">30.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia San Bartolome</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Los Pinos</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6246887</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.570019</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.760845</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7608450297266</longitude>
+            <latitude>-19.57001899369061</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7608450297266,-19.5700189936906</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.79">
+         <name><![CDATA[salud_suroeste.79]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">32.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Victoria</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Italia</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6244547</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.569847</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.760894</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Médico Farmaceútico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.76089398004112</longitude>
+            <latitude>-19.5698469970375</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7608939800411,-19.5698469970375</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.80">
+         <name><![CDATA[salud_suroeste.80]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">43.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Nazareth</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bustillos Nº 967</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6225854</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.586892</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.754631</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75463102199132</longitude>
+            <latitude>-19.586892016232</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7546310219913,-19.586892016232</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.81">
+         <name><![CDATA[salud_suroeste.81]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">45.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Santa Maria</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bustillos Nº 958</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6226338</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.586611</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.75465</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75464996509248</longitude>
+            <latitude>-19.5866109710186</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7546499650925,-19.5866109710186</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.82">
+         <name><![CDATA[salud_suroeste.82]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">2.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Hospital Obrero Potosi</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. el Maestro</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6225991</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.583984</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.757482</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75748195871711</longitude>
+            <latitude>-19.583983998745595</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7574819587171,-19.5839839987456</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.83">
+         <name><![CDATA[salud_suroeste.83]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">3.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Caja de Salud de Caminos</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Sevilla Nº 641</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6231451</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.580454</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.758805</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7588049583137</longitude>
+            <latitude>-19.580453960224915</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7588049583137,-19.5804539602249</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.84">
+         <name><![CDATA[salud_suroeste.84]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">5.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Clinica 1  de Mayo</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Camacho esq. Oruro</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6222409</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.573828</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.759986</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Elizabeth Rosso</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75998596847052</longitude>
+            <latitude>-19.57382798194881</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7599859684705,-19.5738279819488</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.85">
+         <name><![CDATA[salud_suroeste.85]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">11.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Policonsultorio Unidad Medica del Sur</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Camacho Nº 263</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6230852</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.586967</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.756535</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75653497129673</longitude>
+            <latitude>-19.5869670342653</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7565349712967,-19.5869670342653</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.86">
+         <name><![CDATA[salud_suroeste.86]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">14.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Cruz Roja Boliviana Potosi</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Camacho Nº 127</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6226045</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.585851</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.756794</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7567939721047</longitude>
+            <latitude>-19.58585098385811</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7567939721047,-19.5858509838581</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.87">
+         <name><![CDATA[salud_suroeste.87]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">19.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Clinica GESSBA</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. los Pinos Nº 48</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6230888</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.569851</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.760873</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.76087302528322</longitude>
+            <latitude>-19.569851020350995</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7608730252832,-19.569851020351</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.88">
+         <name><![CDATA[salud_suroeste.88]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">38.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia  Cima de Plata</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Oruro Nº 166</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6224218</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.585503</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.755986</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75598604045803</longitude>
+            <latitude>-19.585502967238398</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.755986040458,-19.5855029672384</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.89">
+         <name><![CDATA[salud_suroeste.89]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">40.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Nazareth</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bustillos Nº 967</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6225854</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Potosí</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">500.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-19.586935</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.754679</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Administracion</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.75467896647748</longitude>
+            <latitude>-19.586935015395227</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7546789664775,-19.5869350153952</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.90">
+         <name><![CDATA[salud_suroeste.90]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">49.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Farmacia Cruz Azul</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Avaroa</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6942445</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.443349</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.718361</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Sirley  Coca Villegas</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7183610182255</longitude>
+            <latitude>-21.443349039181996</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7183610182255,-21.443349039182</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="salud_suroeste.91">
+         <name><![CDATA[salud_suroeste.91]]></name>
+         <description><![CDATA[<h4>salud_suroeste</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">55.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">farmacia Virgen de Urkupiña</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Chichas</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6944831</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.442417</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.718981</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Farmacia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71898102760309</longitude>
+            <latitude>-21.442416971549306</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/hospital.svg</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7189810276031,-21.4424169715493</coordinates>
+         </Point>
+      </Placemark>
+   </Document>
+</kml>

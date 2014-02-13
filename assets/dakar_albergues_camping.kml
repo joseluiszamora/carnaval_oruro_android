@@ -1,0 +1,2703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd">
+   <Document xmlns:atom="http://purl.org/atom/ns#">
+      <name>dakar:albergues_camping</name>
+      <LookAt>
+         <longitude>-66.21015223215261</longitude>
+         <latitude>-21.27150081515738</latitude>
+         <altitude>277499.8900534731</altitude>
+         <range>224234.4664959514</range>
+         <tilt>0.0</tilt>
+         <heading>0.0</heading>
+         <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="albergues_camping.1">
+         <name><![CDATA[albergues_camping.1]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">22.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Bolivia</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Colón</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)77866647</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.46311</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.826119</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Mery Jallaza</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82611904107029</longitude>
+            <latitude>-20.46311002224681</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8261190410703,-20.4631100222468</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.2">
+         <name><![CDATA[albergues_camping.2]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">23.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Mauricia Vda. De Arostegui</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Colon, entre Bolivar y Arce</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)73727642</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.462545</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.825282</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Juan Gutierrez Choque</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8252820242196</longitude>
+            <latitude>-20.462544998154</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8252820242196,-20.462544998154</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.3">
+         <name><![CDATA[albergues_camping.3]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">24.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Antonio Quijarro</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Camacho</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72444244</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.457912</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.826106</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Lucy Cayo Muñoz</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82610596530128</longitude>
+            <latitude>-20.457911984995008</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8261059653013,-20.457911984995</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.4">
+         <name><![CDATA[albergues_camping.4]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">25.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Jaime de Zudañes</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Avaroa entre Potosi y Colon</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6933562</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.464204</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.826189</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Carlos Huaylla Pozo</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8261890299618</longitude>
+            <latitude>-20.4642040282487</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8261890299618,-20.4642040282487</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.5">
+         <name><![CDATA[albergues_camping.5]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">27.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Juana Azurduy de Padilla</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Arce  entre Potosí y Colón</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591) 72403644</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.462301</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.824777</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Elizabeth Veliz de Cossio</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82477701455349</longitude>
+            <latitude>-20.462301000952692</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8247770145535,-20.4623010009527</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.6">
+         <name><![CDATA[albergues_camping.6]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">29.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Uyuni A</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Ferroviaria 14 y 16</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)71938646</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.457449</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.817591</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Angelica Mamani</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8175910413265</longitude>
+            <latitude>-20.457448968663797</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8175910413265,-20.4574489686638</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.7">
+         <name><![CDATA[albergues_camping.7]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">30.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Miraflores</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Santa Cruz entre Ballivian y 01</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)73335250</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.457449</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.817591</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Pablo Mamani</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8175910413265</longitude>
+            <latitude>-20.457448968663797</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8175910413265,-20.4574489686638</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.8">
+         <name><![CDATA[albergues_camping.8]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">31.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Universidad Autónoma Tomás Frías Lingüística - Economía</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Quijarro</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72413291</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.465257</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.818406</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Marcial Barea</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8184060137718</longitude>
+            <latitude>-20.465256962925096</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8184060137718,-20.4652569629251</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.9">
+         <name><![CDATA[albergues_camping.9]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">32.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Universidad Autónoma Tomás Frías - Turismo</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bolivar entre Tomas Frias y Bustillos</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72419204</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.466043</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.821733</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Basilia Alavia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82173295877868</longitude>
+            <latitude>-20.466043017804594</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8217329587787,-20.4660430178046</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.10">
+         <name><![CDATA[albergues_camping.10]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">33.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Internado Parroquial Sumaj Punchay Wasi</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Avaroa 533</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)73428573</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.464149</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.825887</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Padre Carlos Gonzales</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8258870299905</longitude>
+            <latitude>-20.464148959144893</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8258870299905,-20.4641489591449</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.11">
+         <name><![CDATA[albergues_camping.11]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">35.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Sede Vecinal Petrolero</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Junin y Bustillos</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)67807161</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.460557</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.816241</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Bartolome Ayala</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8162409681826</longitude>
+            <latitude>-20.46055697835982</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8162409681826,-20.4605569783598</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.12">
+         <name><![CDATA[albergues_camping.12]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">36.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Sede Vecinal Campero</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Pando</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72430963</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.469939</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.821631</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Guido Guarachi</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82163103483609</longitude>
+            <latitude>-20.4699390102177</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8216310348361,-20.4699390102177</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.13">
+         <name><![CDATA[albergues_camping.13]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">37.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Sede Vecinal Central</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Colon entre Bolivar y Avaroa</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72404988</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.463211</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.825804</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Gregorio Saavedra</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82580396533012</longitude>
+            <latitude>-20.463211024180012</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8258039653301,-20.46321102418</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.14">
+         <name><![CDATA[albergues_camping.14]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">43.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Estadio Gobierno Municipal Uyuni</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">C. LOA esq. Quijarro</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)724 01678</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.462617</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.815717</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Mirtha Mamani</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.81571701541537</longitude>
+            <latitude>-20.462616998702202</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8157170154154,-20.4626169987022</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.15">
+         <name><![CDATA[albergues_camping.15]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">44.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Coliseo Municipal Max Fernandez Rojas</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">C. Camacho entre Potosí y Ferroviaria</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72401678</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.461422</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.822265</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Mirtha Mamani</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82226495817298</longitude>
+            <latitude>-20.461421990767093</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.822264958173,-20.4614219907671</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.16">
+         <name><![CDATA[albergues_camping.16]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">46.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Vivero Municipal</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Quijarro , esq. Av. Arce</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72401678</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.466278</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.819543</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Mirtha Mamani</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.81954301893711</longitude>
+            <latitude>-20.466277962550492</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8195430189371,-20.4662779625505</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.17">
+         <name><![CDATA[albergues_camping.17]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">26.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Daniel Campos "A"</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bolivar entre Calle Colon y Cabrera</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-6932761</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.462501</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.826269</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Wilmer Lopez Ayaviri</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82626899331802</longitude>
+            <latitude>-20.462500993162323</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.826268993318,-20.4625009931623</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.18">
+         <name><![CDATA[albergues_camping.18]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">19.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Complejo deportivo Modesto Omiste</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle German Bush esquina Topater</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">no tiene</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.085371</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.602621</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Abram Alcasi</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.60262101702392</longitude>
+            <latitude>-22.085370970889926</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.6026210170239,-22.0853709708899</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.19">
+         <name><![CDATA[albergues_camping.19]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">5.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Alonzo de Ibañez "A"</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Venezuela</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)71828372</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.094236</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.604014</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Juan Coro Arce</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.60401400551189</longitude>
+            <latitude>-22.094236006960216</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.6040140055119,-22.0942360069602</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.20">
+         <name><![CDATA[albergues_camping.20]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">6.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Comunidad Ojo de Agua</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Afueras de Villazon</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)74230253</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.092892</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.615766</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Federico</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.61576602049172</longitude>
+            <latitude>-22.09289196878673</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.6157660204917,-22.0928919687867</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.21">
+         <name><![CDATA[albergues_camping.21]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">8.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Daniel Campos</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Colombia</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5974978</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.079199</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.603796</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Donato</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.60379599221051</longitude>
+            <latitude>-22.079199040308495</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.6037959922105,-22.0791990403085</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.22">
+         <name><![CDATA[albergues_camping.22]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">9.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Bolivia</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Potosi</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5972003</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.088967</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.597143</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Victor Manuel Loaiza Calvimontes</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5971430242061</longitude>
+            <latitude>-22.088966974988494</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5971430242061,-22.0889669749885</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.23">
+         <name><![CDATA[albergues_camping.23]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">11.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa 9 de Abril "A" y "B"</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Oruro Esquina Suipacha</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)73869151</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.088618</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.593644</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Martrha Rivera,  Maritza Flores</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59364399872723</longitude>
+            <latitude>-22.08861803635952</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5936439987272,-22.0886180363595</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.24">
+         <name><![CDATA[albergues_camping.24]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">12.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Cornelio Saavedra</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Suipacha</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)74257575</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.091411</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.594095</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Luis Illanes Terrazas</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5940950289368</longitude>
+            <latitude>-22.091410970315323</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5940950289368,-22.0914109703153</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.25">
+         <name><![CDATA[albergues_camping.25]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">10.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Industrial 9 de Abril</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Colon</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)79456509</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.08681</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.592646</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Marco Antonio</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59264596551651</longitude>
+            <latitude>-22.086809976026416</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5926459655165,-22.0868099760264</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.26">
+         <name><![CDATA[albergues_camping.26]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">16.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa 6 de Junio"A" y "B"</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Modesto Omiste</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)79453510</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.083193</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.599281</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Apolinar Mamani</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5992809962481</longitude>
+            <latitude>-22.083193017169805</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5992809962481,-22.0831930171698</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.27">
+         <name><![CDATA[albergues_camping.27]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">14.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Mariscal Sucre</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Potosi</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5972248</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.088652</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.597088</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Maria Antonieta Lopez</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59708803892127</longitude>
+            <latitude>-22.088651983067308</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5970880389213,-22.0886519830673</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.28">
+         <name><![CDATA[albergues_camping.28]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">13.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">CEA Centro Educativo Para Adultos</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Tupiza</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)71933325</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.092691</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.59357</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Eulogio Cayo</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59356998652206</longitude>
+            <latitude>-22.092690970748606</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5935699865221,-22.0926909707486</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.29">
+         <name><![CDATA[albergues_camping.29]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">15.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa 1° de Mayo</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Potosi</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5973938</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.084374</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.604264</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Santos Fabrica</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.6042640376836</longitude>
+            <latitude>-22.08437402732669</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.6042640376836,-22.0843740273267</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.30">
+         <name><![CDATA[albergues_camping.30]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">17.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Colegio Marcelo Quiroga Santa Cruz</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Oruro Esquina Suipacha</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5972484</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.088633</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.594057</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Reino Colque Ali</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59405697509641</longitude>
+            <latitude>-22.088633039966226</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5940569750964,-22.0886330399662</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.31">
+         <name><![CDATA[albergues_camping.31]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">18.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Junin</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Potosi</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5965576</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.088649</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.597126</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Carlos Alfredo Romay</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.5971260089427</longitude>
+            <latitude>-22.088648965582195</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5971260089427,-22.0886489655822</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.32">
+         <name><![CDATA[albergues_camping.32]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">4.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Alonzo de Ibañez</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Maria Luisa Cabrera</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)73320770</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.093007</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.603919</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Leonardo Mayorga</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.60391903854901</longitude>
+            <latitude>-22.0930069684982</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.603919038549,-22.0930069684982</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.33">
+         <name><![CDATA[albergues_camping.33]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">48.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Sede Vecinal Barrio Lindo</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Bustillos y Tomas Frias</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)76447926</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.465945</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.822169</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Javier Gonzales</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82216898538172</longitude>
+            <latitude>-20.465945033356505</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8221689853817,-20.4659450333565</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.34">
+         <name><![CDATA[albergues_camping.34]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">90.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Sede Vecinal Zona Sud</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Colón entre Calle Diminga Vda. De Claros y Asunta Arostegui</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)71101664</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.46839</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.83063</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">René Leaño</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.83062999999999</longitude>
+            <latitude>-20.46839</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.83063,-20.46839</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.35">
+         <name><![CDATA[albergues_camping.35]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">7.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Colegio Particular Unidad Educativa Franz Tamayo</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Cochabamba</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)2-5972597</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.087088</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.594785</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Teresa Villena</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.59478502720589</longitude>
+            <latitude>-22.0870880037546</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5947850272059,-22.0870880037546</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.36">
+         <name><![CDATA[albergues_camping.36]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">91.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Federación Regional de hijos de beneméritos de la guerra del Chaco</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Colón  Nº 384 entre Sucre y Pasaje 6 de agosto</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)73887567</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.461646</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.82431</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Moisés Valdivia</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82431000000003</longitude>
+            <latitude>-20.461646000000016</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.82431,-20.461646000000002</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.37">
+         <name><![CDATA[albergues_camping.37]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">28.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Colegio Nacional Mixto Antofagasta</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Colón entre Arce y Bolivar</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72431383</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.462535</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.82558</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Ramiro Huarachi</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8255800008773</longitude>
+            <latitude>-20.462535023689213</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8255800008773,-20.4625350236892</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.38">
+         <name><![CDATA[albergues_camping.38]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">34.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">CECAOT</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Cabrera esq Av 17</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)67900852</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.468639</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.832862</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Javier Lopez</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.83286203071467</longitude>
+            <latitude>-20.46863897703581</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8328620307147,-20.4686389770358</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.39">
+         <name><![CDATA[albergues_camping.39]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">39.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Sede Vecinal Obrero</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Uruguay esq. Camacho</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72401346</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.458322</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.825545</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Eusebio Huarachi</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8255449645221</longitude>
+            <latitude>-20.45832202769813</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8255449645221,-20.4583220276981</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.40">
+         <name><![CDATA[albergues_camping.40]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">40.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Sede Vecinal Nuevo Centenario</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Ravelo entre  Sucre y Arce</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72434118</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.456063</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.830321</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Dante Mamani</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.83032097294924</longitude>
+            <latitude>-20.456063020974298</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8303209729492,-20.4560630209743</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.41">
+         <name><![CDATA[albergues_camping.41]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">41.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Sede Vecinal Los Andes</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Clodomiro Melgares</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72418758</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.455231</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.817906</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Henrry Aguilera</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.81790603324774</longitude>
+            <latitude>-20.455231033265505</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8179060332477,-20.4552310332655</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.42">
+         <name><![CDATA[albergues_camping.42]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">42.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Estadio Oficial Uyuni</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">C. Potosí entre LOA y Junín</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72442047</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.45829</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.820222</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Juan Carlos Pablo Fernández</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82022203691298</longitude>
+            <latitude>-20.45829000882803</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.820222036913,-20.458290008828</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.43">
+         <name><![CDATA[albergues_camping.43]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">47.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Sede Vecinal Miraflores</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Ballivián entre Camacho y Santa Cruz</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72423537</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.45454</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.829888</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Pablo Mamani</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.8298879638314</longitude>
+            <latitude>-20.4545400291681</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8298879638314,-20.4545400291681</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.44">
+         <name><![CDATA[albergues_camping.44]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">45.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Fuerza Aérea</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Carretera a Oruro S/N</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)67001010</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.446469</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.837535</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Cnl. Julio Rojas</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.83753502555194</longitude>
+            <latitude>-20.446469010785222</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8375350255519,-20.4464690107852</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.45">
+         <name><![CDATA[albergues_camping.45]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">74.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Colegio Suipacha</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Saturnino Murillo</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)71587787</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.44565</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.72252</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Luz Aramayo</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.72251967</longitude>
+            <latitude>-21.445649900000006</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.72251967,-21.4456499</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.46">
+         <name><![CDATA[albergues_camping.46]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">75.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">COLEGIO CHOROLQUE</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Zona la posta</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)73204133</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.450586</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.719474</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Abelino Nina</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71947414999997</longitude>
+            <latitude>-21.45058610000001</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.71947415,-21.4505861</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.47">
+         <name><![CDATA[albergues_camping.47]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">76.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">U E GREGORIO PACHECO</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle  Cochabamba #205</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)70479398</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.448003</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.719442</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Endira Noelia Martínez López</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71944192000001</longitude>
+            <latitude>-21.448003130000018</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.71944192,-21.44800313</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.48">
+         <name><![CDATA[albergues_camping.48]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">77.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">U E RITHA ROMANO</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Villa Florida plazuela del niño</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)68421785</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.453246</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.715239</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Amparo Chambi</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71523915</longitude>
+            <latitude>-21.453246059999984</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.71523915,-21.45324606</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.49">
+         <name><![CDATA[albergues_camping.49]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">78.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">SALON PAUL HARRIS</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Pálala baja s/n</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)70479790</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.427042</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.735721</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Reyna Matilde Pérez Morales</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.73572115000005</longitude>
+            <latitude>-21.427041499999987</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.73572115,-21.4270415</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.50">
+         <name><![CDATA[albergues_camping.50]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">79.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">U E ANTOFAGASTA</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Coronel Arandia y Santa Cruz</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)79446688</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.440433</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.719665</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Milton Chambi</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71966473</longitude>
+            <latitude>-21.440433139999982</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.71966473,-21.44043314</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.51">
+         <name><![CDATA[albergues_camping.51]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">80.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">U E AYACUCHO</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Serrano</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)71877229</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.442245</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.718198</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Héctor Choque Chambi</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71819750999998</longitude>
+            <latitude>-21.442245330000006</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.71819751,-21.44224533</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.52">
+         <name><![CDATA[albergues_camping.52]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">81.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">U E VILLA FATIMA A Y B</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Ignacio Andrade  y Antofagasta</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)77477165</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.436688</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.724667</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">María Ochoa</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.72466734000002</longitude>
+            <latitude>-21.436687799999987</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.72466734,-21.4366878</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.53">
+         <name><![CDATA[albergues_camping.53]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">82.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">UE ANDRES DE SANTA CRUZ</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Ignacio Andrade</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)71810349</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.436688</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.724667</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">José Luis Pérez Soruco</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.72466734000002</longitude>
+            <latitude>-21.436687799999987</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.72466734,-21.4366878</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.54">
+         <name><![CDATA[albergues_camping.54]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">83.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">COLEGIO EVO MORALES</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Zona San Antonio</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)70455957</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.42865</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.716569</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Severina  Aguilar</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71656898</longitude>
+            <latitude>-21.428649599999986</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.71656898,-21.4286496</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.55">
+         <name><![CDATA[albergues_camping.55]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">89.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">COLISEO EVO M.</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">AV. CORONEL PEDRO ARRAYA ESQ. 9 DE ABRIL</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)70337292</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.419769</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.717528</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">HENRY DURAN</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71752823000003</longitude>
+            <latitude>-21.419769040000006</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.71752823,-21.41976904</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.56">
+         <name><![CDATA[albergues_camping.56]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">21.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Aniceto Arce A</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Arce entre Potosi y Colon</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)77474730</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.462125</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.824562</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Mariel Montoya Mamani</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.82456201873708</longitude>
+            <latitude>-20.462124980986104</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8245620187371,-20.4621249809861</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.57">
+         <name><![CDATA[albergues_camping.57]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">38.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Sede Vecinal Progreso</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Calvimontes entre Avaroa y Ayacucho</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)73854390</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.459797</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.831626</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Tomas Gonzales</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.83162603527302</longitude>
+            <latitude>-20.459796991199198</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.831626035273,-20.4597969911992</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.58">
+         <name><![CDATA[albergues_camping.58]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">84.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">U E 26 DE AGOSTO</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle Antonio Pizarro</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)65470194</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.430417</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.720685</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Freddy Mamani Domínguez</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.72068519999999</longitude>
+            <latitude>-21.43041681000001</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7206852,-21.43041681</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.59">
+         <name><![CDATA[albergues_camping.59]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">85.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">U E REMEDIOS</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle tomas Frías</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)72963390</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.430417</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.720685</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Ivana Vargas</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.72068519999999</longitude>
+            <latitude>-21.43041681000001</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7206852,-21.43041681</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.60">
+         <name><![CDATA[albergues_camping.60]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">86.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">UE GENOVEVA RIOS</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Calle 28 de noviembre</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)60479899</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.421034</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.718084</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Carina Choque Patzi</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.71808383000001</longitude>
+            <latitude>-21.421033559999998</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.71808383,-21.42103356</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.61">
+         <name><![CDATA[albergues_camping.61]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">87.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">U E YURCUMA G AYACUCHO</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Zona Yurcuma carretera a Villazón</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)60480686</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.475184</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.704786</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Omar Choquevilca</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.7047861</longitude>
+            <latitude>-21.475184069999997</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.7047861,-21.47518407</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.62">
+         <name><![CDATA[albergues_camping.62]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">88.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">DESIMA DIVISION DE EJERCITO</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">AV. SATURNINO MURILLO ESQ 20 DE OCTUBRE</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)67348454</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Tupiza</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">505.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-21.445248</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.72794</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">CARLOS LEAÑO RAMIREZ</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.72794005999998</longitude>
+            <latitude>-21.445247899999984</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.72794006,-21.4452479</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.63">
+         <name><![CDATA[albergues_camping.63]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">20.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Potosi</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Av. Potosi y Av. 20. Calle Clodomiro Melgares</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)74245730</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Uyuni</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">503.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-20.45501</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-66.816868</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Ricardo López Mamani</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-66.81686801835892</longitude>
+            <latitude>-20.455010002478915</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-66.8168680183589,-20.4550100024789</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark id="albergues_camping.64">
+         <name><![CDATA[albergues_camping.64]]></name>
+         <description><![CDATA[<h4>albergues_camping</h4>
+
+<ul class="textattributes">
+  
+  <li><strong><span class="atr-name">codigo</span>:</strong> <span class="atr-value">2.0</span></li>
+  <li><strong><span class="atr-name">nom</span>:</strong> <span class="atr-value">Unidad Educativa Matancillas</span></li>
+  <li><strong><span class="atr-name">dir</span>:</strong> <span class="atr-value">Zona Matancillas</span></li>
+  <li><strong><span class="atr-name">tel</span>:</strong> <span class="atr-value">(+591)679 50253</span></li>
+  <li><strong><span class="atr-name">ciudad</span>:</strong> <span class="atr-value">Villazón</span></li>
+  <li><strong><span class="atr-name">cod_ciudad</span>:</strong> <span class="atr-value">506.0</span></li>
+  <li><strong><span class="atr-name">lat2</span>:</strong> <span class="atr-value">-22.058828</span></li>
+  <li><strong><span class="atr-name">lon2</span>:</strong> <span class="atr-value">-65.589755</span></li>
+  <li><strong><span class="atr-name">contacto</span>:</strong> <span class="atr-value">Jhonny Ever Lopez Perez</span></li>
+  <li><strong><span class="atr-name">depto</span>:</strong> <span class="atr-value">dpt</span></li>
+</ul>
+]]></description>
+         <LookAt>
+            <longitude>-65.58975496329361</longitude>
+            <latitude>-22.058827998116584</latitude>
+            <altitude>0.0</altitude>
+            <range>0.0</range>
+            <tilt>0.0</tilt>
+            <heading>0.0</heading>
+            <altitudeMode>clampToGround</altitudeMode>
+         </LookAt>
+         <Style>
+            <IconStyle>
+               <colorMode>normal</colorMode>
+               <Icon>
+                  <href>http://test.geo.gob.bo/geoserver/styles/camping.png</href>
+               </Icon>
+            </IconStyle>
+            <LabelStyle>
+               <color>00ffffff</color>
+            </LabelStyle>
+         </Style>
+         <Point>
+            <coordinates>-65.5897549632936,-22.058827998116598</coordinates>
+         </Point>
+      </Placemark>
+   </Document>
+</kml>
