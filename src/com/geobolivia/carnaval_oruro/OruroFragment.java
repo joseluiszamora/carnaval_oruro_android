@@ -2,6 +2,7 @@ package com.geobolivia.carnaval_oruro;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 
 import org.osmdroid.api.IMapController;
 import org.osmdroid.bonuspack.kml.KmlDocument;
@@ -21,6 +22,7 @@ import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.graphics.drawable.Drawable;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -162,14 +164,8 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	}
 	
 	public void addkmlfile(String kmlFile, int icon){
-		Log.d("CordovaLog", "001>>> " + kmlFile);
-		Log.d("CordovaLog", "002>>> " + icon);
-		// Add KML with POI on the Map
-		File file = kmlDocument.getDefaultPathForAndroid(kmlFile);
-		//
-		//Log.d("CordovaLog", "004>>> " + file.toString());
+		/*File file = kmlDocument.getDefaultPathForAndroid(kmlFile);
 		boolean ok = kmlDocument.parseFile(file);
-		Log.d("CordovaLog", "003>>> " + ok);
 		Drawable defaultMarker = getResources().getDrawable(icon);
 		if (ok){
 			if (kmlFile.equals("or_restaurants.kml")) {
@@ -187,7 +183,9 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 					kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
 				);
 			}
-		}
+		}*/
+		MyAsyncTask asyncthis = new MyAsyncTask(kmlFile, icon);
+		asyncthis.execute();
 	}
 	
 	public void removeAllKml(){
@@ -202,7 +200,7 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	public boolean onNavigationItemSelected(int itemPosition, long itemId) {	
 		Log.i("CordovaLog", "selected navigation");
 		String kmlPasarela = "or_pasarela.kml";
-		String kmlRestaurant = "or_restaurants.kml";
+		String kmlRestaurant = "dakar_albergues_camping.kml";
 		removeAllKml();
 		
 		switch (itemPosition) {
@@ -223,9 +221,59 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 			Log.i("CordovaLog", "selected navigation >> case 3");
 			break;
 		default:
+			Log.i("CordovaLog", "selected navigation >> case Nulll");
 			break;
 		}
 		
 		return false;
 	}
+
+
+
+	public class MyAsyncTask extends AsyncTask<Void, Void, Void>{
+
+        String kmlfile;
+		int icon;
+    
+        public MyAsyncTask(String kmlFile, int icon){
+            this.kmlfile = kmlFile;
+            this.icon = icon;
+        }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+        	Log.i("CordovaLog", "==========================================================================================");
+        	Log.i("CordovaLog", "============= " + this.kmlfile);
+        	Log.i("CordovaLog", "============= " + this.icon);
+        	File file = kmlDocument.getDefaultPathForAndroid(this.kmlfile);
+    		boolean ok = kmlDocument.parseFile(file);
+    		Drawable defaultMarker = getResources().getDrawable(icon);
+    		if (ok){
+    			if (this.kmlfile.equals("or_restaurants.kml")) {
+    				kmlOverlay2 = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), map, defaultMarker, kmlDocument, false);
+    				map.getOverlays().add(kmlOverlay2);
+    			}else{		
+    				kmlOverlay1 = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), map, defaultMarker, kmlDocument, false);
+    				map.getOverlays().add(kmlOverlay1);
+    			}
+    		}
+    		
+            return null;
+        }
+        	
+        protected void onPostExecute(Boolean result) {
+			if(result) {
+				map.invalidate();
+				if (kmlDocument.kmlRoot.mBB != null){
+					map.getController().setCenter(new GeoPoint(
+						kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
+						kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
+					);
+				}
+			}
+		}
+
+    }
+	
+	
 }

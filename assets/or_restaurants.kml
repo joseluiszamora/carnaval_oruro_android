@@ -30,7 +30,7 @@
                <color>ff0000ff</color>
                <colorMode>normal</colorMode>
                <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+                  <href>http://maps.google.com/mapfiles/kml/pal2/icon2.png</href>
                </Icon>
             </IconStyle>
             <LabelStyle>
@@ -61,7 +61,7 @@ tipo: drestaurant
                <color>ff0000ff</color>
                <colorMode>normal</colorMode>
                <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+                  <href>http://maps.google.com/mapfiles/kml/pal2/icon2.png</href>
                </Icon>
             </IconStyle>
             <LabelStyle>
@@ -92,7 +92,7 @@ tipo: drestaurant
                <color>ff0000ff</color>
                <colorMode>normal</colorMode>
                <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+                  <href>http://maps.google.com/mapfiles/kml/pal2/icon2.png</href>
                </Icon>
             </IconStyle>
             <LabelStyle>
