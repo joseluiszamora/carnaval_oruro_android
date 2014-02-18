@@ -49,15 +49,13 @@ public class infoFragment extends Fragment  implements ActionBar.OnNavigationLis
 		
 		// Spinner title navigation data
 		navSpinner = new ArrayList<SpinnerNavItem>();
-		navSpinner.add(new SpinnerNavItem("Información", R.drawable.ic_pages));
-
 		// title drop down adapter
 		adapter2 = new TitleNavigationAdapter(this.getActivity(), navSpinner);
 		
 		// assigning the spinner navigation
 		actionBar.setListNavigationCallbacks(adapter2, this);
 		// Changing the action bar icon
-		actionBar.setIcon(R.drawable.ico_info);
+		actionBar.setIcon(R.drawable.oricondef);
 	}
 
 	@Override

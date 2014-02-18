@@ -1,6 +1,11 @@
 package com.geobolivia.carnaval_oruro;
 
+import java.util.ArrayList;
+
 import org.osmdroid.views.MapView;
+
+import com.geobolivia.slider_menu.adapter.TitleNavigationAdapter;
+import com.geobolivia.slider_menu.model.SpinnerNavItem;
 
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
@@ -41,6 +46,24 @@ public class HomeFragment extends Fragment implements ActionBar.OnNavigationList
 				((MainActivity)getActivity()).displayView(2); 
 			}
 		});
+	 	
+	 	// Select Santa Cruz
+ 	 	ImageButton imageButtonSC = (ImageButton) rootView.findViewById(R.id.imageButtonSC);
+ 	 	imageButtonSC.setOnClickListener(new OnClickListener() {
+ 			@Override
+ 			public void onClick(View arg0) {
+ 				((MainActivity)getActivity()).displayView(3); 
+ 			}
+ 		});
+ 	 	
+ 	 	// Select Cochabamba
+ 	 	ImageButton imageButtonCBBA = (ImageButton) rootView.findViewById(R.id.imageButtonCBBA);
+ 	 	imageButtonCBBA.setOnClickListener(new OnClickListener() {
+ 			@Override
+ 			public void onClick(View arg0) {
+ 				((MainActivity)getActivity()).displayView(4); 
+ 			}
+ 		});
 		
 		addActionBar();
 		
@@ -51,15 +74,29 @@ public class HomeFragment extends Fragment implements ActionBar.OnNavigationList
 	private void addActionBar(){
 		// action bar
 		ActionBar actionBar;
+		// Title navigation Spinner data
+		ArrayList<SpinnerNavItem> navSpinner;
+		// Navigation adapter
+		TitleNavigationAdapter adapter2;
 		// enabling action bar app icon and behaving it as toggle button
 		actionBar = getActivity().getActionBar();
 		actionBar.removeAllTabs();
+		
 		// Hide the action bar title
 		actionBar.setDisplayShowTitleEnabled(true);
+
 		// Enabling Spinner dropdown navigation
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+		
+		// Spinner title navigation data
+		navSpinner = new ArrayList<SpinnerNavItem>();
+		// title drop down adapter
+		adapter2 = new TitleNavigationAdapter(this.getActivity(), navSpinner);
+		
+		// assigning the spinner navigation
+		actionBar.setListNavigationCallbacks(adapter2, this);
 		// Changing the action bar icon
-		actionBar.setIcon(R.drawable.ic_home);
+		actionBar.setIcon(R.drawable.oricondef);
 	}
 
 	@Override

@@ -16,6 +16,7 @@
         <item >Santa Cruz</item>
         <item >Cochabamba</item>
         <item >Creditos</item>
+        <item >Dakar</item>
     </string-array>
      
     <!-- Nav Drawer List Item Icons -->
@@ -27,6 +28,7 @@
         <item>@drawable/scicondef</item>
         <item>@drawable/cbbaicondef</item>
         <item>@drawable/ico_info</item>
+        <item>@drawable/flagblue</item>
     </array>
      
     <!-- Content Description -->

@@ -2,8 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    
- >
+    android:background="@drawable/boliviaflag3" >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -38,6 +37,27 @@
                 android:layout_below="@+id/imageButtonLP"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="22dp"
+                android:background="@null"
+                android:src="@drawable/dotsky4" />
+
+            <ImageButton
+                android:id="@+id/imageButtonSC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageButtonOR"
+                android:layout_marginBottom="21dp"
+                android:layout_marginLeft="53dp"
+                android:layout_toRightOf="@+id/imageButtonOR"
+                android:background="@null"
+                android:src="@drawable/dotsky3" />
+
+            <ImageButton
+                android:id="@+id/imageButtonCBBA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageButtonOR"
+                android:layout_alignTop="@+id/imageButtonSC"
+                android:layout_marginLeft="44dp"
                 android:background="@null"
                 android:src="@drawable/dotsky4" />
 

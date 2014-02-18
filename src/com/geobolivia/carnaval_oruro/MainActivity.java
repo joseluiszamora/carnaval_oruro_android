@@ -1,20 +1,21 @@
 package com.geobolivia.carnaval_oruro;
 
+import java.io.BufferedInputStream;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
-import org.osmdroid.api.IMapController;
-import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
-import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapView;
 
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
-import android.app.ActionBar.OnNavigationListener;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -108,7 +109,8 @@ public class MainActivity extends Activity {
 		// Creditos
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1)));
 		//navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1), true, "50+"));
-		
+		// Dakar
+		//navDrawerItems.add(new NavDrawerItem(navMenuTitles[6], navMenuIcons.getResourceId(6, -1)));
 
 		// Recycle the typed array
 		navMenuIcons.recycle();
@@ -254,6 +256,9 @@ public class MainActivity extends Activity {
 		case 5:
 			fragment = new infoFragment();
 			break;
+		case 6:
+			//fragment = new dakarFragment();
+			break;
 
 		default:
 			break;
@@ -314,7 +319,6 @@ public class MainActivity extends Activity {
 		    // Do something else on failure 
 		}
 		
-		
 	    AssetManager assetManager = getAssets(); 
 	    String[] files = null; 
 	    try { 
@@ -325,9 +329,11 @@ public class MainActivity extends Activity {
 	    for(String filename : files) { 
 	        InputStream in = null; 
 	        OutputStream out = null; 
+	        Log.e("CordovaLog", "FILENAME:: " + filename);
 	        try {
-	          in = assetManager.open(filename); 
-	          out = new FileOutputStream("/sdcard/kml/" + filename); 
+	        	in = assetManager.open(filename);
+		        
+	        	out = new FileOutputStream("/sdcard/kml/" + filename);
 	          
 	          copyFile(in, out); 
 	          in.close(); 
@@ -347,5 +353,5 @@ public class MainActivity extends Activity {
 	    while((read = in.read(buffer)) != -1){ 
 	      out.write(buffer, 0, read); 
 	    } 
-	}	
+	}
 }

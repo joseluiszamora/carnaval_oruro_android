@@ -126,7 +126,7 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
         
         ArrayList<GeoPoint> waypointsSF = new ArrayList<GeoPoint>();
         waypointsSF.add(startPoint);
-        waypointsSF.add(finishPoint);
+        //waypointsSF.add(finishPoint);
         
         Road road = roadManager.getRoad(waypoints);
         PathOverlay roadOverlay = RoadManager.buildRoadOverlay(road, map.getContext());
@@ -191,6 +191,7 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	}
 	
 	public void removeAllKml(){
+		Log.i("CordovaLog", "removing all");
 		map.removeAllViews();
 		map.getOverlays().remove(kmlOverlay1);
 		map.getOverlays().remove(kmlOverlay2);
@@ -199,23 +200,27 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	
 	@Override
 	public boolean onNavigationItemSelected(int itemPosition, long itemId) {	
+		Log.i("CordovaLog", "selected navigation");
 		String kmlPasarela = "or_pasarela.kml";
 		String kmlRestaurant = "or_restaurants.kml";
 		removeAllKml();
 		
 		switch (itemPosition) {
 		case 0:
+			Log.i("CordovaLog", "selected navigation >> case 0");
 			addkmlfile(kmlPasarela, R.drawable.bridge_old);
 			addkmlfile(kmlRestaurant, R.drawable.restaurant);	
 			break;
 		case 1:
+			Log.i("CordovaLog", "selected navigation >> case 1");
 			addkmlfile(kmlPasarela, R.drawable.bridge_old);
 			break;
 		case 2:
+			Log.i("CordovaLog", "selected navigation >> case 2");
 			addkmlfile(kmlRestaurant, R.drawable.restaurant);
 			break;
 		case 3:
-			Log.d("CordovaLog", "Nothing");
+			Log.i("CordovaLog", "selected navigation >> case 3");
 			break;
 		default:
 			break;
