@@ -1,16 +1,11 @@
 package com.geobolivia.carnaval_oruro;
 
-import java.io.BufferedInputStream;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
 
 import org.osmdroid.views.MapView;
 
@@ -110,7 +105,7 @@ public class MainActivity extends Activity {
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1)));
 		//navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1), true, "50+"));
 		// Dakar
-		//navDrawerItems.add(new NavDrawerItem(navMenuTitles[6], navMenuIcons.getResourceId(6, -1)));
+		navDrawerItems.add(new NavDrawerItem(navMenuTitles[6], navMenuIcons.getResourceId(6, -1)));
 
 		// Recycle the typed array
 		navMenuIcons.recycle();
@@ -211,7 +206,6 @@ public class MainActivity extends Activity {
 		// Handle action bar actions click
 		switch (item.getItemId()) {
 		case R.id.action_settings:
-			Log.d("CordovaLog", "111111111");
 			return true;
 		default:
 			return super.onOptionsItemSelected(item);
@@ -257,7 +251,7 @@ public class MainActivity extends Activity {
 			fragment = new infoFragment();
 			break;
 		case 6:
-			//fragment = new dakarFragment();
+			fragment = new dakarFragment();
 			break;
 
 		default:

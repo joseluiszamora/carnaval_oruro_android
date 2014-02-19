@@ -30,7 +30,7 @@
                <color>ff0000ff</color>
                <colorMode>normal</colorMode>
                <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+                  <href></href>
                </Icon>
             </IconStyle>
             <LabelStyle>
@@ -61,7 +61,7 @@ tipo: pasarela
                <color>ff0000ff</color>
                <colorMode>normal</colorMode>
                <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+                  <href></href>
                </Icon>
             </IconStyle>
             <LabelStyle>
@@ -92,7 +92,7 @@ tipo: pasarela
                <color>ff0000ff</color>
                <colorMode>normal</colorMode>
                <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+                  <href></href>
                </Icon>
             </IconStyle>
             <LabelStyle>
@@ -123,7 +123,7 @@ tipo: pasarela
                <color>ff00ffff</color>
                <colorMode>normal</colorMode>
                <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+                  <href></href>
                </Icon>
             </IconStyle>
             <LabelStyle>
@@ -154,7 +154,7 @@ tipo: pasarela
                <color>ff00ffff</color>
                <colorMode>normal</colorMode>
                <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/pal4/icon25.png</href>
+                  <href></href>
                </Icon>
             </IconStyle>
             <LabelStyle>

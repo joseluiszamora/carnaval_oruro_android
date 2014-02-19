@@ -2,7 +2,6 @@ package com.geobolivia.carnaval_oruro;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.List;
 
 import org.osmdroid.api.IMapController;
 import org.osmdroid.bonuspack.kml.KmlDocument;
@@ -21,6 +20,9 @@ import org.osmdroid.views.overlay.PathOverlay;
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Fragment;
+import android.app.ProgressDialog;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnCancelListener;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -39,11 +41,20 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	protected FolderOverlay kmlOverlay2;
 	public static KmlDocument kmlDocument;
 	
+	// Progress Dialog
+    private ProgressDialog pDialog;
+    String kmlfile;
+	int icon;
+	
+	String kmlPasarela = "or_pasarela.kml";
+	String kmlRestaurant = "or_restaurants.kml";
+	
+	Drawable defaultMarker;
+	
 	public OruroFragment(){}
 	
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 	 	View rootView = inflater.inflate(R.layout.fragment_oruro, container, false);
-        
 	 	map = (MapView) getActivity().findViewById(R.id.openmapviewss);
 	 	map.setVisibility(View.VISIBLE);
         map.setTileSource(TileSourceFactory.MAPNIK);
@@ -51,54 +62,34 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
         map.setBuiltInZoomControls(true);
         map.setMultiTouchControls(true);
         map.setUseDataConnection(true);
+        map.invalidate();
 
-        /*GeoPoint startPoint = new GeoPoint(-16.488880, -68.143616);
- 	    IMapController mapController = map.getController();
- 	    mapController.setZoom(10);
- 	    mapController.setCenter(startPoint);*/
-        
-
-       map.invalidate();
-
- 	   kmlDocument = new KmlDocument();
- 	   
-       // ADD ROUTE AND START, FINISH POINTS
-       addRoute();
-        			
-       // ADD ACTION BAR
-       addActionBar();
-        
-       return rootView;
+ 	   	// ADD ROUTE AND START, FINISH POINTS
+ 	   	addRoute();
+ 	   	// ADD ACTION BAR
+ 	   	addActionBar();
+    
+ 	   	return rootView;
     }
 	
 	@SuppressLint("NewApi")
 	private void addActionBar(){
-		// action bar
 		ActionBar actionBar;
-		// Title navigation Spinner data
 		ArrayList<SpinnerNavItem> navSpinner;
-		// Navigation adapter
 		TitleNavigationAdapter adapter2;
-		// enabling action bar app icon and behaving it as toggle button
 		actionBar = getActivity().getActionBar();
 		actionBar.removeAllTabs();
-		
-		// Hide the action bar title
 		actionBar.setDisplayShowTitleEnabled(true);
-
-		// Enabling Spinner dropdown navigation
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
-		
+
 		// Spinner title navigation data
 		navSpinner = new ArrayList<SpinnerNavItem>();
 		navSpinner.add(new SpinnerNavItem("Todos", R.drawable.ic_pages));
 		navSpinner.add(new SpinnerNavItem("Pasarelas", R.drawable.bridge_old_white));
 		navSpinner.add(new SpinnerNavItem("Restaurantes", R.drawable.restaurant_white));
 		navSpinner.add(new SpinnerNavItem("Ninguno", 0));
-
 		// title drop down adapter
 		adapter2 = new TitleNavigationAdapter(this.getActivity(), navSpinner);
-		
 		// assigning the spinner navigation
 		actionBar.setListNavigationCallbacks(adapter2, this);
 		// Changing the action bar icon
@@ -106,7 +97,6 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	}
 	
 	public void addRoute(){
-		// ADD ROUTE
         GeoPoint startPoint = new GeoPoint(-17.961292 , -67.106058);
         GeoPoint finishPoint = new GeoPoint(-17.968015, -67.118502);
         
@@ -117,7 +107,6 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
         RoadManager roadManager = new OSRMRoadManager();
         ArrayList<GeoPoint> waypoints = new ArrayList<GeoPoint>();
         waypoints.add(startPoint);
-        // Finish Points Oruro
         waypoints.add(new GeoPoint(-17.971635, -67.108864));
         waypoints.add(new GeoPoint(-17.970154, -67.114486));
         waypoints.add(new GeoPoint(-17.969127, -67.117911));
@@ -163,117 +152,168 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
         map.invalidate();
 	}
 	
-	public void addkmlfile(String kmlFile, int icon){
-		/*File file = kmlDocument.getDefaultPathForAndroid(kmlFile);
-		boolean ok = kmlDocument.parseFile(file);
-		Drawable defaultMarker = getResources().getDrawable(icon);
-		if (ok){
-			if (kmlFile.equals("or_restaurants.kml")) {
-				kmlOverlay2 = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), map, defaultMarker, kmlDocument, false);
-				map.getOverlays().add(kmlOverlay2);
-			}else{
-				kmlOverlay1 = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), map, defaultMarker, kmlDocument, false);
-				map.getOverlays().add(kmlOverlay1);
-			}
-
-			map.invalidate();
-			if (kmlDocument.kmlRoot.mBB != null){
-				map.getController().setCenter(new GeoPoint(
-					kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
-					kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
-				);
-			}
-		}*/
-		MyAsyncTask asyncthis = new MyAsyncTask(kmlFile, icon);
-		asyncthis.execute();
+	public void addkmlfile(String kmlFiled, int icond){
+		kmlfile = kmlFiled;
+		icon = icond;
+		
+		pDialog = new ProgressDialog(getActivity());
+		pDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+		pDialog.setMessage("Actualizando...");
+		pDialog.setCancelable(false);
+		pDialog.setMax(100);
+		addKmlAsynck updateWork = new addKmlAsynck();
+		updateWork.execute();
+		
+		addRoute();
 	}
 	
-	public void removeAllKml(){
-		Log.i("CordovaLog", "removing all");
-		map.removeAllViews();
-		map.getOverlays().remove(kmlOverlay1);
-		map.getOverlays().remove(kmlOverlay2);
-		map.invalidate();
+	public void addALLkmlFiles(){
+		pDialog = new ProgressDialog(getActivity());
+		pDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+		pDialog.setMessage("Actualizando...");
+		pDialog.setCancelable(false);
+		pDialog.setMax(100);
+		addAllKmlAsynck updateWork = new addAllKmlAsynck();
+		updateWork.execute();
+		
+		addRoute();
 	}
 	
 	@Override
 	public boolean onNavigationItemSelected(int itemPosition, long itemId) {	
-		Log.i("CordovaLog", "selected navigation");
-		String kmlPasarela = "or_pasarela.kml";
-		String kmlRestaurant = "dakar_albergues_camping.kml";
-		removeAllKml();
-		
 		switch (itemPosition) {
 		case 0:
-			Log.i("CordovaLog", "selected navigation >> case 0");
-			addkmlfile(kmlPasarela, R.drawable.bridge_old);
-			addkmlfile(kmlRestaurant, R.drawable.restaurant);	
+			addALLkmlFiles();	
 			break;
 		case 1:
-			Log.i("CordovaLog", "selected navigation >> case 1");
 			addkmlfile(kmlPasarela, R.drawable.bridge_old);
 			break;
 		case 2:
-			Log.i("CordovaLog", "selected navigation >> case 2");
 			addkmlfile(kmlRestaurant, R.drawable.restaurant);
 			break;
 		case 3:
-			Log.i("CordovaLog", "selected navigation >> case 3");
+			map.removeAllViews();
+			map.getOverlays().clear();
+			map.invalidate();
 			break;
 		default:
-			Log.i("CordovaLog", "selected navigation >> case Nulll");
 			break;
 		}
-		
 		return false;
 	}
 
-
-
-	public class MyAsyncTask extends AsyncTask<Void, Void, Void>{
-
-        String kmlfile;
-		int icon;
-    
-        public MyAsyncTask(String kmlFile, int icon){
-            this.kmlfile = kmlFile;
-            this.icon = icon;
-        }
-
-        @Override
-        protected Void doInBackground(Void... params) {
-        	Log.i("CordovaLog", "==========================================================================================");
-        	Log.i("CordovaLog", "============= " + this.kmlfile);
-        	Log.i("CordovaLog", "============= " + this.icon);
-        	File file = kmlDocument.getDefaultPathForAndroid(this.kmlfile);
+	private class addKmlAsynck extends AsyncTask<Void, Integer, Boolean> {
+		@Override
+		protected Boolean doInBackground(Void... params) {
+        	File file = kmlDocument.getDefaultPathForAndroid(kmlfile);
     		boolean ok = kmlDocument.parseFile(file);
-    		Drawable defaultMarker = getResources().getDrawable(icon);
+    		defaultMarker = getResources().getDrawable(icon);
     		if (ok){
-    			if (this.kmlfile.equals("or_restaurants.kml")) {
-    				kmlOverlay2 = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), map, defaultMarker, kmlDocument, false);
-    				map.getOverlays().add(kmlOverlay2);
-    			}else{		
-    				kmlOverlay1 = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), map, defaultMarker, kmlDocument, false);
-    				map.getOverlays().add(kmlOverlay1);
-    			}
+    			FolderOverlay kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), 
+    					map, defaultMarker, kmlDocument, false);
+				map.getOverlays().add(kmlOverlay);
     		}
-    		
-            return null;
-        }
-        	
-        protected void onPostExecute(Boolean result) {
+			return true;
+		}
+		@Override
+		protected void onProgressUpdate(Integer... values) {
+			int progreso = values[0].intValue();
+			pDialog.setProgress(progreso);
+		}
+		@Override
+		protected void onPreExecute() {
+			map.removeAllViews();
+			map.getOverlays().clear();
+			map.invalidate();
+			
+			pDialog.setOnCancelListener(new OnCancelListener() {
+				@Override
+				public void onCancel(DialogInterface dialog) {
+					addKmlAsynck.this.cancel(true);
+				}
+			});
+			pDialog.setProgress(0);
+			pDialog.show();
+		}
+		@Override
+		protected void onPostExecute(Boolean result) {
 			if(result) {
 				map.invalidate();
-				if (kmlDocument.kmlRoot.mBB != null){
+	        	if (kmlDocument.kmlRoot.mBB != null){
 					map.getController().setCenter(new GeoPoint(
 						kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
 						kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
 					);
 				}
+				pDialog.dismiss();
+			}
+		}		
+		@Override
+		protected void onCancelled() {}
+	}
+
+	private class addAllKmlAsynck extends AsyncTask<Void, Integer, Boolean> {
+		@Override
+		protected Boolean doInBackground(Void... params) {
+			File file;
+			boolean ok;
+			FolderOverlay kmlOverlay;
+			
+			file = kmlDocument.getDefaultPathForAndroid(kmlPasarela);
+    		ok = kmlDocument.parseFile(file);
+    		defaultMarker = getResources().getDrawable(R.drawable.bridge_old);
+    		if (ok){
+    			kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), 
+    					map, defaultMarker, kmlDocument, false);
+				map.getOverlays().add(kmlOverlay);
+    		}
+    		
+    		
+    		file = kmlDocument.getDefaultPathForAndroid(kmlRestaurant);
+    		ok = kmlDocument.parseFile(file);
+    		defaultMarker = getResources().getDrawable(R.drawable.restaurant);
+    		if (ok){
+    			kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), 
+    					map, defaultMarker, kmlDocument, false);
+				map.getOverlays().add(kmlOverlay);
+    		}
+    		
+			return true;
+		}
+		@Override
+		protected void onProgressUpdate(Integer... values) {
+			int progreso = values[0].intValue();
+			pDialog.setProgress(progreso);
+		}
+		@Override
+		protected void onPreExecute() {
+			map.removeAllViews();
+			map.getOverlays().clear();
+			map.invalidate();
+			
+			pDialog.setOnCancelListener(new OnCancelListener() {
+				@Override
+				public void onCancel(DialogInterface dialog) {
+					addAllKmlAsynck.this.cancel(true);
+				}
+			});
+			pDialog.setProgress(0);
+			pDialog.show();
+		}
+		@Override
+		protected void onPostExecute(Boolean result) {
+			if(result) {
+				map.invalidate();
+	        	if (kmlDocument.kmlRoot.mBB != null){
+					map.getController().setCenter(new GeoPoint(
+						kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
+						kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
+					);
+				}
+				pDialog.dismiss();
 			}
 		}
-
-    }
-	
-	
+		@Override
+		protected void onCancelled() {}
+	}
 }

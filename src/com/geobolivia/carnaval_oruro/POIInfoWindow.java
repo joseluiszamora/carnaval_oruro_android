@@ -22,7 +22,7 @@ public class POIInfoWindow extends DefaultInfoWindow {
 	private POI mSelectedPOI;
 	
 	public POIInfoWindow(MapView mapView) {
-		super(R.layout.bonuspack_bubble, mapView);
+		super(R.layout.bonuspack_bubble_black, mapView);
 		
 		Button btn = (Button)(mView.findViewById(R.id.bubble_moreinfo));
 			//bonuspack_bubble layouts already contain a "more info" button. 
