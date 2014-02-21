@@ -113,7 +113,7 @@ public class dakarFragment extends Fragment  implements ActionBar.OnNavigationLi
 	    //GeoPoint finishPoint = new GeoPoint(-16.499606, -68.124513);
 	    
 	    IMapController mapController = map.getController();
-	    mapController.setZoom(15);
+	    mapController.setZoom(8);
 	    mapController.setCenter(startPoint);
 	    
 	    ArrayList<GeoPoint> waypoints = new ArrayList<GeoPoint>();
@@ -287,7 +287,7 @@ public class dakarFragment extends Fragment  implements ActionBar.OnNavigationLi
 						kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
 						kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
 					);
-				}   	
+				}
 				pDialog.dismiss();
 			}
 		}		

@@ -12,6 +12,7 @@ import org.osmdroid.views.MapView;
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Activity;
+import android.app.Dialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.res.AssetManager;
@@ -21,12 +22,14 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
+import android.text.Html;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.geobolivia.slider_menu.adapter.NavDrawerListAdapter;
 import com.geobolivia.slider_menu.adapter.TitleNavigationAdapter;
@@ -59,25 +62,10 @@ public class MainActivity extends Activity {
 		//Introduction
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-		
 		// MAP
 		map = (MapView) findViewById(R.id.openmapviewss);
 		map.setVisibility(View.INVISIBLE);
-		/*//map = (MapView) rootView.findViewById(R.id.openmapviewss);
-        map.setTileSource(TileSourceFactory.MAPNIK);
-        map.setClickable(true);
-        map.setBuiltInZoomControls(true);
-        map.setMultiTouchControls(true);
-        map.setUseDataConnection(true);
-        
-        GeoPoint startPoint = new GeoPoint(-16.488880, -68.143616);
-	    IMapController mapController = map.getController();
-	    mapController.setZoom(10);
-	    mapController.setCenter(startPoint);
-	    map.invalidate();*/
-	    
-	    
+		
 		// copy KML files to sdcard
 		CopyAssets();
 
@@ -101,12 +89,12 @@ public class MainActivity extends Activity {
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[3], navMenuIcons.getResourceId(3, -1)));
 		// Cochabamba
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[4], navMenuIcons.getResourceId(4, -1)));
-		// Creditos
+		// Dakar
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1)));
 		//navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1), true, "50+"));
-		// Dakar
+		// Creditos
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[6], navMenuIcons.getResourceId(6, -1)));
-
+				
 		// Recycle the typed array
 		navMenuIcons.recycle();
 		mDrawerList.setOnItemClickListener(new SlideMenuClickListener());
@@ -120,7 +108,6 @@ public class MainActivity extends Activity {
 		actionBar.setHomeButtonEnabled(true);
 		actionBar.setNavigationMode(0);
 
-		
 		/*
 		// Hide the action bar title
 		//actionBar.setDisplayShowTitleEnabled(false);
@@ -146,13 +133,7 @@ public class MainActivity extends Activity {
 		
 			*/	
 		
-		
-		
-		
-		
-		
-		
-		
+
 		mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
 			R.drawable.ic_drawer, //nav menu toggle icon
 			R.string.app_name, // nav drawer open - description for accessibility
@@ -205,7 +186,24 @@ public class MainActivity extends Activity {
 		}
 		// Handle action bar actions click
 		switch (item.getItemId()) {
-		case R.id.action_settings:
+		case R.id.fragment_info:
+			// custom dialog
+			final Dialog dialog = new Dialog(MainActivity.this, R.style.cust_dialog);
+			dialog.setContentView(R.layout.dialog_template);
+		    // get this
+		    String name = "Name";
+		    String desc = "El Carnaval de Oruro 2014 se llevará a cabo entre el 1, 2 y 3 de marzo de 2014. " +
+		    		"La Gran Peregrinación al Socavón será el sábado 1 de marzo y la Entrada al Corso el domingo 2 de marzo. " +
+		    		"Unas semanas antes comienzan los tradicionales festejos llamados “Convites”. El viernes, en los poblados y en las minas, " +
+		    		"se realiza el tradicional y famosos Convite al Tío y la celebración de la Challa.";
+			
+			dialog.setTitle(name);
+			final String[] title = { name };
+	  		final String[] info = { desc };
+	  		Integer[] imageId = { R.drawable.btn_moreinfo };
+	  		TextView textview = (TextView) dialog.findViewById(R.id.textViewDialog2);
+	  		textview.setText(Html.fromHtml(desc));
+	  		dialog.show();
 			return true;
 		default:
 			return super.onOptionsItemSelected(item);
@@ -220,7 +218,7 @@ public class MainActivity extends Activity {
 	public boolean onPrepareOptionsMenu(Menu menu) {
 		// if nav drawer is opened, hide the action items
 		boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
-		menu.findItem(R.id.action_settings).setVisible(!drawerOpen);
+		menu.findItem(R.id.fragment_info).setVisible(!drawerOpen);
 		return super.onPrepareOptionsMenu(menu);
 	}
 
@@ -248,12 +246,11 @@ public class MainActivity extends Activity {
 			fragment = new CochabambaFragment();
 			break;
 		case 5:
-			fragment = new infoFragment();
-			break;
-		case 6:
 			fragment = new dakarFragment();
 			break;
-
+		case 6:
+			fragment = new infoFragment();
+			break;
 		default:
 			break;
 		}

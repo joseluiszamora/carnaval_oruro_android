@@ -15,8 +15,8 @@
         <item >La Paz</item>
         <item >Santa Cruz</item>
         <item >Cochabamba</item>
-        <item >Creditos</item>
         <item >Dakar</item>
+        <item >Creditos</item>
     </string-array>
      
     <!-- Nav Drawer List Item Icons -->
@@ -27,18 +27,10 @@
         <item>@drawable/lpicondef</item>
         <item>@drawable/scicondef</item>
         <item>@drawable/cbbaicondef</item>
-        <item>@drawable/ico_info</item>
         <item>@drawable/flagblue</item>
+        <item>@drawable/ico_info</item>
     </array>
      
     <!-- Content Description -->
     <string name="desc_list_item_icon">Item Icon</string>
-    
-    <!-- Overflow Menu Action Bar -->
-	<string name="phone">Phone</string>
-    <string name="computer">Computer</string>
-    <string name="gamepad">Gamepad</string>
-    
-    <string name="info">Información</string>
-    
 </resources>

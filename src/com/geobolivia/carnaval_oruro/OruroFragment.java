@@ -113,8 +113,7 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
         waypoints.add(new GeoPoint(-17.968290, -67.117622));
         waypoints.add(new GeoPoint(-17.968015, -67.118502));
         waypoints.add(finishPoint);
-                
-        
+
         ArrayList<GeoPoint> waypointsSF = new ArrayList<GeoPoint>();
         waypointsSF.add(startPoint);
         //waypointsSF.add(finishPoint);
@@ -205,14 +204,18 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	private class addKmlAsynck extends AsyncTask<Void, Integer, Boolean> {
 		@Override
 		protected Boolean doInBackground(Void... params) {
-        	File file = kmlDocument.getDefaultPathForAndroid(kmlfile);
-    		boolean ok = kmlDocument.parseFile(file);
-    		defaultMarker = getResources().getDrawable(icon);
-    		if (ok){
-    			FolderOverlay kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), 
-    					map, defaultMarker, kmlDocument, false);
-				map.getOverlays().add(kmlOverlay);
-    		}
+			try {
+				File file = kmlDocument.getDefaultPathForAndroid(kmlfile);
+	    		boolean ok = kmlDocument.parseFile(file);
+	    		defaultMarker = getResources().getDrawable(icon);
+	    		if (ok){
+	    			FolderOverlay kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), 
+	    					map, defaultMarker, kmlDocument, false);
+					map.getOverlays().add(kmlOverlay);
+	    		}
+			} catch (Exception e) {
+				Log.d("CordovaLog", "fail add kml");
+			}
 			return true;
 		}
 		@Override
@@ -238,12 +241,16 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		@Override
 		protected void onPostExecute(Boolean result) {
 			if(result) {
-				map.invalidate();
-	        	if (kmlDocument.kmlRoot.mBB != null){
-					map.getController().setCenter(new GeoPoint(
-						kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
-						kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
-					);
+				try {
+					map.invalidate();
+		        	if (kmlDocument.kmlRoot.mBB != null){
+						map.getController().setCenter(new GeoPoint(
+							kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
+							kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
+						);
+					}
+				} catch (Exception e) {
+					Log.d("CordovaLog", "fail add kml");
 				}
 				pDialog.dismiss();
 			}
@@ -259,24 +266,28 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 			boolean ok;
 			FolderOverlay kmlOverlay;
 			
-			file = kmlDocument.getDefaultPathForAndroid(kmlPasarela);
-    		ok = kmlDocument.parseFile(file);
-    		defaultMarker = getResources().getDrawable(R.drawable.bridge_old);
-    		if (ok){
-    			kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), 
-    					map, defaultMarker, kmlDocument, false);
-				map.getOverlays().add(kmlOverlay);
-    		}
-    		
-    		
-    		file = kmlDocument.getDefaultPathForAndroid(kmlRestaurant);
-    		ok = kmlDocument.parseFile(file);
-    		defaultMarker = getResources().getDrawable(R.drawable.restaurant);
-    		if (ok){
-    			kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), 
-    					map, defaultMarker, kmlDocument, false);
-				map.getOverlays().add(kmlOverlay);
-    		}
+			try {
+				file = kmlDocument.getDefaultPathForAndroid(kmlPasarela);
+	    		ok = kmlDocument.parseFile(file);
+	    		defaultMarker = getResources().getDrawable(R.drawable.bridge_old);
+	    		if (ok){
+	    			kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), 
+	    					map, defaultMarker, kmlDocument, false);
+					map.getOverlays().add(kmlOverlay);
+	    		}
+	    		
+	    		
+	    		file = kmlDocument.getDefaultPathForAndroid(kmlRestaurant);
+	    		ok = kmlDocument.parseFile(file);
+	    		defaultMarker = getResources().getDrawable(R.drawable.restaurant);
+	    		if (ok){
+	    			kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), 
+	    					map, defaultMarker, kmlDocument, false);
+					map.getOverlays().add(kmlOverlay);
+	    		}
+			} catch (Exception e) {
+				Log.d("CordovaLog", "fail add kml");
+			}
     		
 			return true;
 		}
@@ -303,12 +314,16 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		@Override
 		protected void onPostExecute(Boolean result) {
 			if(result) {
-				map.invalidate();
-	        	if (kmlDocument.kmlRoot.mBB != null){
-					map.getController().setCenter(new GeoPoint(
-						kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
-						kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
-					);
+				try {
+					map.invalidate();
+		        	if (kmlDocument.kmlRoot.mBB != null){
+						map.getController().setCenter(new GeoPoint(
+							kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
+							kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
+						);
+					}
+				} catch (Exception e) {
+					Log.d("CordovaLog", "fail add kml");
 				}
 				pDialog.dismiss();
 			}

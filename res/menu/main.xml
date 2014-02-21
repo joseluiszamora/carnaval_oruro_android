@@ -1,15 +1,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/fragment_info"
         android:orderInCategory="100"
         android:showAsAction="never"
-        android:title="@string/action_settings"/>
-    
-    <!-- Help -->
-    <item android:id="@+id/action_help"
-          android:icon="@drawable/ic_photos"
-          android:title="@string/computer" 
-          android:showAsAction="never"/>
-
+        android:title="@string/info"/>
 </menu>
