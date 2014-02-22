@@ -34,46 +34,46 @@ import android.view.ViewGroup;
 import com.geobolivia.slider_menu.adapter.TitleNavigationAdapter;
 import com.geobolivia.slider_menu.model.SpinnerNavItem;
 
-public class OruroFragment extends Fragment implements ActionBar.OnNavigationListener{
-	//  MAPS
-	private MapView map;
-	protected FolderOverlay kmlOverlay1;
-	protected FolderOverlay kmlOverlay2;
+public class OruroFragment extends Fragment  implements ActionBar.OnNavigationListener{
+	MapView map;
 	public static KmlDocument kmlDocument;
 	
 	// Progress Dialog
     private ProgressDialog pDialog;
-    String kmlfile;
-	int icon;
+
+	String kmlpasarela = "or_pasarela.kml";
+	String kmlrestaurant = "or_restaurants.kml";
 	
-	String kmlPasarela = "or_pasarela.kml";
-	String kmlRestaurant = "or_restaurants.kml";
+	String kmlfile;
+	int icon;
 	
 	Drawable defaultMarker;
 	
 	public OruroFragment(){}
 	
+	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-	 	View rootView = inflater.inflate(R.layout.fragment_oruro, container, false);
-	 	map = (MapView) getActivity().findViewById(R.id.openmapviewss);
-	 	map.setVisibility(View.VISIBLE);
+        View rootView = inflater.inflate(R.layout.fragment_dakar, container, false);
+        map = (MapView) getActivity().findViewById(R.id.openmapviewss);
+        map.setVisibility(View.VISIBLE);
         map.setTileSource(TileSourceFactory.MAPNIK);
         map.setClickable(true);
         map.setBuiltInZoomControls(true);
         map.setMultiTouchControls(true);
         map.setUseDataConnection(true);
-        map.invalidate();
 
- 	   	// ADD ROUTE AND START, FINISH POINTS
- 	   	addRoute();
- 	   	// ADD ACTION BAR
- 	   	addActionBar();
-    
- 	   	return rootView;
+        kmlDocument = new KmlDocument(); 
+        // ADD ROUTE AND START, FINISH POINTS
+        addRoute();
+		// ADD ACTION BAR
+        addActionBar();
+        
+        return rootView;
     }
-	
+
 	@SuppressLint("NewApi")
 	private void addActionBar(){
+		
 		ActionBar actionBar;
 		ArrayList<SpinnerNavItem> navSpinner;
 		TitleNavigationAdapter adapter2;
@@ -97,7 +97,7 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	}
 	
 	public void addRoute(){
-        GeoPoint startPoint = new GeoPoint(-17.961292 , -67.106058);
+		GeoPoint startPoint = new GeoPoint(-17.961292 , -67.106058);
         GeoPoint finishPoint = new GeoPoint(-17.968015, -67.118502);
         
         IMapController mapController = map.getController();
@@ -151,7 +151,45 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
         map.invalidate();
 	}
 	
+	
 	public void addkmlfile(String kmlFiled, int icond){
+		// Add KML with POI on the Map
+		/*File file = kmlDocument.getDefaultPathForAndroid(kmlFile);
+		boolean ok = kmlDocument.parseFile(file);
+		*/
+		
+		/*
+		Log.d("CordovaLog", "KmlProvider.parseFile:"+file.getAbsolutePath());
+		KmlSaxHandler handler = new KmlSaxHandler(file.getAbsolutePath());
+		InputStream stream = null;
+		try {
+			stream = new BufferedInputStream(new FileInputStream(file));
+			SAXParser parser = SAXParserFactory.newInstance().newSAXParser();
+			parser.parse(stream, handler);
+			stream.close();
+		} catch (Exception e){
+			e.printStackTrace();
+			handler.mKmlRoot = null;
+		}
+		Log.d("CordovaLog", "KmlProvider.parseFile - end");
+		//kmlRoot = handler.mKmlRoot;
+		//return (handler.mKmlRoot != null);
+		*/
+		
+		/*
+		Drawable defaultMarker = getResources().getDrawable(icon);
+		if (ok){
+			kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), map, defaultMarker, kmlDocument, false);
+			map.getOverlays().add(kmlOverlay);
+			map.invalidate();
+			if (kmlDocument.kmlRoot.mBB != null){
+				map.getController().setCenter(new GeoPoint(
+					kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
+					kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
+				);
+			}
+		}
+		*/
 		kmlfile = kmlFiled;
 		icon = icond;
 		
@@ -160,10 +198,12 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		pDialog.setMessage("Actualizando...");
 		pDialog.setCancelable(false);
 		pDialog.setMax(100);
+		
 		addKmlAsynck updateWork = new addKmlAsynck();
 		updateWork.execute();
 		
-		addRoute();
+		//MyAsyncTask asyncthis = new MyAsyncTask(kmlFile, icon);
+		//asyncthis.execute();
 	}
 	
 	public void addALLkmlFiles(){
@@ -175,25 +215,29 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		addAllKmlAsynck updateWork = new addAllKmlAsynck();
 		updateWork.execute();
 		
-		addRoute();
+		//addRoute();
 	}
 	
 	@Override
 	public boolean onNavigationItemSelected(int itemPosition, long itemId) {	
 		switch (itemPosition) {
 		case 0:
-			addALLkmlFiles();	
+			addALLkmlFiles();
+			addRoute();
 			break;
 		case 1:
-			addkmlfile(kmlPasarela, R.drawable.bridge_old);
+			addkmlfile(kmlpasarela, R.drawable.marker_poi_picasa_24);
+			addRoute();
 			break;
 		case 2:
-			addkmlfile(kmlRestaurant, R.drawable.restaurant);
+			addkmlfile(kmlrestaurant, R.drawable.restaurant_white);
+			addRoute();
 			break;
 		case 3:
 			map.removeAllViews();
 			map.getOverlays().clear();
 			map.invalidate();
+			addRoute();
 			break;
 		default:
 			break;
@@ -204,18 +248,14 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	private class addKmlAsynck extends AsyncTask<Void, Integer, Boolean> {
 		@Override
 		protected Boolean doInBackground(Void... params) {
-			try {
-				File file = kmlDocument.getDefaultPathForAndroid(kmlfile);
-	    		boolean ok = kmlDocument.parseFile(file);
-	    		defaultMarker = getResources().getDrawable(icon);
-	    		if (ok){
-	    			FolderOverlay kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), 
-	    					map, defaultMarker, kmlDocument, false);
-					map.getOverlays().add(kmlOverlay);
-	    		}
-			} catch (Exception e) {
-				Log.d("CordovaLog", "fail add kml");
-			}
+        	File file = kmlDocument.getDefaultPathForAndroid(kmlfile);
+    		boolean ok = kmlDocument.parseFile(file);
+    		Drawable defaultMarker = getResources().getDrawable(icon);
+    		if (ok){
+    			FolderOverlay kmlOverlay = (FolderOverlay)kmlDocument.kmlRoot.buildOverlays(getActivity(), 
+    					map, defaultMarker, kmlDocument, false);
+				map.getOverlays().add(kmlOverlay);
+    		}
 			return true;
 		}
 		@Override
@@ -228,7 +268,6 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 			map.removeAllViews();
 			map.getOverlays().clear();
 			map.invalidate();
-			
 			pDialog.setOnCancelListener(new OnCancelListener() {
 				@Override
 				public void onCancel(DialogInterface dialog) {
@@ -241,16 +280,12 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		@Override
 		protected void onPostExecute(Boolean result) {
 			if(result) {
-				try {
-					map.invalidate();
-		        	if (kmlDocument.kmlRoot.mBB != null){
-						map.getController().setCenter(new GeoPoint(
-							kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
-							kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
-						);
-					}
-				} catch (Exception e) {
-					Log.d("CordovaLog", "fail add kml");
+				map.invalidate();
+	        	if (kmlDocument.kmlRoot.mBB != null){
+					map.getController().setCenter(new GeoPoint(
+						kmlDocument.kmlRoot.mBB.getLatSouthE6()+kmlDocument.kmlRoot.mBB.getLatitudeSpanE6()/2, 
+						kmlDocument.kmlRoot.mBB.getLonWestE6()+kmlDocument.kmlRoot.mBB.getLongitudeSpanE6()/2)
+					);
 				}
 				pDialog.dismiss();
 			}
@@ -259,6 +294,9 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		protected void onCancelled() {}
 	}
 
+	
+	
+	
 	private class addAllKmlAsynck extends AsyncTask<Void, Integer, Boolean> {
 		@Override
 		protected Boolean doInBackground(Void... params) {
@@ -267,7 +305,7 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 			FolderOverlay kmlOverlay;
 			
 			try {
-				file = kmlDocument.getDefaultPathForAndroid(kmlPasarela);
+				file = kmlDocument.getDefaultPathForAndroid(kmlpasarela);
 	    		ok = kmlDocument.parseFile(file);
 	    		defaultMarker = getResources().getDrawable(R.drawable.bridge_old);
 	    		if (ok){
@@ -277,7 +315,7 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 	    		}
 	    		
 	    		
-	    		file = kmlDocument.getDefaultPathForAndroid(kmlRestaurant);
+	    		file = kmlDocument.getDefaultPathForAndroid(kmlrestaurant);
 	    		ok = kmlDocument.parseFile(file);
 	    		defaultMarker = getResources().getDrawable(R.drawable.restaurant);
 	    		if (ok){
@@ -331,4 +369,6 @@ public class OruroFragment extends Fragment implements ActionBar.OnNavigationLis
 		@Override
 		protected void onCancelled() {}
 	}
-}
+	
+	
+} 
