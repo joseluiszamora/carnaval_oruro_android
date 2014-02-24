@@ -1,68 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    	
+    	<!--  Include Fragmented dashboard -->
+    	<LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:background="#f3f3f3"
+    	    android:padding="15dp"
+    	    android:orientation="vertical" >
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+    		<include layout="@layout/fragment_home_layout" />
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+    	</LinearLayout>
 
-            <ImageView
-                android:id="@+id/imageView1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:src="@drawable/bolivia" />
-
-            <ImageButton
-                android:id="@+id/imageButtonLP"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="14dp"
-                android:layout_marginTop="185dp"
-                android:background="@null"
-                android:src="@drawable/dotsky4" />
-
-            <ImageButton
-                android:id="@+id/imageButtonOR"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/imageButtonLP"
-                android:layout_below="@+id/imageButtonLP"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="22dp"
-                android:background="@null"
-                android:src="@drawable/dotsky4" />
-
-            <ImageButton
-                android:id="@+id/imageButtonSC"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/imageButtonOR"
-                android:layout_marginBottom="21dp"
-                android:layout_marginLeft="53dp"
-                android:layout_toRightOf="@+id/imageButtonOR"
-                android:background="@null"
-                android:src="@drawable/dotsky3" />
-
-            <ImageButton
-                android:id="@+id/imageButtonCBBA"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/imageButtonOR"
-                android:layout_alignTop="@+id/imageButtonSC"
-                android:layout_marginLeft="44dp"
-                android:background="@null"
-                android:src="@drawable/dotsky4" />
-
-        </RelativeLayout>
-
-    </ScrollView>
-
-</RelativeLayout>
+</LinearLayout>

@@ -4,9 +4,6 @@ import java.util.ArrayList;
 
 import org.osmdroid.views.MapView;
 
-import com.geobolivia.slider_menu.adapter.TitleNavigationAdapter;
-import com.geobolivia.slider_menu.model.SpinnerNavItem;
-
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Fragment;
@@ -15,8 +12,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
-import android.widget.Toast;
+import android.widget.Button;
+
+import com.geobolivia.slider_menu.adapter.TitleNavigationAdapter;
+import com.geobolivia.slider_menu.model.SpinnerNavItem;
 
 public class HomeFragment extends Fragment implements ActionBar.OnNavigationListener{
 	public HomeFragment(){}
@@ -30,16 +29,16 @@ public class HomeFragment extends Fragment implements ActionBar.OnNavigationList
 	 	map.setVisibility(View.INVISIBLE);
 		
 	 	// Select Oruro
- 	 	ImageButton imageButtonOR = (ImageButton) rootView.findViewById(R.id.imageButtonOR);
+ 	 	Button imageButtonOR = (Button) rootView.findViewById(R.id.imageButtonOR);
  	 	imageButtonOR.setOnClickListener(new OnClickListener() {
  			@Override
  			public void onClick(View arg0) {
  				((MainActivity)getActivity()).displayView(1); 
  			}
  		});
-		
+	 	
  	 	// Select La paz
-	 	ImageButton imageButtonLP = (ImageButton) rootView.findViewById(R.id.imageButtonLP);
+ 	 	Button imageButtonLP = (Button) rootView.findViewById(R.id.imageButtonLP);
 	 	imageButtonLP.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
@@ -48,7 +47,7 @@ public class HomeFragment extends Fragment implements ActionBar.OnNavigationList
 		});
 	 	
 	 	// Select Santa Cruz
- 	 	ImageButton imageButtonSC = (ImageButton) rootView.findViewById(R.id.imageButtonSC);
+	 	Button imageButtonSC = (Button) rootView.findViewById(R.id.imageButtonSC);
  	 	imageButtonSC.setOnClickListener(new OnClickListener() {
  			@Override
  			public void onClick(View arg0) {
@@ -57,11 +56,29 @@ public class HomeFragment extends Fragment implements ActionBar.OnNavigationList
  		});
  	 	
  	 	// Select Cochabamba
- 	 	ImageButton imageButtonCBBA = (ImageButton) rootView.findViewById(R.id.imageButtonCBBA);
+ 	 	Button imageButtonCBBA = (Button) rootView.findViewById(R.id.imageButtonCBBA);
  	 	imageButtonCBBA.setOnClickListener(new OnClickListener() {
  			@Override
  			public void onClick(View arg0) {
  				((MainActivity)getActivity()).displayView(4); 
+ 			}
+ 		});
+ 	 	
+ 	 	// Select Dakar
+ 	 	Button imageButtonDAKAR = (Button) rootView.findViewById(R.id.imageButtonDakar);
+ 	 	imageButtonDAKAR.setOnClickListener(new OnClickListener() {
+ 			@Override
+ 			public void onClick(View arg0) {
+ 				((MainActivity)getActivity()).displayView(5);
+ 			}
+ 		});
+ 	 	
+ 	 	// Select Creditos
+ 	 	Button imageButtonCREDITOS = (Button) rootView.findViewById(R.id.imageButtonCreditos);
+ 	 	imageButtonCREDITOS.setOnClickListener(new OnClickListener() {
+ 			@Override
+ 			public void onClick(View arg0) {
+ 				((MainActivity)getActivity()).displayView(5); 
  			}
  		});
 		

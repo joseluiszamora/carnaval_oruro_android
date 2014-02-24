@@ -56,7 +56,12 @@ public class MainActivity extends Activity {
     private ArrayList<NavDrawerItem> navDrawerItems;
     private NavDrawerListAdapter adapter;
     MapView map;
-	
+    
+    String infoDesc;
+    String infoName;
+    private String[] infoNames;
+    private String[] infoDescriptions;
+    
 	@SuppressLint("NewApi")
 	@Override protected void onCreate(Bundle savedInstanceState) {
 		//Introduction
@@ -69,6 +74,22 @@ public class MainActivity extends Activity {
 		// copy KML files to sdcard
 		CopyAssets();
 
+		
+		
+		// Informacion Descriptions
+		infoNames = getResources().getStringArray(R.array.info_names);
+		infoDescriptions = getResources().getStringArray(R.array.info_descriptions);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		mTitle = mDrawerTitle = getTitle();
 		// load slide menu items
 		navMenuTitles = getResources().getStringArray(R.array.nav_drawer_items);
@@ -107,32 +128,6 @@ public class MainActivity extends Activity {
 		actionBar.setDisplayHomeAsUpEnabled(true);
 		actionBar.setHomeButtonEnabled(true);
 		actionBar.setNavigationMode(0);
-
-		/*
-		// Hide the action bar title
-		//actionBar.setDisplayShowTitleEnabled(false);
-
-		// Enabling Spinner dropdown navigation
-		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
-		
-		// Spinner title navigation data
-		navSpinner = new ArrayList<SpinnerNavItem>();
-		navSpinner.add(new SpinnerNavItem("Todos", R.drawable.ic_pages));
-		navSpinner.add(new SpinnerNavItem("Comida", R.drawable.ic_home));
-		navSpinner.add(new SpinnerNavItem("Entretenimiento", R.drawable.ic_menu_poi));
-		navSpinner.add(new SpinnerNavItem("Servicios Higienicos", R.drawable.ic_photos));
-		// title drop down adapter
-		adapter2 = new TitleNavigationAdapter(getApplicationContext(), navSpinner);
-		
-		// assigning the spinner navigation
-		
-		actionBar.setListNavigationCallbacks(adapter2, null);
-
-		// Changing the action bar icon
-		// actionBar.setIcon(R.drawable.ico_actionbar);
-		
-			*/	
-		
 
 		mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
 			R.drawable.ic_drawer, //nav menu toggle icon
@@ -180,29 +175,18 @@ public class MainActivity extends Activity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		// toggle nav drawer on selecting action bar app icon/title
 		if (mDrawerToggle.onOptionsItemSelected(item)) {
 			return true;
 		}
-		// Handle action bar actions click
 		switch (item.getItemId()) {
 		case R.id.fragment_info:
 			// custom dialog
 			final Dialog dialog = new Dialog(MainActivity.this, R.style.cust_dialog);
 			dialog.setContentView(R.layout.dialog_template);
 		    // get this
-		    String name = "Name";
-		    String desc = "El Carnaval de Oruro 2014 se llevará a cabo entre el 1, 2 y 3 de marzo de 2014. " +
-		    		"La Gran Peregrinación al Socavón será el sábado 1 de marzo y la Entrada al Corso el domingo 2 de marzo. " +
-		    		"Unas semanas antes comienzan los tradicionales festejos llamados “Convites”. El viernes, en los poblados y en las minas, " +
-		    		"se realiza el tradicional y famosos Convite al Tío y la celebración de la Challa.";
-			
-			dialog.setTitle(name);
-			final String[] title = { name };
-	  		final String[] info = { desc };
-	  		Integer[] imageId = { R.drawable.btn_moreinfo };
+			dialog.setTitle( infoName );
 	  		TextView textview = (TextView) dialog.findViewById(R.id.textViewDialog2);
-	  		textview.setText(Html.fromHtml(desc));
+	  		textview.setText(Html.fromHtml( infoDesc ));
 	  		dialog.show();
 			return true;
 		default:
@@ -210,10 +194,6 @@ public class MainActivity extends Activity {
 		}	
 	}
 
-	/* *
-	 * Called when invalidateOptionsMenu() is triggered
-	 */
-	
 	@Override
 	public boolean onPrepareOptionsMenu(Menu menu) {
 		// if nav drawer is opened, hide the action items
@@ -231,25 +211,39 @@ public class MainActivity extends Activity {
 		Fragment fragment = null;
 		switch (position) {
 		case 0:
-			fragment = new HomeFragment();
+			fragment = new HomeFragment();			
+			infoName = infoNames[0];
+			infoDesc = infoDescriptions[0];
 			break;
 		case 1:
 			fragment = new OruroFragment();
+			infoName = infoNames[1];
+			infoDesc = infoDescriptions[1];
 			break;
 		case 2:
 			fragment = new LaPazFragment();
+			infoName = infoNames[2];
+			infoDesc = infoDescriptions[2];
 			break;
 		case 3:
 			fragment = new SantaCruzFragment();
+			infoName = infoNames[3];
+			infoDesc = infoDescriptions[3];
 			break;
 		case 4:
 			fragment = new CochabambaFragment();
+			infoName = infoNames[4];
+			infoDesc = infoDescriptions[4];
 			break;
 		case 5:
 			fragment = new dakarFragment();
+			infoName = infoNames[5];
+			infoDesc = infoDescriptions[5];
 			break;
 		case 6:
 			fragment = new infoFragment();
+			infoName = infoNames[6];
+			infoDesc = infoDescriptions[6];
 			break;
 		default:
 			break;

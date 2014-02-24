@@ -1,0 +1,53 @@
+<com.geobolivia.carnaval_oruro.fragmentHomeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+     >
+    
+	<Button
+	    android:id="@+id/imageButtonOR"
+	    style="@style/homeButton"
+	    android:drawableTop="@drawable/oricondef"
+	    android:text="Oruro" />
+	
+    <Button
+        android:id="@+id/imageButtonLP"
+        style="@style/homeButton"
+        android:drawableTop="@drawable/lpicondef"
+        android:text="La Paz" />
+    
+    <Button
+        android:id="@+id/imageButtonSC"
+        style="@style/homeButton"
+        android:drawableTop="@drawable/scicondef"
+        android:text="Santa Cruz" />
+    
+    <Button
+        android:id="@+id/imageButtonCBBA"
+        style="@style/homeButton"
+        android:drawableTop="@drawable/cbbaicondef"
+        android:text="Cochabamba" />
+<!-- 
+    <Button
+        android:id="@+id/btnMap"
+        style="@style/homeButton"
+        android:drawableTop="@drawable/btn_tracking_on"
+        android:text="Ubicación" />
+     -->
+    <Button
+        android:id="@+id/imageButtonDakar"
+        style="@style/homeButton"
+        android:drawableTop="@drawable/flagblue"
+        android:text="Dakar" />
+	
+	 <Button
+        android:id="@+id/imageButtonCreditos"
+        android:drawableTop="@drawable/ico_info"
+        style="@style/homeButton"
+        
+        android:text="Creditos" />
+    
+    	   
+	
+
+</com.geobolivia.carnaval_oruro.fragmentHomeLayout>
