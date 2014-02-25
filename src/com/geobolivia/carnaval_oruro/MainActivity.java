@@ -39,10 +39,6 @@ import com.geobolivia.slider_menu.model.SpinnerNavItem;
 public class MainActivity extends Activity {
 	// action bar
 	ActionBar actionBar;
-	// Title navigation Spinner data
-	private ArrayList<SpinnerNavItem> navSpinner;
-	// Navigation adapter
-	private TitleNavigationAdapter adapter2;
 	private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
@@ -70,24 +66,12 @@ public class MainActivity extends Activity {
 		// MAP
 		map = (MapView) findViewById(R.id.openmapviewss);
 		map.setVisibility(View.INVISIBLE);
-		
 		// copy KML files to sdcard
 		CopyAssets();
 
-		
-		
 		// Informacion Descriptions
 		infoNames = getResources().getStringArray(R.array.info_names);
 		infoDescriptions = getResources().getStringArray(R.array.info_descriptions);
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		mTitle = mDrawerTitle = getTitle();
@@ -153,11 +137,6 @@ public class MainActivity extends Activity {
 			displayView(0);
 		}
 	}
-	
-
-	/**
-	 * Slide menu item click listener
-	**/
 	
 	private class SlideMenuClickListener implements ListView.OnItemClickListener {
 		@Override
@@ -246,6 +225,8 @@ public class MainActivity extends Activity {
 			infoDesc = infoDescriptions[6];
 			break;
 		default:
+			infoName = "";
+			infoDesc = "";
 			break;
 		}
 

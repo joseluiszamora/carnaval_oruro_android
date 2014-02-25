@@ -90,12 +90,12 @@ public class dakarFragment extends Fragment  implements ActionBar.OnNavigationLi
 		// Spinner title navigation data
 		navSpinner = new ArrayList<SpinnerNavItem>();
 		navSpinner.add(new SpinnerNavItem("Todos", R.drawable.ic_pages));
+		//navSpinner.add(new SpinnerNavItem("dakar1", R.drawable.ic_pages));
+		//navSpinner.add(new SpinnerNavItem("dakar2", R.drawable.ic_pages));
+		//navSpinner.add(new SpinnerNavItem("dakar3", R.drawable.ic_pages));
 		navSpinner.add(new SpinnerNavItem("dakar1", R.drawable.ic_pages));
 		navSpinner.add(new SpinnerNavItem("dakar2", R.drawable.ic_pages));
 		navSpinner.add(new SpinnerNavItem("dakar3", R.drawable.ic_pages));
-		navSpinner.add(new SpinnerNavItem("dakar4", R.drawable.ic_pages));
-		navSpinner.add(new SpinnerNavItem("dakar5", R.drawable.ic_pages));
-		navSpinner.add(new SpinnerNavItem("dakar6", R.drawable.ic_pages));
 		navSpinner.add(new SpinnerNavItem("Ninguno", R.drawable.ic_pages));
 		// title drop down adapter
 		adapter2 = new TitleNavigationAdapter(this.getActivity(), navSpinner);

@@ -19,6 +19,7 @@ public final class R {
         public static final int direction_icons=0x7f070000;
         public static final int info_descriptions=0x7f070005;
         /**  Information Strings 
+ Information Strings 
          */
         public static final int info_names=0x7f070004;
         /**  Nav Drawer List Item Icons 
